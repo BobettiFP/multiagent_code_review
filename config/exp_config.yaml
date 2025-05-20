@@ -1,0 +1,12 @@
+models:
+  - gpt-4o-128k
+  - llama-3-70b-instruct
+max_turns: 5
+token_budget: 8000
+tasks:
+  - data/humaneval.json
+  - data/leetcode_hard.json
+configs:
+  SINGLE: [coder]
+  DUAL:   [coder, reviewer]
+  TRIPLE: [coder, reviewer, guide]

@@ -1,0 +1,9 @@
+openai>=1.14
+autogen>=0.2
+vllm>=0.4         # 로컬 Llama-3 서빙 시
+snakemake>=8.0
+pandas
+scipy
+matplotlib
+tqdm
+pyyaml
