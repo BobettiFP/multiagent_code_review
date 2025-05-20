@@ -1,0 +1,2313 @@
+Assuming unrestricted shared filesystem usage.
+None
+host: hyegangui-noteubug.local
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job stats:
+job           count
+----------  -------
+all               1
+run_eval        328
+split_task      164
+total           493
+
+Select jobs to execute...
+Execute 4 jobs...
+[Wed May 21 01:18:42 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_145.json
+    jobid: 292
+    reason: Missing output files: data/tasks/HumanEval_145.json
+    wildcards: tid=145
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:42 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_089.json
+    jobid: 180
+    reason: Missing output files: data/tasks/HumanEval_089.json
+    wildcards: tid=089
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:42 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_033.json
+    jobid: 68
+    reason: Missing output files: data/tasks/HumanEval_033.json
+    wildcards: tid=033
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:42 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_118.json
+    jobid: 238
+    reason: Missing output files: data/tasks/HumanEval_118.json
+    wildcards: tid=118
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:18:43 2025]
+Finished jobid: 238 (Rule: split_task)
+1 of 493 steps (0.2%) done
+Execute 1 jobs...
+[Wed May 21 01:18:43 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_062.json
+    jobid: 126
+    reason: Missing output files: data/tasks/HumanEval_062.json
+    wildcards: tid=062
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:43 2025]
+Finished jobid: 180 (Rule: split_task)
+2 of 493 steps (0.4%) done
+[Wed May 21 01:18:43 2025]
+Finished jobid: 292 (Rule: split_task)
+3 of 493 steps (1%) done
+[Wed May 21 01:18:43 2025]
+Finished jobid: 68 (Rule: split_task)
+4 of 493 steps (1%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:18:43 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_090.json
+    jobid: 182
+    reason: Missing output files: data/tasks/HumanEval_090.json
+    wildcards: tid=090
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:43 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_146.json
+    jobid: 294
+    reason: Missing output files: data/tasks/HumanEval_146.json
+    wildcards: tid=146
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:43 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_011.json
+    jobid: 24
+    reason: Missing output files: data/tasks/HumanEval_011.json
+    wildcards: tid=011
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:18:45 2025]
+Finished jobid: 294 (Rule: split_task)
+5 of 493 steps (1%) done
+Execute 1 jobs...
+[Wed May 21 01:18:45 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_034.json
+    jobid: 70
+    reason: Missing output files: data/tasks/HumanEval_034.json
+    wildcards: tid=034
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:45 2025]
+Finished jobid: 24 (Rule: split_task)
+6 of 493 steps (1%) done
+[Wed May 21 01:18:45 2025]
+Finished jobid: 182 (Rule: split_task)
+7 of 493 steps (1%) done
+[Wed May 21 01:18:45 2025]
+Finished jobid: 126 (Rule: split_task)
+8 of 493 steps (2%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:18:45 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_012.json
+    jobid: 26
+    reason: Missing output files: data/tasks/HumanEval_012.json
+    wildcards: tid=012
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:45 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_119.json
+    jobid: 240
+    reason: Missing output files: data/tasks/HumanEval_119.json
+    wildcards: tid=119
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:45 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_063.json
+    jobid: 128
+    reason: Missing output files: data/tasks/HumanEval_063.json
+    wildcards: tid=063
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:18:46 2025]
+Finished jobid: 240 (Rule: split_task)
+9 of 493 steps (2%) done
+[Wed May 21 01:18:46 2025]
+Finished jobid: 26 (Rule: split_task)
+10 of 493 steps (2%) done
+Execute 2 jobs...
+[Wed May 21 01:18:46 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_091.json
+    jobid: 184
+    reason: Missing output files: data/tasks/HumanEval_091.json
+    wildcards: tid=091
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:46 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_035.json
+    jobid: 72
+    reason: Missing output files: data/tasks/HumanEval_035.json
+    wildcards: tid=035
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:46 2025]
+Finished jobid: 70 (Rule: split_task)
+11 of 493 steps (2%) done
+[Wed May 21 01:18:46 2025]
+Finished jobid: 128 (Rule: split_task)
+12 of 493 steps (2%) done
+Select jobs to execute...
+Execute 2 jobs...
+[Wed May 21 01:18:46 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_147.json
+    jobid: 296
+    reason: Missing output files: data/tasks/HumanEval_147.json
+    wildcards: tid=147
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:46 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_120.json
+    jobid: 242
+    reason: Missing output files: data/tasks/HumanEval_120.json
+    wildcards: tid=120
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:18:47 2025]
+Finished jobid: 184 (Rule: split_task)
+13 of 493 steps (3%) done
+[Wed May 21 01:18:47 2025]
+Finished jobid: 242 (Rule: split_task)
+14 of 493 steps (3%) done
+[Wed May 21 01:18:47 2025]
+Finished jobid: 72 (Rule: split_task)
+15 of 493 steps (3%) done
+Execute 3 jobs...
+[Wed May 21 01:18:47 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_006.json
+    jobid: 14
+    reason: Missing output files: data/tasks/HumanEval_006.json
+    wildcards: tid=006
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:47 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_064.json
+    jobid: 130
+    reason: Missing output files: data/tasks/HumanEval_064.json
+    wildcards: tid=064
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:47 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_036.json
+    jobid: 74
+    reason: Missing output files: data/tasks/HumanEval_036.json
+    wildcards: tid=036
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:47 2025]
+Finished jobid: 296 (Rule: split_task)
+16 of 493 steps (3%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Wed May 21 01:18:47 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_092.json
+    jobid: 186
+    reason: Missing output files: data/tasks/HumanEval_092.json
+    wildcards: tid=092
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:18:49 2025]
+Finished jobid: 14 (Rule: split_task)
+17 of 493 steps (3%) done
+Execute 1 jobs...
+[Wed May 21 01:18:49 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_148.json
+    jobid: 298
+    reason: Missing output files: data/tasks/HumanEval_148.json
+    wildcards: tid=148
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:49 2025]
+Finished jobid: 130 (Rule: split_task)
+18 of 493 steps (4%) done
+[Wed May 21 01:18:49 2025]
+Finished jobid: 186 (Rule: split_task)
+19 of 493 steps (4%) done
+[Wed May 21 01:18:49 2025]
+Finished jobid: 74 (Rule: split_task)
+20 of 493 steps (4%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:18:49 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_065.json
+    jobid: 132
+    reason: Missing output files: data/tasks/HumanEval_065.json
+    wildcards: tid=065
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:49 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_007.json
+    jobid: 16
+    reason: Missing output files: data/tasks/HumanEval_007.json
+    wildcards: tid=007
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:49 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_121.json
+    jobid: 244
+    reason: Missing output files: data/tasks/HumanEval_121.json
+    wildcards: tid=121
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:18:50 2025]
+Finished jobid: 298 (Rule: split_task)
+21 of 493 steps (4%) done
+Execute 1 jobs...
+[Wed May 21 01:18:50 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_093.json
+    jobid: 188
+    reason: Missing output files: data/tasks/HumanEval_093.json
+    wildcards: tid=093
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:50 2025]
+Finished jobid: 244 (Rule: split_task)
+22 of 493 steps (4%) done
+[Wed May 21 01:18:50 2025]
+Finished jobid: 16 (Rule: split_task)
+23 of 493 steps (5%) done
+[Wed May 21 01:18:50 2025]
+Finished jobid: 132 (Rule: split_task)
+24 of 493 steps (5%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:18:50 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_037.json
+    jobid: 76
+    reason: Missing output files: data/tasks/HumanEval_037.json
+    wildcards: tid=037
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:50 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_149.json
+    jobid: 300
+    reason: Missing output files: data/tasks/HumanEval_149.json
+    wildcards: tid=149
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:50 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_122.json
+    jobid: 246
+    reason: Missing output files: data/tasks/HumanEval_122.json
+    wildcards: tid=122
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:18:51 2025]
+Finished jobid: 246 (Rule: split_task)
+25 of 493 steps (5%) done
+Execute 1 jobs...
+[Wed May 21 01:18:51 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_066.json
+    jobid: 134
+    reason: Missing output files: data/tasks/HumanEval_066.json
+    wildcards: tid=066
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:51 2025]
+Finished jobid: 300 (Rule: split_task)
+26 of 493 steps (5%) done
+[Wed May 21 01:18:51 2025]
+Finished jobid: 188 (Rule: split_task)
+27 of 493 steps (5%) done
+[Wed May 21 01:18:51 2025]
+Finished jobid: 76 (Rule: split_task)
+28 of 493 steps (6%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:18:51 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_094.json
+    jobid: 190
+    reason: Missing output files: data/tasks/HumanEval_094.json
+    wildcards: tid=094
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:51 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_038.json
+    jobid: 78
+    reason: Missing output files: data/tasks/HumanEval_038.json
+    wildcards: tid=038
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:51 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_008.json
+    jobid: 18
+    reason: Missing output files: data/tasks/HumanEval_008.json
+    wildcards: tid=008
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:18:53 2025]
+Finished jobid: 78 (Rule: split_task)
+29 of 493 steps (6%) done
+Execute 1 jobs...
+[Wed May 21 01:18:53 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_150.json
+    jobid: 302
+    reason: Missing output files: data/tasks/HumanEval_150.json
+    wildcards: tid=150
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:53 2025]
+Finished jobid: 134 (Rule: split_task)
+30 of 493 steps (6%) done
+[Wed May 21 01:18:53 2025]
+Finished jobid: 18 (Rule: split_task)
+31 of 493 steps (6%) done
+[Wed May 21 01:18:53 2025]
+Finished jobid: 190 (Rule: split_task)
+32 of 493 steps (6%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:18:53 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_123.json
+    jobid: 248
+    reason: Missing output files: data/tasks/HumanEval_123.json
+    wildcards: tid=123
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:53 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_009.json
+    jobid: 20
+    reason: Missing output files: data/tasks/HumanEval_009.json
+    wildcards: tid=009
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:53 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_067.json
+    jobid: 136
+    reason: Missing output files: data/tasks/HumanEval_067.json
+    wildcards: tid=067
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:18:54 2025]
+Finished jobid: 248 (Rule: split_task)
+33 of 493 steps (7%) done
+Execute 1 jobs...
+[Wed May 21 01:18:54 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_095.json
+    jobid: 192
+    reason: Missing output files: data/tasks/HumanEval_095.json
+    wildcards: tid=095
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:54 2025]
+Finished jobid: 302 (Rule: split_task)
+34 of 493 steps (7%) done
+[Wed May 21 01:18:54 2025]
+Finished jobid: 20 (Rule: split_task)
+35 of 493 steps (7%) done
+[Wed May 21 01:18:54 2025]
+Finished jobid: 136 (Rule: split_task)
+36 of 493 steps (7%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:18:54 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_151.json
+    jobid: 304
+    reason: Missing output files: data/tasks/HumanEval_151.json
+    wildcards: tid=151
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:54 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_010.json
+    jobid: 22
+    reason: Missing output files: data/tasks/HumanEval_010.json
+    wildcards: tid=010
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:54 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_039.json
+    jobid: 80
+    reason: Missing output files: data/tasks/HumanEval_039.json
+    wildcards: tid=039
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:18:56 2025]
+Finished jobid: 192 (Rule: split_task)
+37 of 493 steps (8%) done
+Execute 1 jobs...
+[Wed May 21 01:18:56 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_068.json
+    jobid: 138
+    reason: Missing output files: data/tasks/HumanEval_068.json
+    wildcards: tid=068
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:56 2025]
+Finished jobid: 22 (Rule: split_task)
+38 of 493 steps (8%) done
+[Wed May 21 01:18:56 2025]
+Finished jobid: 304 (Rule: split_task)
+39 of 493 steps (8%) done
+[Wed May 21 01:18:56 2025]
+Finished jobid: 80 (Rule: split_task)
+40 of 493 steps (8%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:18:56 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_124.json
+    jobid: 250
+    reason: Missing output files: data/tasks/HumanEval_124.json
+    wildcards: tid=124
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:56 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_096.json
+    jobid: 194
+    reason: Missing output files: data/tasks/HumanEval_096.json
+    wildcards: tid=096
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:56 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_152.json
+    jobid: 306
+    reason: Missing output files: data/tasks/HumanEval_152.json
+    wildcards: tid=152
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:18:57 2025]
+Finished jobid: 138 (Rule: split_task)
+41 of 493 steps (8%) done
+Execute 1 jobs...
+[Wed May 21 01:18:57 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_040.json
+    jobid: 82
+    reason: Missing output files: data/tasks/HumanEval_040.json
+    wildcards: tid=040
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:57 2025]
+Finished jobid: 194 (Rule: split_task)
+42 of 493 steps (9%) done
+[Wed May 21 01:18:57 2025]
+Finished jobid: 250 (Rule: split_task)
+43 of 493 steps (9%) done
+[Wed May 21 01:18:57 2025]
+Finished jobid: 306 (Rule: split_task)
+44 of 493 steps (9%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:18:57 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_069.json
+    jobid: 140
+    reason: Missing output files: data/tasks/HumanEval_069.json
+    wildcards: tid=069
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:57 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_013.json
+    jobid: 28
+    reason: Missing output files: data/tasks/HumanEval_013.json
+    wildcards: tid=013
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:57 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_125.json
+    jobid: 252
+    reason: Missing output files: data/tasks/HumanEval_125.json
+    wildcards: tid=125
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:18:58 2025]
+Finished jobid: 140 (Rule: split_task)
+45 of 493 steps (9%) done
+Execute 1 jobs...
+[Wed May 21 01:18:58 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_097.json
+    jobid: 196
+    reason: Missing output files: data/tasks/HumanEval_097.json
+    wildcards: tid=097
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:58 2025]
+Finished jobid: 28 (Rule: split_task)
+46 of 493 steps (9%) done
+[Wed May 21 01:18:58 2025]
+Finished jobid: 82 (Rule: split_task)
+47 of 493 steps (10%) done
+[Wed May 21 01:18:58 2025]
+Finished jobid: 252 (Rule: split_task)
+48 of 493 steps (10%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:18:58 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_153.json
+    jobid: 308
+    reason: Missing output files: data/tasks/HumanEval_153.json
+    wildcards: tid=153
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:58 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_041.json
+    jobid: 84
+    reason: Missing output files: data/tasks/HumanEval_041.json
+    wildcards: tid=041
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:18:58 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_014.json
+    jobid: 30
+    reason: Missing output files: data/tasks/HumanEval_014.json
+    wildcards: tid=014
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:19:00 2025]
+Finished jobid: 196 (Rule: split_task)
+49 of 493 steps (10%) done
+Execute 1 jobs...
+[Wed May 21 01:19:00 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_126.json
+    jobid: 254
+    reason: Missing output files: data/tasks/HumanEval_126.json
+    wildcards: tid=126
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:00 2025]
+Finished jobid: 308 (Rule: split_task)
+50 of 493 steps (10%) done
+[Wed May 21 01:19:00 2025]
+Finished jobid: 84 (Rule: split_task)
+51 of 493 steps (10%) done
+[Wed May 21 01:19:00 2025]
+Finished jobid: 30 (Rule: split_task)
+52 of 493 steps (11%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:19:00 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_154.json
+    jobid: 310
+    reason: Missing output files: data/tasks/HumanEval_154.json
+    wildcards: tid=154
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:00 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_098.json
+    jobid: 198
+    reason: Missing output files: data/tasks/HumanEval_098.json
+    wildcards: tid=098
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:00 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_070.json
+    jobid: 142
+    reason: Missing output files: data/tasks/HumanEval_070.json
+    wildcards: tid=070
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:19:01 2025]
+Finished jobid: 142 (Rule: split_task)
+53 of 493 steps (11%) done
+Execute 1 jobs...
+[Wed May 21 01:19:01 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_042.json
+    jobid: 86
+    reason: Missing output files: data/tasks/HumanEval_042.json
+    wildcards: tid=042
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:01 2025]
+Finished jobid: 198 (Rule: split_task)
+54 of 493 steps (11%) done
+[Wed May 21 01:19:01 2025]
+Finished jobid: 310 (Rule: split_task)
+55 of 493 steps (11%) done
+[Wed May 21 01:19:01 2025]
+Finished jobid: 254 (Rule: split_task)
+56 of 493 steps (11%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:19:01 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_015.json
+    jobid: 32
+    reason: Missing output files: data/tasks/HumanEval_015.json
+    wildcards: tid=015
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:01 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_127.json
+    jobid: 256
+    reason: Missing output files: data/tasks/HumanEval_127.json
+    wildcards: tid=127
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:01 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_071.json
+    jobid: 144
+    reason: Missing output files: data/tasks/HumanEval_071.json
+    wildcards: tid=071
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:19:02 2025]
+Finished jobid: 86 (Rule: split_task)
+57 of 493 steps (12%) done
+Execute 1 jobs...
+[Wed May 21 01:19:02 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_099.json
+    jobid: 200
+    reason: Missing output files: data/tasks/HumanEval_099.json
+    wildcards: tid=099
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:02 2025]
+Finished jobid: 144 (Rule: split_task)
+58 of 493 steps (12%) done
+[Wed May 21 01:19:02 2025]
+Finished jobid: 256 (Rule: split_task)
+59 of 493 steps (12%) done
+[Wed May 21 01:19:02 2025]
+Finished jobid: 32 (Rule: split_task)
+60 of 493 steps (12%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:19:02 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_155.json
+    jobid: 312
+    reason: Missing output files: data/tasks/HumanEval_155.json
+    wildcards: tid=155
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:02 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_043.json
+    jobid: 88
+    reason: Missing output files: data/tasks/HumanEval_043.json
+    wildcards: tid=043
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:02 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_016.json
+    jobid: 34
+    reason: Missing output files: data/tasks/HumanEval_016.json
+    wildcards: tid=016
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:19:04 2025]
+Finished jobid: 312 (Rule: split_task)
+61 of 493 steps (12%) done
+Execute 1 jobs...
+[Wed May 21 01:19:04 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_128.json
+    jobid: 258
+    reason: Missing output files: data/tasks/HumanEval_128.json
+    wildcards: tid=128
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:04 2025]
+Finished jobid: 200 (Rule: split_task)
+62 of 493 steps (13%) done
+[Wed May 21 01:19:04 2025]
+Finished jobid: 88 (Rule: split_task)
+63 of 493 steps (13%) done
+[Wed May 21 01:19:04 2025]
+Finished jobid: 34 (Rule: split_task)
+64 of 493 steps (13%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:19:04 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_156.json
+    jobid: 314
+    reason: Missing output files: data/tasks/HumanEval_156.json
+    wildcards: tid=156
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:04 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_072.json
+    jobid: 146
+    reason: Missing output files: data/tasks/HumanEval_072.json
+    wildcards: tid=072
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:04 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_100.json
+    jobid: 202
+    reason: Missing output files: data/tasks/HumanEval_100.json
+    wildcards: tid=100
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:19:05 2025]
+Finished jobid: 314 (Rule: split_task)
+65 of 493 steps (13%) done
+Execute 1 jobs...
+[Wed May 21 01:19:05 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_044.json
+    jobid: 90
+    reason: Missing output files: data/tasks/HumanEval_044.json
+    wildcards: tid=044
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:05 2025]
+Finished jobid: 258 (Rule: split_task)
+66 of 493 steps (13%) done
+[Wed May 21 01:19:05 2025]
+Finished jobid: 202 (Rule: split_task)
+67 of 493 steps (14%) done
+[Wed May 21 01:19:05 2025]
+Finished jobid: 146 (Rule: split_task)
+68 of 493 steps (14%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:19:05 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_129.json
+    jobid: 260
+    reason: Missing output files: data/tasks/HumanEval_129.json
+    wildcards: tid=129
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:05 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_073.json
+    jobid: 148
+    reason: Missing output files: data/tasks/HumanEval_073.json
+    wildcards: tid=073
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:05 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_017.json
+    jobid: 36
+    reason: Missing output files: data/tasks/HumanEval_017.json
+    wildcards: tid=017
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:19:06 2025]
+Finished jobid: 148 (Rule: split_task)
+69 of 493 steps (14%) done
+[Wed May 21 01:19:06 2025]
+Finished jobid: 90 (Rule: split_task)
+70 of 493 steps (14%) done
+Execute 2 jobs...
+[Wed May 21 01:19:06 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_157.json
+    jobid: 316
+    reason: Missing output files: data/tasks/HumanEval_157.json
+    wildcards: tid=157
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:06 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_101.json
+    jobid: 204
+    reason: Missing output files: data/tasks/HumanEval_101.json
+    wildcards: tid=101
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:06 2025]
+Finished jobid: 36 (Rule: split_task)
+71 of 493 steps (14%) done
+[Wed May 21 01:19:06 2025]
+Finished jobid: 260 (Rule: split_task)
+72 of 493 steps (15%) done
+Select jobs to execute...
+Execute 2 jobs...
+[Wed May 21 01:19:06 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_045.json
+    jobid: 92
+    reason: Missing output files: data/tasks/HumanEval_045.json
+    wildcards: tid=045
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:06 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_018.json
+    jobid: 38
+    reason: Missing output files: data/tasks/HumanEval_018.json
+    wildcards: tid=018
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:19:08 2025]
+Finished jobid: 38 (Rule: split_task)
+73 of 493 steps (15%) done
+Execute 1 jobs...
+[Wed May 21 01:19:08 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_130.json
+    jobid: 262
+    reason: Missing output files: data/tasks/HumanEval_130.json
+    wildcards: tid=130
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:08 2025]
+Finished jobid: 204 (Rule: split_task)
+74 of 493 steps (15%) done
+[Wed May 21 01:19:08 2025]
+Finished jobid: 92 (Rule: split_task)
+75 of 493 steps (15%) done
+[Wed May 21 01:19:08 2025]
+Finished jobid: 316 (Rule: split_task)
+76 of 493 steps (15%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:19:08 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_158.json
+    jobid: 318
+    reason: Missing output files: data/tasks/HumanEval_158.json
+    wildcards: tid=158
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:08 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_102.json
+    jobid: 206
+    reason: Missing output files: data/tasks/HumanEval_102.json
+    wildcards: tid=102
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:08 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_074.json
+    jobid: 150
+    reason: Missing output files: data/tasks/HumanEval_074.json
+    wildcards: tid=074
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:19:09 2025]
+Finished jobid: 318 (Rule: split_task)
+77 of 493 steps (16%) done
+Execute 1 jobs...
+[Wed May 21 01:19:09 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_046.json
+    jobid: 94
+    reason: Missing output files: data/tasks/HumanEval_046.json
+    wildcards: tid=046
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:09 2025]
+Finished jobid: 262 (Rule: split_task)
+78 of 493 steps (16%) done
+[Wed May 21 01:19:09 2025]
+Finished jobid: 150 (Rule: split_task)
+79 of 493 steps (16%) done
+[Wed May 21 01:19:09 2025]
+Finished jobid: 206 (Rule: split_task)
+80 of 493 steps (16%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:19:09 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_019.json
+    jobid: 40
+    reason: Missing output files: data/tasks/HumanEval_019.json
+    wildcards: tid=019
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:09 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_075.json
+    jobid: 152
+    reason: Missing output files: data/tasks/HumanEval_075.json
+    wildcards: tid=075
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:09 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_131.json
+    jobid: 264
+    reason: Missing output files: data/tasks/HumanEval_131.json
+    wildcards: tid=131
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:19:10 2025]
+Finished jobid: 94 (Rule: split_task)
+81 of 493 steps (16%) done
+Execute 1 jobs...
+[Wed May 21 01:19:10 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_103.json
+    jobid: 208
+    reason: Missing output files: data/tasks/HumanEval_103.json
+    wildcards: tid=103
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:10 2025]
+Finished jobid: 152 (Rule: split_task)
+82 of 493 steps (17%) done
+[Wed May 21 01:19:10 2025]
+Finished jobid: 264 (Rule: split_task)
+83 of 493 steps (17%) done
+[Wed May 21 01:19:10 2025]
+Finished jobid: 40 (Rule: split_task)
+84 of 493 steps (17%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:19:10 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_159.json
+    jobid: 320
+    reason: Missing output files: data/tasks/HumanEval_159.json
+    wildcards: tid=159
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:10 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_020.json
+    jobid: 42
+    reason: Missing output files: data/tasks/HumanEval_020.json
+    wildcards: tid=020
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:10 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_047.json
+    jobid: 96
+    reason: Missing output files: data/tasks/HumanEval_047.json
+    wildcards: tid=047
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:19:12 2025]
+Finished jobid: 208 (Rule: split_task)
+85 of 493 steps (17%) done
+Execute 1 jobs...
+[Wed May 21 01:19:12 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_132.json
+    jobid: 266
+    reason: Missing output files: data/tasks/HumanEval_132.json
+    wildcards: tid=132
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:12 2025]
+Finished jobid: 42 (Rule: split_task)
+86 of 493 steps (17%) done
+[Wed May 21 01:19:12 2025]
+Finished jobid: 96 (Rule: split_task)
+87 of 493 steps (18%) done
+[Wed May 21 01:19:12 2025]
+Finished jobid: 320 (Rule: split_task)
+88 of 493 steps (18%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:19:12 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_104.json
+    jobid: 210
+    reason: Missing output files: data/tasks/HumanEval_104.json
+    wildcards: tid=104
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:12 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_160.json
+    jobid: 322
+    reason: Missing output files: data/tasks/HumanEval_160.json
+    wildcards: tid=160
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:12 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_076.json
+    jobid: 154
+    reason: Missing output files: data/tasks/HumanEval_076.json
+    wildcards: tid=076
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:19:13 2025]
+Finished jobid: 266 (Rule: split_task)
+89 of 493 steps (18%) done
+Execute 1 jobs...
+[Wed May 21 01:19:13 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_048.json
+    jobid: 98
+    reason: Missing output files: data/tasks/HumanEval_048.json
+    wildcards: tid=048
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:13 2025]
+Finished jobid: 154 (Rule: split_task)
+90 of 493 steps (18%) done
+[Wed May 21 01:19:13 2025]
+Finished jobid: 210 (Rule: split_task)
+91 of 493 steps (18%) done
+[Wed May 21 01:19:13 2025]
+Finished jobid: 322 (Rule: split_task)
+92 of 493 steps (19%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:19:13 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_133.json
+    jobid: 268
+    reason: Missing output files: data/tasks/HumanEval_133.json
+    wildcards: tid=133
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:13 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_021.json
+    jobid: 44
+    reason: Missing output files: data/tasks/HumanEval_021.json
+    wildcards: tid=021
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:13 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_077.json
+    jobid: 156
+    reason: Missing output files: data/tasks/HumanEval_077.json
+    wildcards: tid=077
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:19:14 2025]
+Finished jobid: 98 (Rule: split_task)
+93 of 493 steps (19%) done
+[Wed May 21 01:19:14 2025]
+Finished jobid: 44 (Rule: split_task)
+94 of 493 steps (19%) done
+[Wed May 21 01:19:14 2025]
+Finished jobid: 268 (Rule: split_task)
+95 of 493 steps (19%) done
+Execute 3 jobs...
+[Wed May 21 01:19:14 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_161.json
+    jobid: 324
+    reason: Missing output files: data/tasks/HumanEval_161.json
+    wildcards: tid=161
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:14 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_105.json
+    jobid: 212
+    reason: Missing output files: data/tasks/HumanEval_105.json
+    wildcards: tid=105
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:14 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_049.json
+    jobid: 100
+    reason: Missing output files: data/tasks/HumanEval_049.json
+    wildcards: tid=049
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:14 2025]
+Finished jobid: 156 (Rule: split_task)
+96 of 493 steps (19%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Wed May 21 01:19:14 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_022.json
+    jobid: 46
+    reason: Missing output files: data/tasks/HumanEval_022.json
+    wildcards: tid=022
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:19:16 2025]
+Finished jobid: 212 (Rule: split_task)
+97 of 493 steps (20%) done
+Execute 1 jobs...
+[Wed May 21 01:19:16 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_134.json
+    jobid: 270
+    reason: Missing output files: data/tasks/HumanEval_134.json
+    wildcards: tid=134
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:16 2025]
+Finished jobid: 100 (Rule: split_task)
+98 of 493 steps (20%) done
+[Wed May 21 01:19:16 2025]
+Finished jobid: 46 (Rule: split_task)
+99 of 493 steps (20%) done
+[Wed May 21 01:19:16 2025]
+Finished jobid: 324 (Rule: split_task)
+100 of 493 steps (20%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:19:16 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_162.json
+    jobid: 326
+    reason: Missing output files: data/tasks/HumanEval_162.json
+    wildcards: tid=162
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:16 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_106.json
+    jobid: 214
+    reason: Missing output files: data/tasks/HumanEval_106.json
+    wildcards: tid=106
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:16 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_078.json
+    jobid: 158
+    reason: Missing output files: data/tasks/HumanEval_078.json
+    wildcards: tid=078
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:19:17 2025]
+Finished jobid: 326 (Rule: split_task)
+101 of 493 steps (20%) done
+Execute 1 jobs...
+[Wed May 21 01:19:17 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_050.json
+    jobid: 102
+    reason: Missing output files: data/tasks/HumanEval_050.json
+    wildcards: tid=050
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:17 2025]
+Finished jobid: 158 (Rule: split_task)
+102 of 493 steps (21%) done
+[Wed May 21 01:19:17 2025]
+Finished jobid: 270 (Rule: split_task)
+103 of 493 steps (21%) done
+[Wed May 21 01:19:17 2025]
+Finished jobid: 214 (Rule: split_task)
+104 of 493 steps (21%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:19:17 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_135.json
+    jobid: 272
+    reason: Missing output files: data/tasks/HumanEval_135.json
+    wildcards: tid=135
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:17 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_023.json
+    jobid: 48
+    reason: Missing output files: data/tasks/HumanEval_023.json
+    wildcards: tid=023
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:17 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_117.json
+    jobid: 236
+    reason: Missing output files: data/tasks/HumanEval_117.json
+    wildcards: tid=117
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:19:18 2025]
+Finished jobid: 102 (Rule: split_task)
+105 of 493 steps (21%) done
+Execute 1 jobs...
+[Wed May 21 01:19:18 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_079.json
+    jobid: 160
+    reason: Missing output files: data/tasks/HumanEval_079.json
+    wildcards: tid=079
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:18 2025]
+Finished jobid: 236 (Rule: split_task)
+106 of 493 steps (22%) done
+[Wed May 21 01:19:18 2025]
+Finished jobid: 272 (Rule: split_task)
+107 of 493 steps (22%) done
+[Wed May 21 01:19:18 2025]
+Finished jobid: 48 (Rule: split_task)
+108 of 493 steps (22%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:19:18 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_163.json
+    jobid: 328
+    reason: Missing output files: data/tasks/HumanEval_163.json
+    wildcards: tid=163
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:18 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_107.json
+    jobid: 216
+    reason: Missing output files: data/tasks/HumanEval_107.json
+    wildcards: tid=107
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:18 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_051.json
+    jobid: 104
+    reason: Missing output files: data/tasks/HumanEval_051.json
+    wildcards: tid=051
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:19:20 2025]
+Finished jobid: 328 (Rule: split_task)
+109 of 493 steps (22%) done
+[Wed May 21 01:19:20 2025]
+Finished jobid: 160 (Rule: split_task)
+110 of 493 steps (22%) done
+Execute 2 jobs...
+[Wed May 21 01:19:20 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_136.json
+    jobid: 274
+    reason: Missing output files: data/tasks/HumanEval_136.json
+    wildcards: tid=136
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:20 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_024.json
+    jobid: 50
+    reason: Missing output files: data/tasks/HumanEval_024.json
+    wildcards: tid=024
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:20 2025]
+Finished jobid: 216 (Rule: split_task)
+111 of 493 steps (23%) done
+[Wed May 21 01:19:20 2025]
+Finished jobid: 104 (Rule: split_task)
+112 of 493 steps (23%) done
+Select jobs to execute...
+Execute 2 jobs...
+[Wed May 21 01:19:20 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_108.json
+    jobid: 218
+    reason: Missing output files: data/tasks/HumanEval_108.json
+    wildcards: tid=108
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:20 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_080.json
+    jobid: 162
+    reason: Missing output files: data/tasks/HumanEval_080.json
+    wildcards: tid=080
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:19:21 2025]
+Finished jobid: 218 (Rule: split_task)
+113 of 493 steps (23%) done
+Execute 1 jobs...
+[Wed May 21 01:19:21 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_052.json
+    jobid: 106
+    reason: Missing output files: data/tasks/HumanEval_052.json
+    wildcards: tid=052
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:21 2025]
+Finished jobid: 50 (Rule: split_task)
+114 of 493 steps (23%) done
+[Wed May 21 01:19:21 2025]
+Finished jobid: 162 (Rule: split_task)
+115 of 493 steps (23%) done
+[Wed May 21 01:19:21 2025]
+Finished jobid: 274 (Rule: split_task)
+116 of 493 steps (24%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:19:21 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_081.json
+    jobid: 164
+    reason: Missing output files: data/tasks/HumanEval_081.json
+    wildcards: tid=081
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:21 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_137.json
+    jobid: 276
+    reason: Missing output files: data/tasks/HumanEval_137.json
+    wildcards: tid=137
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:21 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_025.json
+    jobid: 52
+    reason: Missing output files: data/tasks/HumanEval_025.json
+    wildcards: tid=025
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:19:22 2025]
+Finished jobid: 106 (Rule: split_task)
+117 of 493 steps (24%) done
+Execute 1 jobs...
+[Wed May 21 01:19:22 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_109.json
+    jobid: 220
+    reason: Missing output files: data/tasks/HumanEval_109.json
+    wildcards: tid=109
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:22 2025]
+Finished jobid: 276 (Rule: split_task)
+118 of 493 steps (24%) done
+[Wed May 21 01:19:22 2025]
+Finished jobid: 164 (Rule: split_task)
+119 of 493 steps (24%) done
+[Wed May 21 01:19:22 2025]
+Finished jobid: 52 (Rule: split_task)
+120 of 493 steps (24%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:19:22 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_053.json
+    jobid: 108
+    reason: Missing output files: data/tasks/HumanEval_053.json
+    wildcards: tid=053
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:22 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_138.json
+    jobid: 278
+    reason: Missing output files: data/tasks/HumanEval_138.json
+    wildcards: tid=138
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:22 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_026.json
+    jobid: 54
+    reason: Missing output files: data/tasks/HumanEval_026.json
+    wildcards: tid=026
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:19:24 2025]
+Finished jobid: 220 (Rule: split_task)
+121 of 493 steps (25%) done
+Execute 1 jobs...
+[Wed May 21 01:19:24 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_082.json
+    jobid: 166
+    reason: Missing output files: data/tasks/HumanEval_082.json
+    wildcards: tid=082
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:24 2025]
+Finished jobid: 278 (Rule: split_task)
+122 of 493 steps (25%) done
+[Wed May 21 01:19:24 2025]
+Finished jobid: 54 (Rule: split_task)
+123 of 493 steps (25%) done
+[Wed May 21 01:19:24 2025]
+Finished jobid: 108 (Rule: split_task)
+124 of 493 steps (25%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:19:24 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_027.json
+    jobid: 56
+    reason: Missing output files: data/tasks/HumanEval_027.json
+    wildcards: tid=027
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:24 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_054.json
+    jobid: 110
+    reason: Missing output files: data/tasks/HumanEval_054.json
+    wildcards: tid=054
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:24 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_110.json
+    jobid: 222
+    reason: Missing output files: data/tasks/HumanEval_110.json
+    wildcards: tid=110
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:19:25 2025]
+Finished jobid: 166 (Rule: split_task)
+125 of 493 steps (25%) done
+Execute 1 jobs...
+[Wed May 21 01:19:25 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_139.json
+    jobid: 280
+    reason: Missing output files: data/tasks/HumanEval_139.json
+    wildcards: tid=139
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:25 2025]
+Finished jobid: 110 (Rule: split_task)
+126 of 493 steps (26%) done
+[Wed May 21 01:19:25 2025]
+Finished jobid: 222 (Rule: split_task)
+127 of 493 steps (26%) done
+[Wed May 21 01:19:25 2025]
+Finished jobid: 56 (Rule: split_task)
+128 of 493 steps (26%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:19:25 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_083.json
+    jobid: 168
+    reason: Missing output files: data/tasks/HumanEval_083.json
+    wildcards: tid=083
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:25 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_000.json
+    jobid: 2
+    reason: Missing output files: data/tasks/HumanEval_000.json
+    wildcards: tid=000
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:25 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_111.json
+    jobid: 224
+    reason: Missing output files: data/tasks/HumanEval_111.json
+    wildcards: tid=111
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:19:27 2025]
+Finished jobid: 224 (Rule: split_task)
+129 of 493 steps (26%) done
+Execute 1 jobs...
+[Wed May 21 01:19:27 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_055.json
+    jobid: 112
+    reason: Missing output files: data/tasks/HumanEval_055.json
+    wildcards: tid=055
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:27 2025]
+Finished jobid: 2 (Rule: split_task)
+130 of 493 steps (26%) done
+[Wed May 21 01:19:27 2025]
+Finished jobid: 280 (Rule: split_task)
+131 of 493 steps (27%) done
+[Wed May 21 01:19:27 2025]
+Finished jobid: 168 (Rule: split_task)
+132 of 493 steps (27%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:19:27 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_084.json
+    jobid: 170
+    reason: Missing output files: data/tasks/HumanEval_084.json
+    wildcards: tid=084
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:27 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_028.json
+    jobid: 58
+    reason: Missing output files: data/tasks/HumanEval_028.json
+    wildcards: tid=028
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:27 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_140.json
+    jobid: 282
+    reason: Missing output files: data/tasks/HumanEval_140.json
+    wildcards: tid=140
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:19:28 2025]
+Finished jobid: 112 (Rule: split_task)
+133 of 493 steps (27%) done
+Execute 1 jobs...
+[Wed May 21 01:19:28 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_112.json
+    jobid: 226
+    reason: Missing output files: data/tasks/HumanEval_112.json
+    wildcards: tid=112
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:28 2025]
+Finished jobid: 170 (Rule: split_task)
+134 of 493 steps (27%) done
+[Wed May 21 01:19:28 2025]
+Finished jobid: 282 (Rule: split_task)
+135 of 493 steps (27%) done
+[Wed May 21 01:19:28 2025]
+Finished jobid: 58 (Rule: split_task)
+136 of 493 steps (28%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:19:28 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_056.json
+    jobid: 114
+    reason: Missing output files: data/tasks/HumanEval_056.json
+    wildcards: tid=056
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:28 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_029.json
+    jobid: 60
+    reason: Missing output files: data/tasks/HumanEval_029.json
+    wildcards: tid=029
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:28 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_141.json
+    jobid: 284
+    reason: Missing output files: data/tasks/HumanEval_141.json
+    wildcards: tid=141
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:19:29 2025]
+Finished jobid: 226 (Rule: split_task)
+137 of 493 steps (28%) done
+Execute 1 jobs...
+[Wed May 21 01:19:29 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_085.json
+    jobid: 172
+    reason: Missing output files: data/tasks/HumanEval_085.json
+    wildcards: tid=085
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:29 2025]
+Finished jobid: 284 (Rule: split_task)
+138 of 493 steps (28%) done
+[Wed May 21 01:19:29 2025]
+Finished jobid: 60 (Rule: split_task)
+139 of 493 steps (28%) done
+[Wed May 21 01:19:29 2025]
+Finished jobid: 114 (Rule: split_task)
+140 of 493 steps (28%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:19:29 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_057.json
+    jobid: 116
+    reason: Missing output files: data/tasks/HumanEval_057.json
+    wildcards: tid=057
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:29 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_001.json
+    jobid: 4
+    reason: Missing output files: data/tasks/HumanEval_001.json
+    wildcards: tid=001
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:29 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_113.json
+    jobid: 228
+    reason: Missing output files: data/tasks/HumanEval_113.json
+    wildcards: tid=113
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:19:31 2025]
+Finished jobid: 172 (Rule: split_task)
+141 of 493 steps (29%) done
+Execute 1 jobs...
+[Wed May 21 01:19:31 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_030.json
+    jobid: 62
+    reason: Missing output files: data/tasks/HumanEval_030.json
+    wildcards: tid=030
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:31 2025]
+Finished jobid: 4 (Rule: split_task)
+142 of 493 steps (29%) done
+[Wed May 21 01:19:31 2025]
+Finished jobid: 228 (Rule: split_task)
+143 of 493 steps (29%) done
+[Wed May 21 01:19:31 2025]
+Finished jobid: 116 (Rule: split_task)
+144 of 493 steps (29%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:19:31 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_002.json
+    jobid: 6
+    reason: Missing output files: data/tasks/HumanEval_002.json
+    wildcards: tid=002
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:31 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_114.json
+    jobid: 230
+    reason: Missing output files: data/tasks/HumanEval_114.json
+    wildcards: tid=114
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:31 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_005.json
+    jobid: 12
+    reason: Missing output files: data/tasks/HumanEval_005.json
+    wildcards: tid=005
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:19:32 2025]
+Finished jobid: 6 (Rule: split_task)
+145 of 493 steps (29%) done
+Execute 1 jobs...
+[Wed May 21 01:19:32 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_142.json
+    jobid: 286
+    reason: Missing output files: data/tasks/HumanEval_142.json
+    wildcards: tid=142
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:32 2025]
+Finished jobid: 62 (Rule: split_task)
+146 of 493 steps (30%) done
+[Wed May 21 01:19:32 2025]
+Finished jobid: 12 (Rule: split_task)
+147 of 493 steps (30%) done
+[Wed May 21 01:19:32 2025]
+Finished jobid: 230 (Rule: split_task)
+148 of 493 steps (30%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:19:32 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_115.json
+    jobid: 232
+    reason: Missing output files: data/tasks/HumanEval_115.json
+    wildcards: tid=115
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:32 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_003.json
+    jobid: 8
+    reason: Missing output files: data/tasks/HumanEval_003.json
+    wildcards: tid=003
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:32 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_116.json
+    jobid: 234
+    reason: Missing output files: data/tasks/HumanEval_116.json
+    wildcards: tid=116
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:19:33 2025]
+Finished jobid: 8 (Rule: split_task)
+149 of 493 steps (30%) done
+Execute 1 jobs...
+[Wed May 21 01:19:33 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_004.json
+    jobid: 10
+    reason: Missing output files: data/tasks/HumanEval_004.json
+    wildcards: tid=004
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:33 2025]
+Finished jobid: 286 (Rule: split_task)
+150 of 493 steps (30%) done
+[Wed May 21 01:19:33 2025]
+Finished jobid: 232 (Rule: split_task)
+151 of 493 steps (31%) done
+[Wed May 21 01:19:33 2025]
+Finished jobid: 234 (Rule: split_task)
+152 of 493 steps (31%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:19:33 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_031.json
+    jobid: 64
+    reason: Missing output files: data/tasks/HumanEval_031.json
+    wildcards: tid=031
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:33 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_032.json
+    jobid: 66
+    reason: Missing output files: data/tasks/HumanEval_032.json
+    wildcards: tid=032
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:33 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_143.json
+    jobid: 288
+    reason: Missing output files: data/tasks/HumanEval_143.json
+    wildcards: tid=143
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:19:35 2025]
+Finished jobid: 10 (Rule: split_task)
+153 of 493 steps (31%) done
+Execute 1 jobs...
+[Wed May 21 01:19:35 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_144.json
+    jobid: 290
+    reason: Missing output files: data/tasks/HumanEval_144.json
+    wildcards: tid=144
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:35 2025]
+Finished jobid: 64 (Rule: split_task)
+154 of 493 steps (31%) done
+[Wed May 21 01:19:35 2025]
+Finished jobid: 66 (Rule: split_task)
+155 of 493 steps (31%) done
+[Wed May 21 01:19:35 2025]
+Finished jobid: 288 (Rule: split_task)
+156 of 493 steps (32%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:19:35 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_059.json
+    jobid: 120
+    reason: Missing output files: data/tasks/HumanEval_059.json
+    wildcards: tid=059
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:35 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_060.json
+    jobid: 122
+    reason: Missing output files: data/tasks/HumanEval_060.json
+    wildcards: tid=060
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:35 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_058.json
+    jobid: 118
+    reason: Missing output files: data/tasks/HumanEval_058.json
+    wildcards: tid=058
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:19:36 2025]
+Finished jobid: 122 (Rule: split_task)
+157 of 493 steps (32%) done
+Execute 1 jobs...
+[Wed May 21 01:19:36 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_061.json
+    jobid: 124
+    reason: Missing output files: data/tasks/HumanEval_061.json
+    wildcards: tid=061
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:36 2025]
+Finished jobid: 290 (Rule: split_task)
+158 of 493 steps (32%) done
+[Wed May 21 01:19:36 2025]
+Finished jobid: 118 (Rule: split_task)
+159 of 493 steps (32%) done
+[Wed May 21 01:19:36 2025]
+Finished jobid: 120 (Rule: split_task)
+160 of 493 steps (32%) done
+Select jobs to execute...
+Execute 3 jobs...
+[Wed May 21 01:19:36 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_087.json
+    jobid: 176
+    reason: Missing output files: data/tasks/HumanEval_087.json
+    wildcards: tid=087
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:36 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_088.json
+    jobid: 178
+    reason: Missing output files: data/tasks/HumanEval_088.json
+    wildcards: tid=088
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:36 2025]
+localrule split_task:
+    input: data/HumanEval.jsonl
+    output: data/tasks/HumanEval_086.json
+    jobid: 174
+    reason: Missing output files: data/tasks/HumanEval_086.json
+    wildcards: tid=086
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 01:19:37 2025]
+Finished jobid: 174 (Rule: split_task)
+161 of 493 steps (33%) done
+[Wed May 21 01:19:37 2025]
+Finished jobid: 176 (Rule: split_task)
+162 of 493 steps (33%) done
+[Wed May 21 01:19:37 2025]
+Finished jobid: 178 (Rule: split_task)
+163 of 493 steps (33%) done
+[Wed May 21 01:19:37 2025]
+Finished jobid: 124 (Rule: split_task)
+164 of 493 steps (33%) done
+Execute 4 jobs...
+[Wed May 21 01:19:37 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_129.json
+    output: raw_results/MULTI_129.json
+    jobid: 458
+    reason: Missing output files: raw_results/MULTI_129.json; Input files updated by another job: data/tasks/HumanEval_129.json
+    wildcards: config=MULTI, tid=129
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:37 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_095.json
+    output: raw_results/MULTI_095.json
+    jobid: 424
+    reason: Missing output files: raw_results/MULTI_095.json; Input files updated by another job: data/tasks/HumanEval_095.json
+    wildcards: config=MULTI, tid=095
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:37 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_129.json
+    output: raw_results/SINGLE_129.json
+    jobid: 259
+    reason: Missing output files: raw_results/SINGLE_129.json; Input files updated by another job: data/tasks/HumanEval_129.json
+    wildcards: config=SINGLE, tid=129
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 01:19:37 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_095.json
+    output: raw_results/SINGLE_095.json
+    jobid: 191
+    reason: Missing output files: raw_results/SINGLE_095.json; Input files updated by another job: data/tasks/HumanEval_095.json
+    wildcards: config=SINGLE, tid=095
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+RuleException:
+CalledProcessError in file "/Users/hyegang/Desktop/workspace/multiagent_code_review/Snakefile", line 26:
+Command 'set -euo pipefail;  
+      python scripts/runner.py         --task data/tasks/HumanEval_095.json         --model gpt-4o         --config SINGLE         --dry-run &&  # remove --dry-run when ready
+      jq -c '. + {config:"SINGLE"}' raw_results/*/result.json         > raw_results/SINGLE_095.json   # 옮겨쓰기' returned non-zero exit status 2.
+[Wed May 21 01:19:42 2025]
+Error in rule run_eval:
+    message: None
+    jobid: 191
+    input: data/tasks/HumanEval_095.json
+    output: raw_results/SINGLE_095.json
+    shell:
+        
+      python scripts/runner.py         --task data/tasks/HumanEval_095.json         --model gpt-4o         --config SINGLE         --dry-run &&  # remove --dry-run when ready
+      jq -c '. + {config:"SINGLE"}' raw_results/*/result.json         > raw_results/SINGLE_095.json   # 옮겨쓰기
+      
+        (command exited with non-zero exit code)
+RuleException:
+CalledProcessError in file "/Users/hyegang/Desktop/workspace/multiagent_code_review/Snakefile", line 26:
+Command 'set -euo pipefail;  
+      python scripts/runner.py         --task data/tasks/HumanEval_095.json         --model gpt-4o         --config MULTI         --dry-run &&  # remove --dry-run when ready
+      jq -c '. + {config:"MULTI"}' raw_results/*/result.json         > raw_results/MULTI_095.json   # 옮겨쓰기' returned non-zero exit status 2.
+[Wed May 21 01:19:42 2025]
+Error in rule run_eval:
+    message: None
+    jobid: 424
+    input: data/tasks/HumanEval_095.json
+    output: raw_results/MULTI_095.json
+    shell:
+        
+      python scripts/runner.py         --task data/tasks/HumanEval_095.json         --model gpt-4o         --config MULTI         --dry-run &&  # remove --dry-run when ready
+      jq -c '. + {config:"MULTI"}' raw_results/*/result.json         > raw_results/MULTI_095.json   # 옮겨쓰기
+      
+        (command exited with non-zero exit code)
+Removing output files of failed job run_eval since they might be corrupted:
+raw_results/SINGLE_095.json
+Removing output files of failed job run_eval since they might be corrupted:
+raw_results/MULTI_095.json
+RuleException:
+CalledProcessError in file "/Users/hyegang/Desktop/workspace/multiagent_code_review/Snakefile", line 26:
+Command 'set -euo pipefail;  
+      python scripts/runner.py         --task data/tasks/HumanEval_129.json         --model gpt-4o         --config SINGLE         --dry-run &&  # remove --dry-run when ready
+      jq -c '. + {config:"SINGLE"}' raw_results/*/result.json         > raw_results/SINGLE_129.json   # 옮겨쓰기' returned non-zero exit status 2.
+[Wed May 21 01:19:43 2025]
+Error in rule run_eval:
+    message: None
+    jobid: 259
+    input: data/tasks/HumanEval_129.json
+    output: raw_results/SINGLE_129.json
+    shell:
+        
+      python scripts/runner.py         --task data/tasks/HumanEval_129.json         --model gpt-4o         --config SINGLE         --dry-run &&  # remove --dry-run when ready
+      jq -c '. + {config:"SINGLE"}' raw_results/*/result.json         > raw_results/SINGLE_129.json   # 옮겨쓰기
+      
+        (command exited with non-zero exit code)
+Removing output files of failed job run_eval since they might be corrupted:
+raw_results/SINGLE_129.json
+RuleException:
+CalledProcessError in file "/Users/hyegang/Desktop/workspace/multiagent_code_review/Snakefile", line 26:
+Command 'set -euo pipefail;  
+      python scripts/runner.py         --task data/tasks/HumanEval_129.json         --model gpt-4o         --config MULTI         --dry-run &&  # remove --dry-run when ready
+      jq -c '. + {config:"MULTI"}' raw_results/*/result.json         > raw_results/MULTI_129.json   # 옮겨쓰기' returned non-zero exit status 2.
+[Wed May 21 01:19:45 2025]
+Error in rule run_eval:
+    message: None
+    jobid: 458
+    input: data/tasks/HumanEval_129.json
+    output: raw_results/MULTI_129.json
+    shell:
+        
+      python scripts/runner.py         --task data/tasks/HumanEval_129.json         --model gpt-4o         --config MULTI         --dry-run &&  # remove --dry-run when ready
+      jq -c '. + {config:"MULTI"}' raw_results/*/result.json         > raw_results/MULTI_129.json   # 옮겨쓰기
+      
+        (command exited with non-zero exit code)
+Removing output files of failed job run_eval since they might be corrupted:
+raw_results/MULTI_129.json
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look below for error messages
+[Wed May 21 01:19:45 2025]
+Error in rule run_eval:
+    message: None
+    jobid: 458
+    input: data/tasks/HumanEval_129.json
+    output: raw_results/MULTI_129.json
+    shell:
+        
+      python scripts/runner.py         --task data/tasks/HumanEval_129.json         --model gpt-4o         --config MULTI         --dry-run &&  # remove --dry-run when ready
+      jq -c '. + {config:"MULTI"}' raw_results/*/result.json         > raw_results/MULTI_129.json   # 옮겨쓰기
+      
+        (command exited with non-zero exit code)
+[Wed May 21 01:19:45 2025]
+Error in rule run_eval:
+    message: None
+    jobid: 424
+    input: data/tasks/HumanEval_095.json
+    output: raw_results/MULTI_095.json
+    shell:
+        
+      python scripts/runner.py         --task data/tasks/HumanEval_095.json         --model gpt-4o         --config MULTI         --dry-run &&  # remove --dry-run when ready
+      jq -c '. + {config:"MULTI"}' raw_results/*/result.json         > raw_results/MULTI_095.json   # 옮겨쓰기
+      
+        (command exited with non-zero exit code)
+[Wed May 21 01:19:45 2025]
+Error in rule run_eval:
+    message: None
+    jobid: 259
+    input: data/tasks/HumanEval_129.json
+    output: raw_results/SINGLE_129.json
+    shell:
+        
+      python scripts/runner.py         --task data/tasks/HumanEval_129.json         --model gpt-4o         --config SINGLE         --dry-run &&  # remove --dry-run when ready
+      jq -c '. + {config:"SINGLE"}' raw_results/*/result.json         > raw_results/SINGLE_129.json   # 옮겨쓰기
+      
+        (command exited with non-zero exit code)
+[Wed May 21 01:19:45 2025]
+Error in rule run_eval:
+    message: None
+    jobid: 191
+    input: data/tasks/HumanEval_095.json
+    output: raw_results/SINGLE_095.json
+    shell:
+        
+      python scripts/runner.py         --task data/tasks/HumanEval_095.json         --model gpt-4o         --config SINGLE         --dry-run &&  # remove --dry-run when ready
+      jq -c '. + {config:"SINGLE"}' raw_results/*/result.json         > raw_results/SINGLE_095.json   # 옮겨쓰기
+      
+        (command exited with non-zero exit code)
+Complete log(s): /Users/hyegang/Desktop/workspace/multiagent_code_review/.snakemake/log/2025-05-21T011842.505931.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

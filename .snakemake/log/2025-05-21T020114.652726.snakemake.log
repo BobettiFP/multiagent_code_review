@@ -1,0 +1,285 @@
+Assuming unrestricted shared filesystem usage.
+None
+host: hyegangui-noteubug.local
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job stats:
+job         count
+--------  -------
+all             1
+run_eval      328
+total         329
+
+Select jobs to execute...
+Execute 4 jobs...
+[Wed May 21 02:01:14 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_129.json
+    output: raw_results/MULTI/HumanEval_129.json
+    jobid: 458
+    reason: Missing output files: raw_results/MULTI/HumanEval_129.json
+    wildcards: config=MULTI, tid=129
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 02:01:14 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_129.json
+    output: raw_results/SINGLE/HumanEval_129.json
+    jobid: 259
+    reason: Missing output files: raw_results/SINGLE/HumanEval_129.json
+    wildcards: config=SINGLE, tid=129
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 02:01:14 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_095.json
+    output: raw_results/SINGLE/HumanEval_095.json
+    jobid: 191
+    reason: Missing output files: raw_results/SINGLE/HumanEval_095.json
+    wildcards: config=SINGLE, tid=095
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 02:01:14 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_095.json
+    output: raw_results/MULTI/HumanEval_095.json
+    jobid: 424
+    reason: Missing output files: raw_results/MULTI/HumanEval_095.json
+    wildcards: config=MULTI, tid=095
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:01:22 2025]
+Finished jobid: 191 (Rule: run_eval)
+1 of 329 steps (0.3%) done
+Execute 1 jobs...
+[Wed May 21 02:01:22 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_141.json
+    output: raw_results/SINGLE/HumanEval_141.json
+    jobid: 283
+    reason: Missing output files: raw_results/SINGLE/HumanEval_141.json
+    wildcards: config=SINGLE, tid=141
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:01:28 2025]
+Finished jobid: 259 (Rule: run_eval)
+2 of 329 steps (1%) done
+Execute 1 jobs...
+[Wed May 21 02:01:28 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_141.json
+    output: raw_results/MULTI/HumanEval_141.json
+    jobid: 470
+    reason: Missing output files: raw_results/MULTI/HumanEval_141.json
+    wildcards: config=MULTI, tid=141
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:01:31 2025]
+Finished jobid: 283 (Rule: run_eval)
+3 of 329 steps (1%) done
+Execute 1 jobs...
+[Wed May 21 02:01:31 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_069.json
+    output: raw_results/SINGLE/HumanEval_069.json
+    jobid: 139
+    reason: Missing output files: raw_results/SINGLE/HumanEval_069.json
+    wildcards: config=SINGLE, tid=069
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:01:38 2025]
+Finished jobid: 139 (Rule: run_eval)
+4 of 329 steps (1%) done
+Execute 1 jobs...
+[Wed May 21 02:01:38 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_069.json
+    output: raw_results/MULTI/HumanEval_069.json
+    jobid: 398
+    reason: Missing output files: raw_results/MULTI/HumanEval_069.json
+    wildcards: config=MULTI, tid=069
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:01:47 2025]
+Finished jobid: 424 (Rule: run_eval)
+5 of 329 steps (2%) done
+Execute 1 jobs...
+[Wed May 21 02:01:47 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_094.json
+    output: raw_results/MULTI/HumanEval_094.json
+    jobid: 423
+    reason: Missing output files: raw_results/MULTI/HumanEval_094.json
+    wildcards: config=MULTI, tid=094
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:01:59 2025]
+Finished jobid: 458 (Rule: run_eval)
+6 of 329 steps (2%) done
+Execute 1 jobs...
+[Wed May 21 02:01:59 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_094.json
+    output: raw_results/SINGLE/HumanEval_094.json
+    jobid: 189
+    reason: Missing output files: raw_results/SINGLE/HumanEval_094.json
+    wildcards: config=SINGLE, tid=094
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:02:00 2025]
+Finished jobid: 470 (Rule: run_eval)
+7 of 329 steps (2%) done
+Execute 1 jobs...
+[Wed May 21 02:02:00 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_081.json
+    output: raw_results/SINGLE/HumanEval_081.json
+    jobid: 163
+    reason: Missing output files: raw_results/SINGLE/HumanEval_081.json
+    wildcards: config=SINGLE, tid=081
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:02:08 2025]
+Finished jobid: 163 (Rule: run_eval)
+8 of 329 steps (2%) done
+Execute 1 jobs...
+[Wed May 21 02:02:08 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_081.json
+    output: raw_results/MULTI/HumanEval_081.json
+    jobid: 410
+    reason: Missing output files: raw_results/MULTI/HumanEval_081.json
+    wildcards: config=MULTI, tid=081
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 02:02:08 2025]
+Finished jobid: 189 (Rule: run_eval)
+9 of 329 steps (3%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Wed May 21 02:02:08 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_153.json
+    output: raw_results/MULTI/HumanEval_153.json
+    jobid: 482
+    reason: Missing output files: raw_results/MULTI/HumanEval_153.json
+    wildcards: config=MULTI, tid=153
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:02:08 2025]
+Finished jobid: 398 (Rule: run_eval)
+10 of 329 steps (3%) done
+Execute 1 jobs...
+[Wed May 21 02:02:08 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_153.json
+    output: raw_results/SINGLE/HumanEval_153.json
+    jobid: 307
+    reason: Missing output files: raw_results/SINGLE/HumanEval_153.json
+    wildcards: config=SINGLE, tid=153
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:02:17 2025]
+Finished jobid: 307 (Rule: run_eval)
+11 of 329 steps (3%) done
+Execute 1 jobs...
+[Wed May 21 02:02:17 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_148.json
+    output: raw_results/MULTI/HumanEval_148.json
+    jobid: 477
+    reason: Missing output files: raw_results/MULTI/HumanEval_148.json
+    wildcards: config=MULTI, tid=148
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:02:23 2025]
+Finished jobid: 423 (Rule: run_eval)
+12 of 329 steps (4%) done
+Execute 1 jobs...
+[Wed May 21 02:02:23 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_148.json
+    output: raw_results/SINGLE/HumanEval_148.json
+    jobid: 297
+    reason: Missing output files: raw_results/SINGLE/HumanEval_148.json
+    wildcards: config=SINGLE, tid=148
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+Terminating processes on user request, this might take some time.
+RuleException:
+CalledProcessError in file "/Users/hyegang/Desktop/workspace/multiagent_code_review/Snakefile", line 29:
+Command 'set -euo pipefail;  
+        python scripts/runner.py             --task data/tasks/HumanEval_148.json             --model gpt-4o             --config MULTI             --out raw_results/MULTI/HumanEval_148.json' died with <Signals.SIGINT: 2>.
+[Wed May 21 02:02:25 2025]
+Error in rule run_eval:
+    message: None
+    jobid: 477
+    input: data/tasks/HumanEval_148.json
+    output: raw_results/MULTI/HumanEval_148.json
+    shell:
+        
+        python scripts/runner.py             --task data/tasks/HumanEval_148.json             --model gpt-4o             --config MULTI             --out raw_results/MULTI/HumanEval_148.json
+        
+        (command exited with non-zero exit code)
+RuleException:
+CalledProcessError in file "/Users/hyegang/Desktop/workspace/multiagent_code_review/Snakefile", line 29:
+Command 'set -euo pipefail;  
+        python scripts/runner.py             --task data/tasks/HumanEval_153.json             --model gpt-4o             --config MULTI             --out raw_results/MULTI/HumanEval_153.json' died with <Signals.SIGINT: 2>.
+[Wed May 21 02:02:25 2025]
+Error in rule run_eval:
+    message: None
+    jobid: 482
+    input: data/tasks/HumanEval_153.json
+    output: raw_results/MULTI/HumanEval_153.json
+    shell:
+        
+        python scripts/runner.py             --task data/tasks/HumanEval_153.json             --model gpt-4o             --config MULTI             --out raw_results/MULTI/HumanEval_153.json
+        
+        (command exited with non-zero exit code)
+RuleException:
+CalledProcessError in file "/Users/hyegang/Desktop/workspace/multiagent_code_review/Snakefile", line 29:
+Command 'set -euo pipefail;  
+        python scripts/runner.py             --task data/tasks/HumanEval_148.json             --model gpt-4o             --config SINGLE             --out raw_results/SINGLE/HumanEval_148.json' died with <Signals.SIGINT: 2>.
+[Wed May 21 02:02:25 2025]
+Error in rule run_eval:
+    message: None
+    jobid: 297
+    input: data/tasks/HumanEval_148.json
+    output: raw_results/SINGLE/HumanEval_148.json
+    shell:
+        
+        python scripts/runner.py             --task data/tasks/HumanEval_148.json             --model gpt-4o             --config SINGLE             --out raw_results/SINGLE/HumanEval_148.json
+        
+        (command exited with non-zero exit code)
+RuleException:
+CalledProcessError in file "/Users/hyegang/Desktop/workspace/multiagent_code_review/Snakefile", line 29:
+Command 'set -euo pipefail;  
+        python scripts/runner.py             --task data/tasks/HumanEval_081.json             --model gpt-4o             --config MULTI             --out raw_results/MULTI/HumanEval_081.json' died with <Signals.SIGINT: 2>.
+[Wed May 21 02:02:25 2025]
+Error in rule run_eval:
+    message: None
+    jobid: 410
+    input: data/tasks/HumanEval_081.json
+    output: raw_results/MULTI/HumanEval_081.json
+    shell:
+        
+        python scripts/runner.py             --task data/tasks/HumanEval_081.json             --model gpt-4o             --config MULTI             --out raw_results/MULTI/HumanEval_081.json
+        
+        (command exited with non-zero exit code)
+Complete log(s): /Users/hyegang/Desktop/workspace/multiagent_code_review/.snakemake/log/2025-05-21T020114.652726.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.
