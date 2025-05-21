@@ -1,0 +1,4609 @@
+Assuming unrestricted shared filesystem usage.
+None
+host: hyegangui-noteubug.local
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job stats:
+job         count
+--------  -------
+all             1
+run_eval      328
+total         329
+
+Select jobs to execute...
+Execute 4 jobs...
+[Wed May 21 02:33:25 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_129.json
+    output: raw_results/MULTI/HumanEval_129.json
+    jobid: 458
+    reason: Missing output files: raw_results/MULTI/HumanEval_129.json; Code has changed since last execution; Params have changed since last execution: Union of exclusive params before and now across all output: before: <nothing exclusive> now: 'MULTI' 
+    wildcards: cfg=MULTI, tid=129
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 02:33:25 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_129.json
+    output: raw_results/SINGLE/HumanEval_129.json
+    jobid: 259
+    reason: Missing output files: raw_results/SINGLE/HumanEval_129.json; Code has changed since last execution; Params have changed since last execution: Union of exclusive params before and now across all output: before: <nothing exclusive> now: 'SINGLE' 
+    wildcards: cfg=SINGLE, tid=129
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 02:33:25 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_095.json
+    output: raw_results/SINGLE/HumanEval_095.json
+    jobid: 191
+    reason: Missing output files: raw_results/SINGLE/HumanEval_095.json; Code has changed since last execution; Params have changed since last execution: Union of exclusive params before and now across all output: before: <nothing exclusive> now: 'SINGLE' 
+    wildcards: cfg=SINGLE, tid=095
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 02:33:25 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_095.json
+    output: raw_results/MULTI/HumanEval_095.json
+    jobid: 424
+    reason: Missing output files: raw_results/MULTI/HumanEval_095.json; Code has changed since last execution; Params have changed since last execution: Union of exclusive params before and now across all output: before: <nothing exclusive> now: 'MULTI' 
+    wildcards: cfg=MULTI, tid=095
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:33:30 2025]
+Finished jobid: 191 (Rule: run_eval)
+1 of 329 steps (0.3%) done
+Execute 1 jobs...
+[Wed May 21 02:33:30 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_141.json
+    output: raw_results/MULTI/HumanEval_141.json
+    jobid: 470
+    reason: Missing output files: raw_results/MULTI/HumanEval_141.json; Code has changed since last execution; Params have changed since last execution: Union of exclusive params before and now across all output: before: <nothing exclusive> now: 'MULTI' 
+    wildcards: cfg=MULTI, tid=141
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 02:33:30 2025]
+Finished jobid: 259 (Rule: run_eval)
+2 of 329 steps (1%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Wed May 21 02:33:30 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_141.json
+    output: raw_results/SINGLE/HumanEval_141.json
+    jobid: 283
+    reason: Missing output files: raw_results/SINGLE/HumanEval_141.json; Code has changed since last execution; Params have changed since last execution: Union of exclusive params before and now across all output: before: <nothing exclusive> now: 'SINGLE' 
+    wildcards: cfg=SINGLE, tid=141
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:33:37 2025]
+Finished jobid: 283 (Rule: run_eval)
+3 of 329 steps (1%) done
+Execute 1 jobs...
+[Wed May 21 02:33:37 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_069.json
+    output: raw_results/MULTI/HumanEval_069.json
+    jobid: 398
+    reason: Missing output files: raw_results/MULTI/HumanEval_069.json; Code has changed since last execution; Params have changed since last execution: Union of exclusive params before and now across all output: before: <nothing exclusive> now: 'MULTI' 
+    wildcards: cfg=MULTI, tid=069
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:33:53 2025]
+Finished jobid: 424 (Rule: run_eval)
+4 of 329 steps (1%) done
+Execute 1 jobs...
+[Wed May 21 02:33:53 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_069.json
+    output: raw_results/SINGLE/HumanEval_069.json
+    jobid: 139
+    reason: Code has changed since last execution; Params have changed since last execution: Union of exclusive params before and now across all output: before: <nothing exclusive> now: 'SINGLE' 
+    wildcards: cfg=SINGLE, tid=069
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:33:58 2025]
+Finished jobid: 139 (Rule: run_eval)
+5 of 329 steps (2%) done
+Execute 1 jobs...
+[Wed May 21 02:33:58 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_094.json
+    output: raw_results/MULTI/HumanEval_094.json
+    jobid: 423
+    reason: Missing output files: raw_results/MULTI/HumanEval_094.json; Code has changed since last execution; Params have changed since last execution: Union of exclusive params before and now across all output: before: <nothing exclusive> now: 'MULTI' 
+    wildcards: cfg=MULTI, tid=094
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:34:02 2025]
+Finished jobid: 458 (Rule: run_eval)
+6 of 329 steps (2%) done
+Execute 1 jobs...
+[Wed May 21 02:34:02 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_094.json
+    output: raw_results/SINGLE/HumanEval_094.json
+    jobid: 189
+    reason: Missing output files: raw_results/SINGLE/HumanEval_094.json; Code has changed since last execution; Params have changed since last execution: Union of exclusive params before and now across all output: before: <nothing exclusive> now: 'SINGLE' 
+    wildcards: cfg=SINGLE, tid=094
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:34:03 2025]
+Finished jobid: 470 (Rule: run_eval)
+7 of 329 steps (2%) done
+Execute 1 jobs...
+[Wed May 21 02:34:03 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_081.json
+    output: raw_results/MULTI/HumanEval_081.json
+    jobid: 410
+    reason: Missing output files: raw_results/MULTI/HumanEval_081.json
+    wildcards: cfg=MULTI, tid=081
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:34:05 2025]
+Finished jobid: 398 (Rule: run_eval)
+8 of 329 steps (2%) done
+Execute 1 jobs...
+[Wed May 21 02:34:05 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_081.json
+    output: raw_results/SINGLE/HumanEval_081.json
+    jobid: 163
+    reason: Missing output files: raw_results/SINGLE/HumanEval_081.json; Code has changed since last execution; Params have changed since last execution: Union of exclusive params before and now across all output: before: <nothing exclusive> now: 'SINGLE' 
+    wildcards: cfg=SINGLE, tid=081
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:34:10 2025]
+Finished jobid: 189 (Rule: run_eval)
+9 of 329 steps (3%) done
+Execute 1 jobs...
+[Wed May 21 02:34:10 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_153.json
+    output: raw_results/MULTI/HumanEval_153.json
+    jobid: 482
+    reason: Missing output files: raw_results/MULTI/HumanEval_153.json
+    wildcards: cfg=MULTI, tid=153
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:34:15 2025]
+Finished jobid: 163 (Rule: run_eval)
+10 of 329 steps (3%) done
+Execute 1 jobs...
+[Wed May 21 02:34:15 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_153.json
+    output: raw_results/SINGLE/HumanEval_153.json
+    jobid: 307
+    reason: Missing output files: raw_results/SINGLE/HumanEval_153.json; Code has changed since last execution; Params have changed since last execution: Union of exclusive params before and now across all output: before: <nothing exclusive> now: 'SINGLE' 
+    wildcards: cfg=SINGLE, tid=153
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:34:20 2025]
+Finished jobid: 307 (Rule: run_eval)
+11 of 329 steps (3%) done
+Execute 1 jobs...
+[Wed May 21 02:34:20 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_148.json
+    output: raw_results/MULTI/HumanEval_148.json
+    jobid: 477
+    reason: Missing output files: raw_results/MULTI/HumanEval_148.json
+    wildcards: cfg=MULTI, tid=148
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:34:45 2025]
+Finished jobid: 410 (Rule: run_eval)
+12 of 329 steps (4%) done
+Execute 1 jobs...
+[Wed May 21 02:34:45 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_148.json
+    output: raw_results/SINGLE/HumanEval_148.json
+    jobid: 297
+    reason: Missing output files: raw_results/SINGLE/HumanEval_148.json
+    wildcards: cfg=SINGLE, tid=148
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:34:48 2025]
+Finished jobid: 423 (Rule: run_eval)
+13 of 329 steps (4%) done
+Execute 1 jobs...
+[Wed May 21 02:34:48 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_124.json
+    output: raw_results/MULTI/HumanEval_124.json
+    jobid: 453
+    reason: Missing output files: raw_results/MULTI/HumanEval_124.json
+    wildcards: cfg=MULTI, tid=124
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:34:49 2025]
+Finished jobid: 297 (Rule: run_eval)
+14 of 329 steps (4%) done
+Execute 1 jobs...
+[Wed May 21 02:34:49 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_124.json
+    output: raw_results/SINGLE/HumanEval_124.json
+    jobid: 249
+    reason: Missing output files: raw_results/SINGLE/HumanEval_124.json
+    wildcards: cfg=SINGLE, tid=124
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:34:50 2025]
+Finished jobid: 477 (Rule: run_eval)
+15 of 329 steps (5%) done
+Execute 1 jobs...
+[Wed May 21 02:34:50 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_126.json
+    output: raw_results/MULTI/HumanEval_126.json
+    jobid: 455
+    reason: Missing output files: raw_results/MULTI/HumanEval_126.json
+    wildcards: cfg=MULTI, tid=126
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:34:54 2025]
+Finished jobid: 482 (Rule: run_eval)
+16 of 329 steps (5%) done
+Execute 1 jobs...
+[Wed May 21 02:34:54 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_126.json
+    output: raw_results/SINGLE/HumanEval_126.json
+    jobid: 253
+    reason: Missing output files: raw_results/SINGLE/HumanEval_126.json
+    wildcards: cfg=SINGLE, tid=126
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:34:56 2025]
+Finished jobid: 249 (Rule: run_eval)
+17 of 329 steps (5%) done
+Execute 1 jobs...
+[Wed May 21 02:34:56 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_068.json
+    output: raw_results/MULTI/HumanEval_068.json
+    jobid: 397
+    reason: Missing output files: raw_results/MULTI/HumanEval_068.json
+    wildcards: cfg=MULTI, tid=068
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:34:58 2025]
+Finished jobid: 253 (Rule: run_eval)
+18 of 329 steps (5%) done
+Execute 1 jobs...
+[Wed May 21 02:34:58 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_068.json
+    output: raw_results/SINGLE/HumanEval_068.json
+    jobid: 137
+    reason: Missing output files: raw_results/SINGLE/HumanEval_068.json
+    wildcards: cfg=SINGLE, tid=068
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:35:03 2025]
+Finished jobid: 137 (Rule: run_eval)
+19 of 329 steps (6%) done
+Execute 1 jobs...
+[Wed May 21 02:35:03 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_109.json
+    output: raw_results/MULTI/HumanEval_109.json
+    jobid: 438
+    reason: Missing output files: raw_results/MULTI/HumanEval_109.json
+    wildcards: cfg=MULTI, tid=109
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:35:21 2025]
+Finished jobid: 397 (Rule: run_eval)
+20 of 329 steps (6%) done
+Execute 1 jobs...
+[Wed May 21 02:35:21 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_109.json
+    output: raw_results/SINGLE/HumanEval_109.json
+    jobid: 219
+    reason: Missing output files: raw_results/SINGLE/HumanEval_109.json
+    wildcards: cfg=SINGLE, tid=109
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:35:26 2025]
+Finished jobid: 455 (Rule: run_eval)
+21 of 329 steps (6%) done
+Execute 1 jobs...
+[Wed May 21 02:35:26 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_117.json
+    output: raw_results/MULTI/HumanEval_117.json
+    jobid: 446
+    reason: Missing output files: raw_results/MULTI/HumanEval_117.json
+    wildcards: cfg=MULTI, tid=117
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:35:27 2025]
+Finished jobid: 453 (Rule: run_eval)
+22 of 329 steps (7%) done
+Execute 1 jobs...
+[Wed May 21 02:35:27 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_117.json
+    output: raw_results/SINGLE/HumanEval_117.json
+    jobid: 235
+    reason: Missing output files: raw_results/SINGLE/HumanEval_117.json
+    wildcards: cfg=SINGLE, tid=117
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:35:27 2025]
+Finished jobid: 219 (Rule: run_eval)
+23 of 329 steps (7%) done
+Execute 1 jobs...
+[Wed May 21 02:35:27 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_105.json
+    output: raw_results/MULTI/HumanEval_105.json
+    jobid: 434
+    reason: Missing output files: raw_results/MULTI/HumanEval_105.json
+    wildcards: cfg=MULTI, tid=105
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:35:33 2025]
+Finished jobid: 235 (Rule: run_eval)
+24 of 329 steps (7%) done
+Execute 1 jobs...
+[Wed May 21 02:35:33 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_105.json
+    output: raw_results/SINGLE/HumanEval_105.json
+    jobid: 211
+    reason: Missing output files: raw_results/SINGLE/HumanEval_105.json
+    wildcards: cfg=SINGLE, tid=105
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:35:34 2025]
+Finished jobid: 438 (Rule: run_eval)
+25 of 329 steps (8%) done
+Execute 1 jobs...
+[Wed May 21 02:35:34 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_133.json
+    output: raw_results/MULTI/HumanEval_133.json
+    jobid: 462
+    reason: Missing output files: raw_results/MULTI/HumanEval_133.json
+    wildcards: cfg=MULTI, tid=133
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:35:39 2025]
+Finished jobid: 211 (Rule: run_eval)
+26 of 329 steps (8%) done
+Execute 1 jobs...
+[Wed May 21 02:35:39 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_133.json
+    output: raw_results/SINGLE/HumanEval_133.json
+    jobid: 267
+    reason: Missing output files: raw_results/SINGLE/HumanEval_133.json
+    wildcards: cfg=SINGLE, tid=133
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:35:45 2025]
+Finished jobid: 267 (Rule: run_eval)
+27 of 329 steps (8%) done
+Execute 1 jobs...
+[Wed May 21 02:35:45 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_127.json
+    output: raw_results/MULTI/HumanEval_127.json
+    jobid: 456
+    reason: Missing output files: raw_results/MULTI/HumanEval_127.json
+    wildcards: cfg=MULTI, tid=127
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:35:55 2025]
+Finished jobid: 434 (Rule: run_eval)
+28 of 329 steps (9%) done
+Execute 1 jobs...
+[Wed May 21 02:35:55 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_127.json
+    output: raw_results/SINGLE/HumanEval_127.json
+    jobid: 255
+    reason: Missing output files: raw_results/SINGLE/HumanEval_127.json
+    wildcards: cfg=SINGLE, tid=127
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:35:59 2025]
+Finished jobid: 446 (Rule: run_eval)
+29 of 329 steps (9%) done
+Execute 1 jobs...
+[Wed May 21 02:35:59 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_078.json
+    output: raw_results/MULTI/HumanEval_078.json
+    jobid: 407
+    reason: Missing output files: raw_results/MULTI/HumanEval_078.json
+    wildcards: cfg=MULTI, tid=078
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:36:00 2025]
+Finished jobid: 255 (Rule: run_eval)
+30 of 329 steps (9%) done
+Execute 1 jobs...
+[Wed May 21 02:36:00 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_078.json
+    output: raw_results/SINGLE/HumanEval_078.json
+    jobid: 157
+    reason: Missing output files: raw_results/SINGLE/HumanEval_078.json
+    wildcards: cfg=SINGLE, tid=078
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:36:01 2025]
+Finished jobid: 462 (Rule: run_eval)
+31 of 329 steps (9%) done
+Execute 1 jobs...
+[Wed May 21 02:36:01 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_087.json
+    output: raw_results/MULTI/HumanEval_087.json
+    jobid: 416
+    reason: Missing output files: raw_results/MULTI/HumanEval_087.json
+    wildcards: cfg=MULTI, tid=087
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:36:04 2025]
+Finished jobid: 157 (Rule: run_eval)
+32 of 329 steps (10%) done
+Execute 1 jobs...
+[Wed May 21 02:36:04 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_087.json
+    output: raw_results/SINGLE/HumanEval_087.json
+    jobid: 175
+    reason: Missing output files: raw_results/SINGLE/HumanEval_087.json
+    wildcards: cfg=SINGLE, tid=087
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:36:09 2025]
+Finished jobid: 175 (Rule: run_eval)
+33 of 329 steps (10%) done
+Execute 1 jobs...
+[Wed May 21 02:36:09 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_111.json
+    output: raw_results/SINGLE/HumanEval_111.json
+    jobid: 223
+    reason: Missing output files: raw_results/SINGLE/HumanEval_111.json
+    wildcards: cfg=SINGLE, tid=111
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:36:13 2025]
+Finished jobid: 223 (Rule: run_eval)
+34 of 329 steps (10%) done
+Execute 1 jobs...
+[Wed May 21 02:36:13 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_111.json
+    output: raw_results/MULTI/HumanEval_111.json
+    jobid: 440
+    reason: Missing output files: raw_results/MULTI/HumanEval_111.json
+    wildcards: cfg=MULTI, tid=111
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:36:15 2025]
+Finished jobid: 456 (Rule: run_eval)
+35 of 329 steps (11%) done
+Execute 1 jobs...
+[Wed May 21 02:36:15 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_132.json
+    output: raw_results/MULTI/HumanEval_132.json
+    jobid: 461
+    reason: Missing output files: raw_results/MULTI/HumanEval_132.json
+    wildcards: cfg=MULTI, tid=132
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:36:23 2025]
+Finished jobid: 407 (Rule: run_eval)
+36 of 329 steps (11%) done
+Execute 1 jobs...
+[Wed May 21 02:36:23 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_132.json
+    output: raw_results/SINGLE/HumanEval_132.json
+    jobid: 265
+    reason: Missing output files: raw_results/SINGLE/HumanEval_132.json
+    wildcards: cfg=SINGLE, tid=132
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:36:27 2025]
+Finished jobid: 265 (Rule: run_eval)
+37 of 329 steps (11%) done
+Execute 1 jobs...
+[Wed May 21 02:36:27 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_115.json
+    output: raw_results/MULTI/HumanEval_115.json
+    jobid: 444
+    reason: Missing output files: raw_results/MULTI/HumanEval_115.json
+    wildcards: cfg=MULTI, tid=115
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:36:36 2025]
+Finished jobid: 416 (Rule: run_eval)
+38 of 329 steps (12%) done
+Execute 1 jobs...
+[Wed May 21 02:36:36 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_115.json
+    output: raw_results/SINGLE/HumanEval_115.json
+    jobid: 231
+    reason: Missing output files: raw_results/SINGLE/HumanEval_115.json
+    wildcards: cfg=SINGLE, tid=115
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:36:39 2025]
+Finished jobid: 440 (Rule: run_eval)
+39 of 329 steps (12%) done
+Execute 1 jobs...
+[Wed May 21 02:36:39 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_159.json
+    output: raw_results/MULTI/HumanEval_159.json
+    jobid: 488
+    reason: Missing output files: raw_results/MULTI/HumanEval_159.json
+    wildcards: cfg=MULTI, tid=159
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:36:40 2025]
+Finished jobid: 231 (Rule: run_eval)
+40 of 329 steps (12%) done
+Execute 1 jobs...
+[Wed May 21 02:36:40 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_159.json
+    output: raw_results/SINGLE/HumanEval_159.json
+    jobid: 319
+    reason: Missing output files: raw_results/SINGLE/HumanEval_159.json
+    wildcards: cfg=SINGLE, tid=159
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:36:42 2025]
+Finished jobid: 319 (Rule: run_eval)
+41 of 329 steps (12%) done
+Execute 1 jobs...
+[Wed May 21 02:36:42 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_092.json
+    output: raw_results/MULTI/HumanEval_092.json
+    jobid: 421
+    reason: Missing output files: raw_results/MULTI/HumanEval_092.json
+    wildcards: cfg=MULTI, tid=092
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:36:45 2025]
+Finished jobid: 461 (Rule: run_eval)
+42 of 329 steps (13%) done
+Execute 1 jobs...
+[Wed May 21 02:36:45 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_092.json
+    output: raw_results/SINGLE/HumanEval_092.json
+    jobid: 185
+    reason: Missing output files: raw_results/SINGLE/HumanEval_092.json
+    wildcards: cfg=SINGLE, tid=092
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:36:47 2025]
+Finished jobid: 185 (Rule: run_eval)
+43 of 329 steps (13%) done
+Execute 1 jobs...
+[Wed May 21 02:36:47 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_140.json
+    output: raw_results/SINGLE/HumanEval_140.json
+    jobid: 281
+    reason: Missing output files: raw_results/SINGLE/HumanEval_140.json
+    wildcards: cfg=SINGLE, tid=140
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:36:55 2025]
+Finished jobid: 281 (Rule: run_eval)
+44 of 329 steps (13%) done
+Execute 1 jobs...
+[Wed May 21 02:36:55 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_140.json
+    output: raw_results/MULTI/HumanEval_140.json
+    jobid: 469
+    reason: Missing output files: raw_results/MULTI/HumanEval_140.json
+    wildcards: cfg=MULTI, tid=140
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:36:56 2025]
+Finished jobid: 444 (Rule: run_eval)
+45 of 329 steps (14%) done
+Execute 1 jobs...
+[Wed May 21 02:36:56 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_119.json
+    output: raw_results/MULTI/HumanEval_119.json
+    jobid: 448
+    reason: Missing output files: raw_results/MULTI/HumanEval_119.json
+    wildcards: cfg=MULTI, tid=119
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:37:03 2025]
+Finished jobid: 488 (Rule: run_eval)
+46 of 329 steps (14%) done
+Execute 1 jobs...
+[Wed May 21 02:37:03 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_119.json
+    output: raw_results/SINGLE/HumanEval_119.json
+    jobid: 239
+    reason: Missing output files: raw_results/SINGLE/HumanEval_119.json
+    wildcards: cfg=SINGLE, tid=119
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:37:14 2025]
+Finished jobid: 239 (Rule: run_eval)
+47 of 329 steps (14%) done
+Execute 1 jobs...
+[Wed May 21 02:37:14 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_074.json
+    output: raw_results/MULTI/HumanEval_074.json
+    jobid: 403
+    reason: Missing output files: raw_results/MULTI/HumanEval_074.json
+    wildcards: cfg=MULTI, tid=074
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:37:14 2025]
+Finished jobid: 421 (Rule: run_eval)
+48 of 329 steps (15%) done
+Execute 1 jobs...
+[Wed May 21 02:37:14 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_074.json
+    output: raw_results/SINGLE/HumanEval_074.json
+    jobid: 149
+    reason: Missing output files: raw_results/SINGLE/HumanEval_074.json
+    wildcards: cfg=SINGLE, tid=074
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:37:19 2025]
+Finished jobid: 149 (Rule: run_eval)
+49 of 329 steps (15%) done
+Execute 1 jobs...
+[Wed May 21 02:37:19 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_130.json
+    output: raw_results/MULTI/HumanEval_130.json
+    jobid: 459
+    reason: Missing output files: raw_results/MULTI/HumanEval_130.json
+    wildcards: cfg=MULTI, tid=130
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:37:19 2025]
+Finished jobid: 469 (Rule: run_eval)
+50 of 329 steps (15%) done
+Execute 1 jobs...
+[Wed May 21 02:37:19 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_130.json
+    output: raw_results/SINGLE/HumanEval_130.json
+    jobid: 261
+    reason: Missing output files: raw_results/SINGLE/HumanEval_130.json
+    wildcards: cfg=SINGLE, tid=130
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:37:22 2025]
+Finished jobid: 261 (Rule: run_eval)
+51 of 329 steps (16%) done
+Execute 1 jobs...
+[Wed May 21 02:37:22 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_144.json
+    output: raw_results/MULTI/HumanEval_144.json
+    jobid: 473
+    reason: Missing output files: raw_results/MULTI/HumanEval_144.json
+    wildcards: cfg=MULTI, tid=144
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:37:34 2025]
+Finished jobid: 448 (Rule: run_eval)
+52 of 329 steps (16%) done
+Execute 1 jobs...
+[Wed May 21 02:37:34 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_144.json
+    output: raw_results/SINGLE/HumanEval_144.json
+    jobid: 289
+    reason: Missing output files: raw_results/SINGLE/HumanEval_144.json
+    wildcards: cfg=SINGLE, tid=144
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:37:37 2025]
+Finished jobid: 289 (Rule: run_eval)
+53 of 329 steps (16%) done
+Execute 1 jobs...
+[Wed May 21 02:37:37 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_076.json
+    output: raw_results/MULTI/HumanEval_076.json
+    jobid: 405
+    reason: Missing output files: raw_results/MULTI/HumanEval_076.json
+    wildcards: cfg=MULTI, tid=076
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:37:45 2025]
+Finished jobid: 403 (Rule: run_eval)
+54 of 329 steps (16%) done
+Execute 1 jobs...
+[Wed May 21 02:37:45 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_076.json
+    output: raw_results/SINGLE/HumanEval_076.json
+    jobid: 153
+    reason: Missing output files: raw_results/SINGLE/HumanEval_076.json
+    wildcards: cfg=SINGLE, tid=076
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:37:49 2025]
+Finished jobid: 153 (Rule: run_eval)
+55 of 329 steps (17%) done
+Execute 1 jobs...
+[Wed May 21 02:37:49 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_089.json
+    output: raw_results/MULTI/HumanEval_089.json
+    jobid: 418
+    reason: Missing output files: raw_results/MULTI/HumanEval_089.json
+    wildcards: cfg=MULTI, tid=089
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:37:58 2025]
+Finished jobid: 459 (Rule: run_eval)
+56 of 329 steps (17%) done
+Execute 1 jobs...
+[Wed May 21 02:37:58 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_089.json
+    output: raw_results/SINGLE/HumanEval_089.json
+    jobid: 179
+    reason: Missing output files: raw_results/SINGLE/HumanEval_089.json
+    wildcards: cfg=SINGLE, tid=089
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:37:58 2025]
+Finished jobid: 473 (Rule: run_eval)
+57 of 329 steps (17%) done
+Execute 1 jobs...
+[Wed May 21 02:37:58 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_107.json
+    output: raw_results/MULTI/HumanEval_107.json
+    jobid: 436
+    reason: Missing output files: raw_results/MULTI/HumanEval_107.json
+    wildcards: cfg=MULTI, tid=107
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:38:02 2025]
+Finished jobid: 179 (Rule: run_eval)
+58 of 329 steps (18%) done
+Execute 1 jobs...
+[Wed May 21 02:38:02 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_107.json
+    output: raw_results/SINGLE/HumanEval_107.json
+    jobid: 215
+    reason: Missing output files: raw_results/SINGLE/HumanEval_107.json
+    wildcards: cfg=SINGLE, tid=107
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:38:07 2025]
+Finished jobid: 215 (Rule: run_eval)
+59 of 329 steps (18%) done
+Execute 1 jobs...
+[Wed May 21 02:38:07 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_149.json
+    output: raw_results/MULTI/HumanEval_149.json
+    jobid: 478
+    reason: Missing output files: raw_results/MULTI/HumanEval_149.json
+    wildcards: cfg=MULTI, tid=149
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:38:11 2025]
+Finished jobid: 405 (Rule: run_eval)
+60 of 329 steps (18%) done
+Execute 1 jobs...
+[Wed May 21 02:38:11 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_149.json
+    output: raw_results/SINGLE/HumanEval_149.json
+    jobid: 299
+    reason: Missing output files: raw_results/SINGLE/HumanEval_149.json
+    wildcards: cfg=SINGLE, tid=149
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:38:14 2025]
+Finished jobid: 299 (Rule: run_eval)
+61 of 329 steps (19%) done
+Execute 1 jobs...
+[Wed May 21 02:38:14 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_113.json
+    output: raw_results/SINGLE/HumanEval_113.json
+    jobid: 227
+    reason: Missing output files: raw_results/SINGLE/HumanEval_113.json
+    wildcards: cfg=SINGLE, tid=113
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:38:20 2025]
+Finished jobid: 227 (Rule: run_eval)
+62 of 329 steps (19%) done
+Execute 1 jobs...
+[Wed May 21 02:38:20 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_113.json
+    output: raw_results/MULTI/HumanEval_113.json
+    jobid: 442
+    reason: Missing output files: raw_results/MULTI/HumanEval_113.json
+    wildcards: cfg=MULTI, tid=113
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:38:22 2025]
+Finished jobid: 418 (Rule: run_eval)
+63 of 329 steps (19%) done
+Execute 1 jobs...
+[Wed May 21 02:38:22 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_032.json
+    output: raw_results/MULTI/HumanEval_032.json
+    jobid: 361
+    reason: Missing output files: raw_results/MULTI/HumanEval_032.json
+    wildcards: cfg=MULTI, tid=032
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:38:23 2025]
+Finished jobid: 436 (Rule: run_eval)
+64 of 329 steps (19%) done
+Execute 1 jobs...
+[Wed May 21 02:38:23 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_032.json
+    output: raw_results/SINGLE/HumanEval_032.json
+    jobid: 65
+    reason: Missing output files: raw_results/SINGLE/HumanEval_032.json
+    wildcards: cfg=SINGLE, tid=032
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:38:30 2025]
+Finished jobid: 65 (Rule: run_eval)
+65 of 329 steps (20%) done
+Execute 1 jobs...
+[Wed May 21 02:38:30 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_118.json
+    output: raw_results/MULTI/HumanEval_118.json
+    jobid: 447
+    reason: Missing output files: raw_results/MULTI/HumanEval_118.json
+    wildcards: cfg=MULTI, tid=118
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:38:34 2025]
+Finished jobid: 478 (Rule: run_eval)
+66 of 329 steps (20%) done
+Execute 1 jobs...
+[Wed May 21 02:38:34 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_118.json
+    output: raw_results/SINGLE/HumanEval_118.json
+    jobid: 237
+    reason: Missing output files: raw_results/SINGLE/HumanEval_118.json
+    wildcards: cfg=SINGLE, tid=118
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:38:40 2025]
+Finished jobid: 237 (Rule: run_eval)
+67 of 329 steps (20%) done
+Execute 1 jobs...
+[Wed May 21 02:38:40 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_142.json
+    output: raw_results/MULTI/HumanEval_142.json
+    jobid: 471
+    reason: Missing output files: raw_results/MULTI/HumanEval_142.json
+    wildcards: cfg=MULTI, tid=142
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:38:58 2025]
+Finished jobid: 442 (Rule: run_eval)
+68 of 329 steps (21%) done
+Execute 1 jobs...
+[Wed May 21 02:38:58 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_142.json
+    output: raw_results/SINGLE/HumanEval_142.json
+    jobid: 285
+    reason: Missing output files: raw_results/SINGLE/HumanEval_142.json
+    wildcards: cfg=SINGLE, tid=142
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:39:01 2025]
+Finished jobid: 447 (Rule: run_eval)
+69 of 329 steps (21%) done
+Execute 1 jobs...
+[Wed May 21 02:39:01 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_123.json
+    output: raw_results/MULTI/HumanEval_123.json
+    jobid: 452
+    reason: Missing output files: raw_results/MULTI/HumanEval_123.json
+    wildcards: cfg=MULTI, tid=123
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:39:01 2025]
+Finished jobid: 285 (Rule: run_eval)
+70 of 329 steps (21%) done
+Execute 1 jobs...
+[Wed May 21 02:39:01 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_123.json
+    output: raw_results/SINGLE/HumanEval_123.json
+    jobid: 247
+    reason: Missing output files: raw_results/SINGLE/HumanEval_123.json
+    wildcards: cfg=SINGLE, tid=123
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:39:06 2025]
+Finished jobid: 247 (Rule: run_eval)
+71 of 329 steps (22%) done
+Execute 1 jobs...
+[Wed May 21 02:39:06 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_152.json
+    output: raw_results/MULTI/HumanEval_152.json
+    jobid: 481
+    reason: Missing output files: raw_results/MULTI/HumanEval_152.json
+    wildcards: cfg=MULTI, tid=152
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:39:06 2025]
+Finished jobid: 471 (Rule: run_eval)
+72 of 329 steps (22%) done
+Execute 1 jobs...
+[Wed May 21 02:39:06 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_152.json
+    output: raw_results/SINGLE/HumanEval_152.json
+    jobid: 305
+    reason: Missing output files: raw_results/SINGLE/HumanEval_152.json
+    wildcards: cfg=SINGLE, tid=152
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:39:08 2025]
+Finished jobid: 361 (Rule: run_eval)
+73 of 329 steps (22%) done
+Execute 1 jobs...
+[Wed May 21 02:39:08 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_143.json
+    output: raw_results/MULTI/HumanEval_143.json
+    jobid: 472
+    reason: Missing output files: raw_results/MULTI/HumanEval_143.json
+    wildcards: cfg=MULTI, tid=143
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:39:10 2025]
+Finished jobid: 305 (Rule: run_eval)
+74 of 329 steps (22%) done
+Execute 1 jobs...
+[Wed May 21 02:39:10 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_143.json
+    output: raw_results/SINGLE/HumanEval_143.json
+    jobid: 287
+    reason: Missing output files: raw_results/SINGLE/HumanEval_143.json
+    wildcards: cfg=SINGLE, tid=143
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:39:14 2025]
+Finished jobid: 287 (Rule: run_eval)
+75 of 329 steps (23%) done
+Execute 1 jobs...
+[Wed May 21 02:39:14 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_020.json
+    output: raw_results/MULTI/HumanEval_020.json
+    jobid: 349
+    reason: Missing output files: raw_results/MULTI/HumanEval_020.json
+    wildcards: cfg=MULTI, tid=020
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:39:23 2025]
+Finished jobid: 481 (Rule: run_eval)
+76 of 329 steps (23%) done
+Execute 1 jobs...
+[Wed May 21 02:39:23 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_020.json
+    output: raw_results/SINGLE/HumanEval_020.json
+    jobid: 41
+    reason: Missing output files: raw_results/SINGLE/HumanEval_020.json
+    wildcards: cfg=SINGLE, tid=020
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:39:28 2025]
+Finished jobid: 41 (Rule: run_eval)
+77 of 329 steps (23%) done
+Execute 1 jobs...
+[Wed May 21 02:39:28 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_120.json
+    output: raw_results/MULTI/HumanEval_120.json
+    jobid: 449
+    reason: Missing output files: raw_results/MULTI/HumanEval_120.json
+    wildcards: cfg=MULTI, tid=120
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:39:32 2025]
+Finished jobid: 452 (Rule: run_eval)
+78 of 329 steps (24%) done
+Execute 1 jobs...
+[Wed May 21 02:39:32 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_120.json
+    output: raw_results/SINGLE/HumanEval_120.json
+    jobid: 241
+    reason: Missing output files: raw_results/SINGLE/HumanEval_120.json
+    wildcards: cfg=SINGLE, tid=120
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:39:33 2025]
+Finished jobid: 472 (Rule: run_eval)
+79 of 329 steps (24%) done
+Execute 1 jobs...
+[Wed May 21 02:39:33 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_101.json
+    output: raw_results/MULTI/HumanEval_101.json
+    jobid: 430
+    reason: Missing output files: raw_results/MULTI/HumanEval_101.json
+    wildcards: cfg=MULTI, tid=101
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:39:34 2025]
+Finished jobid: 241 (Rule: run_eval)
+80 of 329 steps (24%) done
+Execute 1 jobs...
+[Wed May 21 02:39:34 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_101.json
+    output: raw_results/SINGLE/HumanEval_101.json
+    jobid: 203
+    reason: Missing output files: raw_results/SINGLE/HumanEval_101.json
+    wildcards: cfg=SINGLE, tid=101
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:39:36 2025]
+Finished jobid: 203 (Rule: run_eval)
+81 of 329 steps (25%) done
+Execute 1 jobs...
+[Wed May 21 02:39:36 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_151.json
+    output: raw_results/MULTI/HumanEval_151.json
+    jobid: 480
+    reason: Missing output files: raw_results/MULTI/HumanEval_151.json
+    wildcards: cfg=MULTI, tid=151
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:39:45 2025]
+Finished jobid: 349 (Rule: run_eval)
+82 of 329 steps (25%) done
+Execute 1 jobs...
+[Wed May 21 02:39:45 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_151.json
+    output: raw_results/SINGLE/HumanEval_151.json
+    jobid: 303
+    reason: Missing output files: raw_results/SINGLE/HumanEval_151.json
+    wildcards: cfg=SINGLE, tid=151
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:39:48 2025]
+Finished jobid: 303 (Rule: run_eval)
+83 of 329 steps (25%) done
+Execute 1 jobs...
+[Wed May 21 02:39:48 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_110.json
+    output: raw_results/MULTI/HumanEval_110.json
+    jobid: 439
+    reason: Missing output files: raw_results/MULTI/HumanEval_110.json
+    wildcards: cfg=MULTI, tid=110
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:39:52 2025]
+Finished jobid: 449 (Rule: run_eval)
+84 of 329 steps (26%) done
+Execute 1 jobs...
+[Wed May 21 02:39:52 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_110.json
+    output: raw_results/SINGLE/HumanEval_110.json
+    jobid: 221
+    reason: Missing output files: raw_results/SINGLE/HumanEval_110.json
+    wildcards: cfg=SINGLE, tid=110
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:39:56 2025]
+Finished jobid: 221 (Rule: run_eval)
+85 of 329 steps (26%) done
+Execute 1 jobs...
+[Wed May 21 02:39:56 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_158.json
+    output: raw_results/MULTI/HumanEval_158.json
+    jobid: 487
+    reason: Missing output files: raw_results/MULTI/HumanEval_158.json
+    wildcards: cfg=MULTI, tid=158
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:39:57 2025]
+Finished jobid: 430 (Rule: run_eval)
+86 of 329 steps (26%) done
+Execute 1 jobs...
+[Wed May 21 02:39:57 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_158.json
+    output: raw_results/SINGLE/HumanEval_158.json
+    jobid: 317
+    reason: Missing output files: raw_results/SINGLE/HumanEval_158.json
+    wildcards: cfg=SINGLE, tid=158
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:40:01 2025]
+Finished jobid: 317 (Rule: run_eval)
+87 of 329 steps (26%) done
+Execute 1 jobs...
+[Wed May 21 02:40:01 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_160.json
+    output: raw_results/MULTI/HumanEval_160.json
+    jobid: 489
+    reason: Missing output files: raw_results/MULTI/HumanEval_160.json
+    wildcards: cfg=MULTI, tid=160
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:40:03 2025]
+Finished jobid: 480 (Rule: run_eval)
+88 of 329 steps (27%) done
+Execute 1 jobs...
+[Wed May 21 02:40:03 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_160.json
+    output: raw_results/SINGLE/HumanEval_160.json
+    jobid: 321
+    reason: Missing output files: raw_results/SINGLE/HumanEval_160.json
+    wildcards: cfg=SINGLE, tid=160
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:40:08 2025]
+Finished jobid: 321 (Rule: run_eval)
+89 of 329 steps (27%) done
+Execute 1 jobs...
+[Wed May 21 02:40:08 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_099.json
+    output: raw_results/MULTI/HumanEval_099.json
+    jobid: 428
+    reason: Missing output files: raw_results/MULTI/HumanEval_099.json
+    wildcards: cfg=MULTI, tid=099
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:40:17 2025]
+Finished jobid: 439 (Rule: run_eval)
+90 of 329 steps (27%) done
+Execute 1 jobs...
+[Wed May 21 02:40:17 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_099.json
+    output: raw_results/SINGLE/HumanEval_099.json
+    jobid: 199
+    reason: Missing output files: raw_results/SINGLE/HumanEval_099.json
+    wildcards: cfg=SINGLE, tid=099
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:40:21 2025]
+Finished jobid: 199 (Rule: run_eval)
+91 of 329 steps (28%) done
+Execute 1 jobs...
+[Wed May 21 02:40:21 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_088.json
+    output: raw_results/MULTI/HumanEval_088.json
+    jobid: 417
+    reason: Missing output files: raw_results/MULTI/HumanEval_088.json
+    wildcards: cfg=MULTI, tid=088
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:40:29 2025]
+Finished jobid: 489 (Rule: run_eval)
+92 of 329 steps (28%) done
+Execute 1 jobs...
+[Wed May 21 02:40:29 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_088.json
+    output: raw_results/SINGLE/HumanEval_088.json
+    jobid: 177
+    reason: Missing output files: raw_results/SINGLE/HumanEval_088.json
+    wildcards: cfg=SINGLE, tid=088
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:40:32 2025]
+Finished jobid: 177 (Rule: run_eval)
+93 of 329 steps (28%) done
+Execute 1 jobs...
+[Wed May 21 02:40:32 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_001.json
+    output: raw_results/SINGLE/HumanEval_001.json
+    jobid: 3
+    reason: Missing output files: raw_results/SINGLE/HumanEval_001.json
+    wildcards: cfg=SINGLE, tid=001
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:40:40 2025]
+Finished jobid: 3 (Rule: run_eval)
+94 of 329 steps (29%) done
+Execute 1 jobs...
+[Wed May 21 02:40:40 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_001.json
+    output: raw_results/MULTI/HumanEval_001.json
+    jobid: 330
+    reason: Missing output files: raw_results/MULTI/HumanEval_001.json
+    wildcards: cfg=MULTI, tid=001
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:40:40 2025]
+Finished jobid: 487 (Rule: run_eval)
+95 of 329 steps (29%) done
+Execute 1 jobs...
+[Wed May 21 02:40:40 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_156.json
+    output: raw_results/MULTI/HumanEval_156.json
+    jobid: 485
+    reason: Missing output files: raw_results/MULTI/HumanEval_156.json
+    wildcards: cfg=MULTI, tid=156
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:40:41 2025]
+Finished jobid: 428 (Rule: run_eval)
+96 of 329 steps (29%) done
+Execute 1 jobs...
+[Wed May 21 02:40:41 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_156.json
+    output: raw_results/SINGLE/HumanEval_156.json
+    jobid: 313
+    reason: Missing output files: raw_results/SINGLE/HumanEval_156.json
+    wildcards: cfg=SINGLE, tid=156
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:40:42 2025]
+Finished jobid: 417 (Rule: run_eval)
+97 of 329 steps (29%) done
+Execute 1 jobs...
+[Wed May 21 02:40:42 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_136.json
+    output: raw_results/MULTI/HumanEval_136.json
+    jobid: 465
+    reason: Missing output files: raw_results/MULTI/HumanEval_136.json
+    wildcards: cfg=MULTI, tid=136
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:40:46 2025]
+Finished jobid: 313 (Rule: run_eval)
+98 of 329 steps (30%) done
+Execute 1 jobs...
+[Wed May 21 02:40:46 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_136.json
+    output: raw_results/SINGLE/HumanEval_136.json
+    jobid: 273
+    reason: Missing output files: raw_results/SINGLE/HumanEval_136.json
+    wildcards: cfg=SINGLE, tid=136
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:40:51 2025]
+Finished jobid: 273 (Rule: run_eval)
+99 of 329 steps (30%) done
+Execute 1 jobs...
+[Wed May 21 02:40:51 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_067.json
+    output: raw_results/MULTI/HumanEval_067.json
+    jobid: 396
+    reason: Missing output files: raw_results/MULTI/HumanEval_067.json
+    wildcards: cfg=MULTI, tid=067
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:41:11 2025]
+Finished jobid: 465 (Rule: run_eval)
+100 of 329 steps (30%) done
+Execute 1 jobs...
+[Wed May 21 02:41:11 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_067.json
+    output: raw_results/SINGLE/HumanEval_067.json
+    jobid: 135
+    reason: Missing output files: raw_results/SINGLE/HumanEval_067.json
+    wildcards: cfg=SINGLE, tid=067
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:41:15 2025]
+Finished jobid: 135 (Rule: run_eval)
+101 of 329 steps (31%) done
+Execute 1 jobs...
+[Wed May 21 02:41:15 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_093.json
+    output: raw_results/MULTI/HumanEval_093.json
+    jobid: 422
+    reason: Missing output files: raw_results/MULTI/HumanEval_093.json
+    wildcards: cfg=MULTI, tid=093
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:41:15 2025]
+Finished jobid: 330 (Rule: run_eval)
+102 of 329 steps (31%) done
+Execute 1 jobs...
+[Wed May 21 02:41:15 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_093.json
+    output: raw_results/SINGLE/HumanEval_093.json
+    jobid: 187
+    reason: Missing output files: raw_results/SINGLE/HumanEval_093.json
+    wildcards: cfg=SINGLE, tid=093
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:41:21 2025]
+Finished jobid: 187 (Rule: run_eval)
+103 of 329 steps (31%) done
+Execute 1 jobs...
+[Wed May 21 02:41:21 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_154.json
+    output: raw_results/MULTI/HumanEval_154.json
+    jobid: 483
+    reason: Missing output files: raw_results/MULTI/HumanEval_154.json
+    wildcards: cfg=MULTI, tid=154
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:41:25 2025]
+Finished jobid: 396 (Rule: run_eval)
+104 of 329 steps (32%) done
+Execute 1 jobs...
+[Wed May 21 02:41:25 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_154.json
+    output: raw_results/SINGLE/HumanEval_154.json
+    jobid: 309
+    reason: Missing output files: raw_results/SINGLE/HumanEval_154.json
+    wildcards: cfg=SINGLE, tid=154
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:41:30 2025]
+Finished jobid: 309 (Rule: run_eval)
+105 of 329 steps (32%) done
+Execute 1 jobs...
+[Wed May 21 02:41:30 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_145.json
+    output: raw_results/MULTI/HumanEval_145.json
+    jobid: 474
+    reason: Missing output files: raw_results/MULTI/HumanEval_145.json
+    wildcards: cfg=MULTI, tid=145
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:41:30 2025]
+Finished jobid: 485 (Rule: run_eval)
+106 of 329 steps (32%) done
+Execute 1 jobs...
+[Wed May 21 02:41:30 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_145.json
+    output: raw_results/SINGLE/HumanEval_145.json
+    jobid: 291
+    reason: Missing output files: raw_results/SINGLE/HumanEval_145.json
+    wildcards: cfg=SINGLE, tid=145
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:41:34 2025]
+Finished jobid: 291 (Rule: run_eval)
+107 of 329 steps (33%) done
+Execute 1 jobs...
+[Wed May 21 02:41:34 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_114.json
+    output: raw_results/SINGLE/HumanEval_114.json
+    jobid: 229
+    reason: Missing output files: raw_results/SINGLE/HumanEval_114.json
+    wildcards: cfg=SINGLE, tid=114
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:41:38 2025]
+Finished jobid: 229 (Rule: run_eval)
+108 of 329 steps (33%) done
+Execute 1 jobs...
+[Wed May 21 02:41:38 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_114.json
+    output: raw_results/MULTI/HumanEval_114.json
+    jobid: 443
+    reason: Missing output files: raw_results/MULTI/HumanEval_114.json
+    wildcards: cfg=MULTI, tid=114
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:41:46 2025]
+Finished jobid: 422 (Rule: run_eval)
+109 of 329 steps (33%) done
+Execute 1 jobs...
+[Wed May 21 02:41:46 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_072.json
+    output: raw_results/MULTI/HumanEval_072.json
+    jobid: 401
+    reason: Missing output files: raw_results/MULTI/HumanEval_072.json
+    wildcards: cfg=MULTI, tid=072
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:42:01 2025]
+Finished jobid: 474 (Rule: run_eval)
+110 of 329 steps (33%) done
+Execute 1 jobs...
+[Wed May 21 02:42:01 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_072.json
+    output: raw_results/SINGLE/HumanEval_072.json
+    jobid: 145
+    reason: Missing output files: raw_results/SINGLE/HumanEval_072.json
+    wildcards: cfg=SINGLE, tid=072
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:42:02 2025]
+Finished jobid: 483 (Rule: run_eval)
+111 of 329 steps (34%) done
+Execute 1 jobs...
+[Wed May 21 02:42:02 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_116.json
+    output: raw_results/MULTI/HumanEval_116.json
+    jobid: 445
+    reason: Missing output files: raw_results/MULTI/HumanEval_116.json
+    wildcards: cfg=MULTI, tid=116
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:42:04 2025]
+Finished jobid: 145 (Rule: run_eval)
+112 of 329 steps (34%) done
+Execute 1 jobs...
+[Wed May 21 02:42:04 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_116.json
+    output: raw_results/SINGLE/HumanEval_116.json
+    jobid: 233
+    reason: Missing output files: raw_results/SINGLE/HumanEval_116.json
+    wildcards: cfg=SINGLE, tid=116
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:42:06 2025]
+Finished jobid: 443 (Rule: run_eval)
+113 of 329 steps (34%) done
+Execute 1 jobs...
+[Wed May 21 02:42:06 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_103.json
+    output: raw_results/MULTI/HumanEval_103.json
+    jobid: 432
+    reason: Missing output files: raw_results/MULTI/HumanEval_103.json
+    wildcards: cfg=MULTI, tid=103
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:42:11 2025]
+Finished jobid: 233 (Rule: run_eval)
+114 of 329 steps (35%) done
+Execute 1 jobs...
+[Wed May 21 02:42:11 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_103.json
+    output: raw_results/SINGLE/HumanEval_103.json
+    jobid: 207
+    reason: Missing output files: raw_results/SINGLE/HumanEval_103.json
+    wildcards: cfg=SINGLE, tid=103
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:42:16 2025]
+Finished jobid: 207 (Rule: run_eval)
+115 of 329 steps (35%) done
+Execute 1 jobs...
+[Wed May 21 02:42:16 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_134.json
+    output: raw_results/MULTI/HumanEval_134.json
+    jobid: 463
+    reason: Missing output files: raw_results/MULTI/HumanEval_134.json
+    wildcards: cfg=MULTI, tid=134
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:42:21 2025]
+Finished jobid: 401 (Rule: run_eval)
+116 of 329 steps (35%) done
+Execute 1 jobs...
+[Wed May 21 02:42:21 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_134.json
+    output: raw_results/SINGLE/HumanEval_134.json
+    jobid: 269
+    reason: Missing output files: raw_results/SINGLE/HumanEval_134.json
+    wildcards: cfg=SINGLE, tid=134
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:42:26 2025]
+Finished jobid: 269 (Rule: run_eval)
+117 of 329 steps (36%) done
+Execute 1 jobs...
+[Wed May 21 02:42:26 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_112.json
+    output: raw_results/SINGLE/HumanEval_112.json
+    jobid: 225
+    reason: Missing output files: raw_results/SINGLE/HumanEval_112.json
+    wildcards: cfg=SINGLE, tid=112
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:42:30 2025]
+Finished jobid: 225 (Rule: run_eval)
+118 of 329 steps (36%) done
+Execute 1 jobs...
+[Wed May 21 02:42:30 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_112.json
+    output: raw_results/MULTI/HumanEval_112.json
+    jobid: 441
+    reason: Missing output files: raw_results/MULTI/HumanEval_112.json
+    wildcards: cfg=MULTI, tid=112
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:42:34 2025]
+Finished jobid: 432 (Rule: run_eval)
+119 of 329 steps (36%) done
+Execute 1 jobs...
+[Wed May 21 02:42:34 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_097.json
+    output: raw_results/MULTI/HumanEval_097.json
+    jobid: 426
+    reason: Missing output files: raw_results/MULTI/HumanEval_097.json
+    wildcards: cfg=MULTI, tid=097
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:42:43 2025]
+Finished jobid: 445 (Rule: run_eval)
+120 of 329 steps (36%) done
+Execute 1 jobs...
+[Wed May 21 02:42:43 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_097.json
+    output: raw_results/SINGLE/HumanEval_097.json
+    jobid: 195
+    reason: Missing output files: raw_results/SINGLE/HumanEval_097.json
+    wildcards: cfg=SINGLE, tid=097
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:42:46 2025]
+Finished jobid: 195 (Rule: run_eval)
+121 of 329 steps (37%) done
+Execute 1 jobs...
+[Wed May 21 02:42:46 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_082.json
+    output: raw_results/SINGLE/HumanEval_082.json
+    jobid: 165
+    reason: Missing output files: raw_results/SINGLE/HumanEval_082.json
+    wildcards: cfg=SINGLE, tid=082
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:42:47 2025]
+Finished jobid: 463 (Rule: run_eval)
+122 of 329 steps (37%) done
+Execute 1 jobs...
+[Wed May 21 02:42:47 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_082.json
+    output: raw_results/MULTI/HumanEval_082.json
+    jobid: 411
+    reason: Missing output files: raw_results/MULTI/HumanEval_082.json
+    wildcards: cfg=MULTI, tid=082
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:42:49 2025]
+Finished jobid: 165 (Rule: run_eval)
+123 of 329 steps (37%) done
+Execute 1 jobs...
+[Wed May 21 02:42:49 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_137.json
+    output: raw_results/MULTI/HumanEval_137.json
+    jobid: 466
+    reason: Missing output files: raw_results/MULTI/HumanEval_137.json
+    wildcards: cfg=MULTI, tid=137
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:42:54 2025]
+Finished jobid: 441 (Rule: run_eval)
+124 of 329 steps (38%) done
+Execute 1 jobs...
+[Wed May 21 02:42:54 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_137.json
+    output: raw_results/SINGLE/HumanEval_137.json
+    jobid: 275
+    reason: Missing output files: raw_results/SINGLE/HumanEval_137.json
+    wildcards: cfg=SINGLE, tid=137
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:42:59 2025]
+Finished jobid: 275 (Rule: run_eval)
+125 of 329 steps (38%) done
+Execute 1 jobs...
+[Wed May 21 02:42:59 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_071.json
+    output: raw_results/MULTI/HumanEval_071.json
+    jobid: 400
+    reason: Missing output files: raw_results/MULTI/HumanEval_071.json
+    wildcards: cfg=MULTI, tid=071
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:43:01 2025]
+Finished jobid: 426 (Rule: run_eval)
+126 of 329 steps (38%) done
+Execute 1 jobs...
+[Wed May 21 02:43:02 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_071.json
+    output: raw_results/SINGLE/HumanEval_071.json
+    jobid: 143
+    reason: Missing output files: raw_results/SINGLE/HumanEval_071.json
+    wildcards: cfg=SINGLE, tid=071
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:43:05 2025]
+Finished jobid: 143 (Rule: run_eval)
+127 of 329 steps (39%) done
+Execute 1 jobs...
+[Wed May 21 02:43:05 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_033.json
+    output: raw_results/MULTI/HumanEval_033.json
+    jobid: 362
+    reason: Missing output files: raw_results/MULTI/HumanEval_033.json
+    wildcards: cfg=MULTI, tid=033
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:43:13 2025]
+Finished jobid: 411 (Rule: run_eval)
+128 of 329 steps (39%) done
+Execute 1 jobs...
+[Wed May 21 02:43:13 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_033.json
+    output: raw_results/SINGLE/HumanEval_033.json
+    jobid: 67
+    reason: Missing output files: raw_results/SINGLE/HumanEval_033.json
+    wildcards: cfg=SINGLE, tid=033
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:43:18 2025]
+Finished jobid: 67 (Rule: run_eval)
+129 of 329 steps (39%) done
+Execute 1 jobs...
+[Wed May 21 02:43:18 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_070.json
+    output: raw_results/MULTI/HumanEval_070.json
+    jobid: 399
+    reason: Missing output files: raw_results/MULTI/HumanEval_070.json
+    wildcards: cfg=MULTI, tid=070
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:43:36 2025]
+Finished jobid: 400 (Rule: run_eval)
+130 of 329 steps (40%) done
+Execute 1 jobs...
+[Wed May 21 02:43:36 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_070.json
+    output: raw_results/SINGLE/HumanEval_070.json
+    jobid: 141
+    reason: Missing output files: raw_results/SINGLE/HumanEval_070.json
+    wildcards: cfg=SINGLE, tid=070
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:43:39 2025]
+Finished jobid: 466 (Rule: run_eval)
+131 of 329 steps (40%) done
+Execute 1 jobs...
+[Wed May 21 02:43:39 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_108.json
+    output: raw_results/MULTI/HumanEval_108.json
+    jobid: 437
+    reason: Missing output files: raw_results/MULTI/HumanEval_108.json
+    wildcards: cfg=MULTI, tid=108
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:43:41 2025]
+Finished jobid: 141 (Rule: run_eval)
+132 of 329 steps (40%) done
+Execute 1 jobs...
+[Wed May 21 02:43:41 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_108.json
+    output: raw_results/SINGLE/HumanEval_108.json
+    jobid: 217
+    reason: Missing output files: raw_results/SINGLE/HumanEval_108.json
+    wildcards: cfg=SINGLE, tid=108
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:43:43 2025]
+Finished jobid: 362 (Rule: run_eval)
+133 of 329 steps (40%) done
+Execute 1 jobs...
+[Wed May 21 02:43:43 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_096.json
+    output: raw_results/MULTI/HumanEval_096.json
+    jobid: 425
+    reason: Missing output files: raw_results/MULTI/HumanEval_096.json
+    wildcards: cfg=MULTI, tid=096
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:43:45 2025]
+Finished jobid: 399 (Rule: run_eval)
+134 of 329 steps (41%) done
+Execute 1 jobs...
+[Wed May 21 02:43:45 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_096.json
+    output: raw_results/SINGLE/HumanEval_096.json
+    jobid: 193
+    reason: Missing output files: raw_results/SINGLE/HumanEval_096.json
+    wildcards: cfg=SINGLE, tid=096
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:43:46 2025]
+Finished jobid: 217 (Rule: run_eval)
+135 of 329 steps (41%) done
+Execute 1 jobs...
+[Wed May 21 02:43:46 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_077.json
+    output: raw_results/MULTI/HumanEval_077.json
+    jobid: 406
+    reason: Missing output files: raw_results/MULTI/HumanEval_077.json
+    wildcards: cfg=MULTI, tid=077
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:43:49 2025]
+Finished jobid: 193 (Rule: run_eval)
+136 of 329 steps (41%) done
+Execute 1 jobs...
+[Wed May 21 02:43:49 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_077.json
+    output: raw_results/SINGLE/HumanEval_077.json
+    jobid: 155
+    reason: Missing output files: raw_results/SINGLE/HumanEval_077.json
+    wildcards: cfg=SINGLE, tid=077
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:43:52 2025]
+Finished jobid: 155 (Rule: run_eval)
+137 of 329 steps (42%) done
+Execute 1 jobs...
+[Wed May 21 02:43:52 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_066.json
+    output: raw_results/MULTI/HumanEval_066.json
+    jobid: 395
+    reason: Missing output files: raw_results/MULTI/HumanEval_066.json
+    wildcards: cfg=MULTI, tid=066
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:44:07 2025]
+Finished jobid: 437 (Rule: run_eval)
+138 of 329 steps (42%) done
+Execute 1 jobs...
+[Wed May 21 02:44:07 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_066.json
+    output: raw_results/SINGLE/HumanEval_066.json
+    jobid: 133
+    reason: Missing output files: raw_results/SINGLE/HumanEval_066.json
+    wildcards: cfg=SINGLE, tid=066
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:44:10 2025]
+Finished jobid: 133 (Rule: run_eval)
+139 of 329 steps (42%) done
+Execute 1 jobs...
+[Wed May 21 02:44:10 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_161.json
+    output: raw_results/MULTI/HumanEval_161.json
+    jobid: 490
+    reason: Missing output files: raw_results/MULTI/HumanEval_161.json
+    wildcards: cfg=MULTI, tid=161
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:44:19 2025]
+Finished jobid: 406 (Rule: run_eval)
+140 of 329 steps (43%) done
+Execute 1 jobs...
+[Wed May 21 02:44:19 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_161.json
+    output: raw_results/SINGLE/HumanEval_161.json
+    jobid: 323
+    reason: Missing output files: raw_results/SINGLE/HumanEval_161.json
+    wildcards: cfg=SINGLE, tid=161
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:44:22 2025]
+Finished jobid: 425 (Rule: run_eval)
+141 of 329 steps (43%) done
+Execute 1 jobs...
+[Wed May 21 02:44:22 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_128.json
+    output: raw_results/MULTI/HumanEval_128.json
+    jobid: 457
+    reason: Missing output files: raw_results/MULTI/HumanEval_128.json
+    wildcards: cfg=MULTI, tid=128
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:44:23 2025]
+Finished jobid: 395 (Rule: run_eval)
+142 of 329 steps (43%) done
+Execute 1 jobs...
+[Wed May 21 02:44:23 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_128.json
+    output: raw_results/SINGLE/HumanEval_128.json
+    jobid: 257
+    reason: Missing output files: raw_results/SINGLE/HumanEval_128.json
+    wildcards: cfg=SINGLE, tid=128
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:44:23 2025]
+Finished jobid: 323 (Rule: run_eval)
+143 of 329 steps (43%) done
+Execute 1 jobs...
+[Wed May 21 02:44:23 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_025.json
+    output: raw_results/MULTI/HumanEval_025.json
+    jobid: 354
+    reason: Missing output files: raw_results/MULTI/HumanEval_025.json
+    wildcards: cfg=MULTI, tid=025
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:44:38 2025]
+Finished jobid: 257 (Rule: run_eval)
+144 of 329 steps (44%) done
+Execute 1 jobs...
+[Wed May 21 02:44:38 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_025.json
+    output: raw_results/SINGLE/HumanEval_025.json
+    jobid: 51
+    reason: Missing output files: raw_results/SINGLE/HumanEval_025.json
+    wildcards: cfg=SINGLE, tid=025
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:44:40 2025]
+Finished jobid: 490 (Rule: run_eval)
+145 of 329 steps (44%) done
+Execute 1 jobs...
+[Wed May 21 02:44:40 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_040.json
+    output: raw_results/MULTI/HumanEval_040.json
+    jobid: 369
+    reason: Missing output files: raw_results/MULTI/HumanEval_040.json
+    wildcards: cfg=MULTI, tid=040
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:44:42 2025]
+Finished jobid: 51 (Rule: run_eval)
+146 of 329 steps (44%) done
+Execute 1 jobs...
+[Wed May 21 02:44:42 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_040.json
+    output: raw_results/SINGLE/HumanEval_040.json
+    jobid: 81
+    reason: Missing output files: raw_results/SINGLE/HumanEval_040.json
+    wildcards: cfg=SINGLE, tid=040
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:44:46 2025]
+Finished jobid: 81 (Rule: run_eval)
+147 of 329 steps (45%) done
+Execute 1 jobs...
+[Wed May 21 02:44:46 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_125.json
+    output: raw_results/MULTI/HumanEval_125.json
+    jobid: 454
+    reason: Missing output files: raw_results/MULTI/HumanEval_125.json
+    wildcards: cfg=MULTI, tid=125
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:44:54 2025]
+Finished jobid: 354 (Rule: run_eval)
+148 of 329 steps (45%) done
+Execute 1 jobs...
+[Wed May 21 02:44:54 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_125.json
+    output: raw_results/SINGLE/HumanEval_125.json
+    jobid: 251
+    reason: Missing output files: raw_results/SINGLE/HumanEval_125.json
+    wildcards: cfg=SINGLE, tid=125
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:44:59 2025]
+Finished jobid: 251 (Rule: run_eval)
+149 of 329 steps (45%) done
+Execute 1 jobs...
+[Wed May 21 02:44:59 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_000.json
+    output: raw_results/SINGLE/HumanEval_000.json
+    jobid: 1
+    reason: Missing output files: raw_results/SINGLE/HumanEval_000.json
+    wildcards: cfg=SINGLE, tid=000
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:45:02 2025]
+Finished jobid: 1 (Rule: run_eval)
+150 of 329 steps (46%) done
+[Wed May 21 02:45:02 2025]
+Finished jobid: 457 (Rule: run_eval)
+151 of 329 steps (46%) done
+Execute 2 jobs...
+[Wed May 21 02:45:02 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_000.json
+    output: raw_results/MULTI/HumanEval_000.json
+    jobid: 329
+    reason: Missing output files: raw_results/MULTI/HumanEval_000.json
+    wildcards: cfg=MULTI, tid=000
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 02:45:02 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_157.json
+    output: raw_results/MULTI/HumanEval_157.json
+    jobid: 486
+    reason: Missing output files: raw_results/MULTI/HumanEval_157.json
+    wildcards: cfg=MULTI, tid=157
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:45:16 2025]
+Finished jobid: 454 (Rule: run_eval)
+152 of 329 steps (46%) done
+Execute 1 jobs...
+[Wed May 21 02:45:16 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_157.json
+    output: raw_results/SINGLE/HumanEval_157.json
+    jobid: 315
+    reason: Missing output files: raw_results/SINGLE/HumanEval_157.json
+    wildcards: cfg=SINGLE, tid=157
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:45:19 2025]
+Finished jobid: 369 (Rule: run_eval)
+153 of 329 steps (47%) done
+Execute 1 jobs...
+[Wed May 21 02:45:19 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_064.json
+    output: raw_results/MULTI/HumanEval_064.json
+    jobid: 393
+    reason: Missing output files: raw_results/MULTI/HumanEval_064.json
+    wildcards: cfg=MULTI, tid=064
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:45:19 2025]
+Finished jobid: 315 (Rule: run_eval)
+154 of 329 steps (47%) done
+Execute 1 jobs...
+[Wed May 21 02:45:19 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_064.json
+    output: raw_results/SINGLE/HumanEval_064.json
+    jobid: 129
+    reason: Missing output files: raw_results/SINGLE/HumanEval_064.json
+    wildcards: cfg=SINGLE, tid=064
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:45:25 2025]
+Finished jobid: 129 (Rule: run_eval)
+155 of 329 steps (47%) done
+Execute 1 jobs...
+[Wed May 21 02:45:25 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_146.json
+    output: raw_results/MULTI/HumanEval_146.json
+    jobid: 475
+    reason: Missing output files: raw_results/MULTI/HumanEval_146.json
+    wildcards: cfg=MULTI, tid=146
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:45:28 2025]
+Finished jobid: 486 (Rule: run_eval)
+156 of 329 steps (47%) done
+Execute 1 jobs...
+[Wed May 21 02:45:28 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_146.json
+    output: raw_results/SINGLE/HumanEval_146.json
+    jobid: 293
+    reason: Missing output files: raw_results/SINGLE/HumanEval_146.json
+    wildcards: cfg=SINGLE, tid=146
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:45:31 2025]
+Finished jobid: 329 (Rule: run_eval)
+157 of 329 steps (48%) done
+Execute 1 jobs...
+[Wed May 21 02:45:31 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_086.json
+    output: raw_results/MULTI/HumanEval_086.json
+    jobid: 415
+    reason: Missing output files: raw_results/MULTI/HumanEval_086.json
+    wildcards: cfg=MULTI, tid=086
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:45:34 2025]
+Finished jobid: 293 (Rule: run_eval)
+158 of 329 steps (48%) done
+Execute 1 jobs...
+[Wed May 21 02:45:34 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_086.json
+    output: raw_results/SINGLE/HumanEval_086.json
+    jobid: 173
+    reason: Missing output files: raw_results/SINGLE/HumanEval_086.json
+    wildcards: cfg=SINGLE, tid=086
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:45:37 2025]
+Finished jobid: 173 (Rule: run_eval)
+159 of 329 steps (48%) done
+Execute 1 jobs...
+[Wed May 21 02:45:37 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_019.json
+    output: raw_results/MULTI/HumanEval_019.json
+    jobid: 348
+    reason: Missing output files: raw_results/MULTI/HumanEval_019.json
+    wildcards: cfg=MULTI, tid=019
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:45:55 2025]
+Finished jobid: 393 (Rule: run_eval)
+160 of 329 steps (49%) done
+Execute 1 jobs...
+[Wed May 21 02:45:55 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_019.json
+    output: raw_results/SINGLE/HumanEval_019.json
+    jobid: 39
+    reason: Missing output files: raw_results/SINGLE/HumanEval_019.json
+    wildcards: cfg=SINGLE, tid=019
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:45:55 2025]
+Finished jobid: 475 (Rule: run_eval)
+161 of 329 steps (49%) done
+Execute 1 jobs...
+[Wed May 21 02:45:55 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_043.json
+    output: raw_results/MULTI/HumanEval_043.json
+    jobid: 372
+    reason: Missing output files: raw_results/MULTI/HumanEval_043.json
+    wildcards: cfg=MULTI, tid=043
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:46:01 2025]
+Finished jobid: 39 (Rule: run_eval)
+162 of 329 steps (49%) done
+Execute 1 jobs...
+[Wed May 21 02:46:01 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_043.json
+    output: raw_results/SINGLE/HumanEval_043.json
+    jobid: 87
+    reason: Missing output files: raw_results/SINGLE/HumanEval_043.json
+    wildcards: cfg=SINGLE, tid=043
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:46:04 2025]
+Finished jobid: 87 (Rule: run_eval)
+163 of 329 steps (50%) done
+Execute 1 jobs...
+[Wed May 21 02:46:04 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_010.json
+    output: raw_results/SINGLE/HumanEval_010.json
+    jobid: 21
+    reason: Missing output files: raw_results/SINGLE/HumanEval_010.json
+    wildcards: cfg=SINGLE, tid=010
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:46:08 2025]
+Finished jobid: 21 (Rule: run_eval)
+164 of 329 steps (50%) done
+Execute 1 jobs...
+[Wed May 21 02:46:08 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_010.json
+    output: raw_results/MULTI/HumanEval_010.json
+    jobid: 339
+    reason: Missing output files: raw_results/MULTI/HumanEval_010.json
+    wildcards: cfg=MULTI, tid=010
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:46:09 2025]
+Finished jobid: 415 (Rule: run_eval)
+165 of 329 steps (50%) done
+Execute 1 jobs...
+[Wed May 21 02:46:09 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_091.json
+    output: raw_results/MULTI/HumanEval_091.json
+    jobid: 420
+    reason: Missing output files: raw_results/MULTI/HumanEval_091.json
+    wildcards: cfg=MULTI, tid=091
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:46:19 2025]
+Finished jobid: 348 (Rule: run_eval)
+166 of 329 steps (50%) done
+Execute 1 jobs...
+[Wed May 21 02:46:19 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_091.json
+    output: raw_results/SINGLE/HumanEval_091.json
+    jobid: 183
+    reason: Missing output files: raw_results/SINGLE/HumanEval_091.json
+    wildcards: cfg=SINGLE, tid=091
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:46:23 2025]
+Finished jobid: 183 (Rule: run_eval)
+167 of 329 steps (51%) done
+Execute 1 jobs...
+[Wed May 21 02:46:23 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_075.json
+    output: raw_results/MULTI/HumanEval_075.json
+    jobid: 404
+    reason: Missing output files: raw_results/MULTI/HumanEval_075.json
+    wildcards: cfg=MULTI, tid=075
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:46:25 2025]
+Finished jobid: 372 (Rule: run_eval)
+168 of 329 steps (51%) done
+Execute 1 jobs...
+[Wed May 21 02:46:25 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_075.json
+    output: raw_results/SINGLE/HumanEval_075.json
+    jobid: 151
+    reason: Missing output files: raw_results/SINGLE/HumanEval_075.json
+    wildcards: cfg=SINGLE, tid=075
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:46:30 2025]
+Finished jobid: 151 (Rule: run_eval)
+169 of 329 steps (51%) done
+Execute 1 jobs...
+[Wed May 21 02:46:30 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_056.json
+    output: raw_results/SINGLE/HumanEval_056.json
+    jobid: 113
+    reason: Missing output files: raw_results/SINGLE/HumanEval_056.json
+    wildcards: cfg=SINGLE, tid=056
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:46:34 2025]
+Finished jobid: 113 (Rule: run_eval)
+170 of 329 steps (52%) done
+Execute 1 jobs...
+[Wed May 21 02:46:34 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_061.json
+    output: raw_results/MULTI/HumanEval_061.json
+    jobid: 390
+    reason: Missing output files: raw_results/MULTI/HumanEval_061.json
+    wildcards: cfg=MULTI, tid=061
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:46:38 2025]
+Finished jobid: 420 (Rule: run_eval)
+171 of 329 steps (52%) done
+Execute 1 jobs...
+[Wed May 21 02:46:38 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_061.json
+    output: raw_results/SINGLE/HumanEval_061.json
+    jobid: 123
+    reason: Missing output files: raw_results/SINGLE/HumanEval_061.json
+    wildcards: cfg=SINGLE, tid=061
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:46:43 2025]
+Finished jobid: 123 (Rule: run_eval)
+172 of 329 steps (52%) done
+Execute 1 jobs...
+[Wed May 21 02:46:43 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_056.json
+    output: raw_results/MULTI/HumanEval_056.json
+    jobid: 385
+    reason: Missing output files: raw_results/MULTI/HumanEval_056.json
+    wildcards: cfg=MULTI, tid=056
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:46:53 2025]
+Finished jobid: 339 (Rule: run_eval)
+173 of 329 steps (53%) done
+Execute 1 jobs...
+[Wed May 21 02:46:53 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_084.json
+    output: raw_results/SINGLE/HumanEval_084.json
+    jobid: 169
+    reason: Missing output files: raw_results/SINGLE/HumanEval_084.json
+    wildcards: cfg=SINGLE, tid=084
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:46:56 2025]
+Finished jobid: 169 (Rule: run_eval)
+174 of 329 steps (53%) done
+Execute 1 jobs...
+[Wed May 21 02:46:56 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_084.json
+    output: raw_results/MULTI/HumanEval_084.json
+    jobid: 413
+    reason: Missing output files: raw_results/MULTI/HumanEval_084.json
+    wildcards: cfg=MULTI, tid=084
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:46:57 2025]
+Finished jobid: 404 (Rule: run_eval)
+175 of 329 steps (53%) done
+Execute 1 jobs...
+[Wed May 21 02:46:57 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_006.json
+    output: raw_results/MULTI/HumanEval_006.json
+    jobid: 335
+    reason: Missing output files: raw_results/MULTI/HumanEval_006.json
+    wildcards: cfg=MULTI, tid=006
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:47:07 2025]
+Finished jobid: 390 (Rule: run_eval)
+176 of 329 steps (53%) done
+Execute 1 jobs...
+[Wed May 21 02:47:07 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_006.json
+    output: raw_results/SINGLE/HumanEval_006.json
+    jobid: 13
+    reason: Missing output files: raw_results/SINGLE/HumanEval_006.json
+    wildcards: cfg=SINGLE, tid=006
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:47:14 2025]
+Finished jobid: 13 (Rule: run_eval)
+177 of 329 steps (54%) done
+Execute 1 jobs...
+[Wed May 21 02:47:14 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_073.json
+    output: raw_results/MULTI/HumanEval_073.json
+    jobid: 402
+    reason: Missing output files: raw_results/MULTI/HumanEval_073.json
+    wildcards: cfg=MULTI, tid=073
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:47:15 2025]
+Finished jobid: 385 (Rule: run_eval)
+178 of 329 steps (54%) done
+Execute 1 jobs...
+[Wed May 21 02:47:15 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_073.json
+    output: raw_results/SINGLE/HumanEval_073.json
+    jobid: 147
+    reason: Missing output files: raw_results/SINGLE/HumanEval_073.json
+    wildcards: cfg=SINGLE, tid=073
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:47:19 2025]
+Finished jobid: 413 (Rule: run_eval)
+179 of 329 steps (54%) done
+Execute 1 jobs...
+[Wed May 21 02:47:19 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_079.json
+    output: raw_results/MULTI/HumanEval_079.json
+    jobid: 408
+    reason: Missing output files: raw_results/MULTI/HumanEval_079.json
+    wildcards: cfg=MULTI, tid=079
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:47:20 2025]
+Finished jobid: 147 (Rule: run_eval)
+180 of 329 steps (55%) done
+Execute 1 jobs...
+[Wed May 21 02:47:20 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_079.json
+    output: raw_results/SINGLE/HumanEval_079.json
+    jobid: 159
+    reason: Missing output files: raw_results/SINGLE/HumanEval_079.json
+    wildcards: cfg=SINGLE, tid=079
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:47:22 2025]
+Finished jobid: 159 (Rule: run_eval)
+181 of 329 steps (55%) done
+Execute 1 jobs...
+[Wed May 21 02:47:22 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_080.json
+    output: raw_results/MULTI/HumanEval_080.json
+    jobid: 409
+    reason: Missing output files: raw_results/MULTI/HumanEval_080.json
+    wildcards: cfg=MULTI, tid=080
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:47:27 2025]
+Finished jobid: 335 (Rule: run_eval)
+182 of 329 steps (55%) done
+Execute 1 jobs...
+[Wed May 21 02:47:27 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_080.json
+    output: raw_results/SINGLE/HumanEval_080.json
+    jobid: 161
+    reason: Missing output files: raw_results/SINGLE/HumanEval_080.json
+    wildcards: cfg=SINGLE, tid=080
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:47:30 2025]
+Finished jobid: 161 (Rule: run_eval)
+183 of 329 steps (56%) done
+Execute 1 jobs...
+[Wed May 21 02:47:30 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_039.json
+    output: raw_results/MULTI/HumanEval_039.json
+    jobid: 368
+    reason: Missing output files: raw_results/MULTI/HumanEval_039.json
+    wildcards: cfg=MULTI, tid=039
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:47:41 2025]
+Finished jobid: 402 (Rule: run_eval)
+184 of 329 steps (56%) done
+Execute 1 jobs...
+[Wed May 21 02:47:41 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_039.json
+    output: raw_results/SINGLE/HumanEval_039.json
+    jobid: 79
+    reason: Missing output files: raw_results/SINGLE/HumanEval_039.json
+    wildcards: cfg=SINGLE, tid=039
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:47:42 2025]
+Finished jobid: 408 (Rule: run_eval)
+185 of 329 steps (56%) done
+Execute 1 jobs...
+[Wed May 21 02:47:42 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_017.json
+    output: raw_results/MULTI/HumanEval_017.json
+    jobid: 346
+    reason: Missing output files: raw_results/MULTI/HumanEval_017.json
+    wildcards: cfg=MULTI, tid=017
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:47:48 2025]
+Finished jobid: 79 (Rule: run_eval)
+186 of 329 steps (57%) done
+Execute 1 jobs...
+[Wed May 21 02:47:48 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_017.json
+    output: raw_results/SINGLE/HumanEval_017.json
+    jobid: 35
+    reason: Missing output files: raw_results/SINGLE/HumanEval_017.json
+    wildcards: cfg=SINGLE, tid=017
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:47:48 2025]
+Finished jobid: 409 (Rule: run_eval)
+187 of 329 steps (57%) done
+Execute 1 jobs...
+[Wed May 21 02:47:48 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_003.json
+    output: raw_results/MULTI/HumanEval_003.json
+    jobid: 332
+    reason: Missing output files: raw_results/MULTI/HumanEval_003.json
+    wildcards: cfg=MULTI, tid=003
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:47:52 2025]
+Finished jobid: 35 (Rule: run_eval)
+188 of 329 steps (57%) done
+Execute 1 jobs...
+[Wed May 21 02:47:52 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_003.json
+    output: raw_results/SINGLE/HumanEval_003.json
+    jobid: 7
+    reason: Missing output files: raw_results/SINGLE/HumanEval_003.json
+    wildcards: cfg=SINGLE, tid=003
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:47:54 2025]
+Finished jobid: 7 (Rule: run_eval)
+189 of 329 steps (57%) done
+Execute 1 jobs...
+[Wed May 21 02:47:54 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_100.json
+    output: raw_results/MULTI/HumanEval_100.json
+    jobid: 429
+    reason: Missing output files: raw_results/MULTI/HumanEval_100.json
+    wildcards: cfg=MULTI, tid=100
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:48:05 2025]
+Finished jobid: 368 (Rule: run_eval)
+190 of 329 steps (58%) done
+Execute 1 jobs...
+[Wed May 21 02:48:05 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_100.json
+    output: raw_results/SINGLE/HumanEval_100.json
+    jobid: 201
+    reason: Missing output files: raw_results/SINGLE/HumanEval_100.json
+    wildcards: cfg=SINGLE, tid=100
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:48:06 2025]
+Finished jobid: 346 (Rule: run_eval)
+191 of 329 steps (58%) done
+Execute 1 jobs...
+[Wed May 21 02:48:06 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_122.json
+    output: raw_results/MULTI/HumanEval_122.json
+    jobid: 451
+    reason: Missing output files: raw_results/MULTI/HumanEval_122.json
+    wildcards: cfg=MULTI, tid=122
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:48:08 2025]
+Finished jobid: 201 (Rule: run_eval)
+192 of 329 steps (58%) done
+Execute 1 jobs...
+[Wed May 21 02:48:08 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_122.json
+    output: raw_results/SINGLE/HumanEval_122.json
+    jobid: 245
+    reason: Missing output files: raw_results/SINGLE/HumanEval_122.json
+    wildcards: cfg=SINGLE, tid=122
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:48:12 2025]
+Finished jobid: 245 (Rule: run_eval)
+193 of 329 steps (59%) done
+Execute 1 jobs...
+[Wed May 21 02:48:12 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_031.json
+    output: raw_results/MULTI/HumanEval_031.json
+    jobid: 360
+    reason: Missing output files: raw_results/MULTI/HumanEval_031.json
+    wildcards: cfg=MULTI, tid=031
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:48:22 2025]
+Finished jobid: 332 (Rule: run_eval)
+194 of 329 steps (59%) done
+Execute 1 jobs...
+[Wed May 21 02:48:22 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_031.json
+    output: raw_results/SINGLE/HumanEval_031.json
+    jobid: 63
+    reason: Missing output files: raw_results/SINGLE/HumanEval_031.json
+    wildcards: cfg=SINGLE, tid=031
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:48:25 2025]
+Finished jobid: 63 (Rule: run_eval)
+195 of 329 steps (59%) done
+Execute 1 jobs...
+[Wed May 21 02:48:25 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_038.json
+    output: raw_results/MULTI/HumanEval_038.json
+    jobid: 367
+    reason: Missing output files: raw_results/MULTI/HumanEval_038.json
+    wildcards: cfg=MULTI, tid=038
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:48:27 2025]
+Finished jobid: 429 (Rule: run_eval)
+196 of 329 steps (60%) done
+Execute 1 jobs...
+[Wed May 21 02:48:27 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_038.json
+    output: raw_results/SINGLE/HumanEval_038.json
+    jobid: 77
+    reason: Missing output files: raw_results/SINGLE/HumanEval_038.json
+    wildcards: cfg=SINGLE, tid=038
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:48:30 2025]
+Finished jobid: 77 (Rule: run_eval)
+197 of 329 steps (60%) done
+Execute 1 jobs...
+[Wed May 21 02:48:30 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_021.json
+    output: raw_results/MULTI/HumanEval_021.json
+    jobid: 350
+    reason: Missing output files: raw_results/MULTI/HumanEval_021.json
+    wildcards: cfg=MULTI, tid=021
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:48:34 2025]
+Finished jobid: 451 (Rule: run_eval)
+198 of 329 steps (60%) done
+Execute 1 jobs...
+[Wed May 21 02:48:34 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_021.json
+    output: raw_results/SINGLE/HumanEval_021.json
+    jobid: 43
+    reason: Missing output files: raw_results/SINGLE/HumanEval_021.json
+    wildcards: cfg=SINGLE, tid=021
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:48:37 2025]
+Finished jobid: 43 (Rule: run_eval)
+199 of 329 steps (60%) done
+Execute 1 jobs...
+[Wed May 21 02:48:37 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_150.json
+    output: raw_results/MULTI/HumanEval_150.json
+    jobid: 479
+    reason: Missing output files: raw_results/MULTI/HumanEval_150.json
+    wildcards: cfg=MULTI, tid=150
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:48:43 2025]
+Finished jobid: 360 (Rule: run_eval)
+200 of 329 steps (61%) done
+Execute 1 jobs...
+[Wed May 21 02:48:43 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_150.json
+    output: raw_results/SINGLE/HumanEval_150.json
+    jobid: 301
+    reason: Missing output files: raw_results/SINGLE/HumanEval_150.json
+    wildcards: cfg=SINGLE, tid=150
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:48:47 2025]
+Finished jobid: 301 (Rule: run_eval)
+201 of 329 steps (61%) done
+Execute 1 jobs...
+[Wed May 21 02:48:47 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_147.json
+    output: raw_results/MULTI/HumanEval_147.json
+    jobid: 476
+    reason: Missing output files: raw_results/MULTI/HumanEval_147.json
+    wildcards: cfg=MULTI, tid=147
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:48:59 2025]
+Finished jobid: 350 (Rule: run_eval)
+202 of 329 steps (61%) done
+Execute 1 jobs...
+[Wed May 21 02:48:59 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_147.json
+    output: raw_results/SINGLE/HumanEval_147.json
+    jobid: 295
+    reason: Missing output files: raw_results/SINGLE/HumanEval_147.json
+    wildcards: cfg=SINGLE, tid=147
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:49:00 2025]
+Finished jobid: 367 (Rule: run_eval)
+203 of 329 steps (62%) done
+Execute 1 jobs...
+[Wed May 21 02:49:00 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_054.json
+    output: raw_results/SINGLE/HumanEval_054.json
+    jobid: 109
+    reason: Missing output files: raw_results/SINGLE/HumanEval_054.json
+    wildcards: cfg=SINGLE, tid=054
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:49:04 2025]
+Finished jobid: 109 (Rule: run_eval)
+204 of 329 steps (62%) done
+Execute 1 jobs...
+[Wed May 21 02:49:04 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_054.json
+    output: raw_results/MULTI/HumanEval_054.json
+    jobid: 383
+    reason: Missing output files: raw_results/MULTI/HumanEval_054.json
+    wildcards: cfg=MULTI, tid=054
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:49:08 2025]
+Finished jobid: 295 (Rule: run_eval)
+205 of 329 steps (62%) done
+Execute 1 jobs...
+[Wed May 21 02:49:08 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_037.json
+    output: raw_results/MULTI/HumanEval_037.json
+    jobid: 366
+    reason: Missing output files: raw_results/MULTI/HumanEval_037.json
+    wildcards: cfg=MULTI, tid=037
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:49:11 2025]
+Finished jobid: 479 (Rule: run_eval)
+206 of 329 steps (63%) done
+Execute 1 jobs...
+[Wed May 21 02:49:11 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_037.json
+    output: raw_results/SINGLE/HumanEval_037.json
+    jobid: 75
+    reason: Missing output files: raw_results/SINGLE/HumanEval_037.json
+    wildcards: cfg=SINGLE, tid=037
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:49:15 2025]
+Finished jobid: 75 (Rule: run_eval)
+207 of 329 steps (63%) done
+Execute 1 jobs...
+[Wed May 21 02:49:15 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_065.json
+    output: raw_results/MULTI/HumanEval_065.json
+    jobid: 394
+    reason: Missing output files: raw_results/MULTI/HumanEval_065.json
+    wildcards: cfg=MULTI, tid=065
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:49:28 2025]
+Finished jobid: 476 (Rule: run_eval)
+208 of 329 steps (63%) done
+Execute 1 jobs...
+[Wed May 21 02:49:28 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_065.json
+    output: raw_results/SINGLE/HumanEval_065.json
+    jobid: 131
+    reason: Missing output files: raw_results/SINGLE/HumanEval_065.json
+    wildcards: cfg=SINGLE, tid=065
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:49:28 2025]
+Finished jobid: 383 (Rule: run_eval)
+209 of 329 steps (64%) done
+Execute 1 jobs...
+[Wed May 21 02:49:28 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_104.json
+    output: raw_results/MULTI/HumanEval_104.json
+    jobid: 433
+    reason: Missing output files: raw_results/MULTI/HumanEval_104.json
+    wildcards: cfg=MULTI, tid=104
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:49:41 2025]
+Finished jobid: 366 (Rule: run_eval)
+210 of 329 steps (64%) done
+[Wed May 21 02:49:41 2025]
+Finished jobid: 131 (Rule: run_eval)
+211 of 329 steps (64%) done
+Execute 2 jobs...
+[Wed May 21 02:49:41 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_104.json
+    output: raw_results/SINGLE/HumanEval_104.json
+    jobid: 209
+    reason: Missing output files: raw_results/SINGLE/HumanEval_104.json
+    wildcards: cfg=SINGLE, tid=104
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 02:49:41 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_041.json
+    output: raw_results/MULTI/HumanEval_041.json
+    jobid: 370
+    reason: Missing output files: raw_results/MULTI/HumanEval_041.json
+    wildcards: cfg=MULTI, tid=041
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:49:44 2025]
+Finished jobid: 394 (Rule: run_eval)
+212 of 329 steps (64%) done
+Execute 1 jobs...
+[Wed May 21 02:49:44 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_041.json
+    output: raw_results/SINGLE/HumanEval_041.json
+    jobid: 83
+    reason: Missing output files: raw_results/SINGLE/HumanEval_041.json
+    wildcards: cfg=SINGLE, tid=041
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:49:45 2025]
+Finished jobid: 209 (Rule: run_eval)
+213 of 329 steps (65%) done
+Execute 1 jobs...
+[Wed May 21 02:49:45 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_155.json
+    output: raw_results/MULTI/HumanEval_155.json
+    jobid: 484
+    reason: Missing output files: raw_results/MULTI/HumanEval_155.json
+    wildcards: cfg=MULTI, tid=155
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:49:48 2025]
+Finished jobid: 83 (Rule: run_eval)
+214 of 329 steps (65%) done
+Execute 1 jobs...
+[Wed May 21 02:49:48 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_155.json
+    output: raw_results/SINGLE/HumanEval_155.json
+    jobid: 311
+    reason: Missing output files: raw_results/SINGLE/HumanEval_155.json
+    wildcards: cfg=SINGLE, tid=155
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:49:50 2025]
+Finished jobid: 311 (Rule: run_eval)
+215 of 329 steps (65%) done
+Execute 1 jobs...
+[Wed May 21 02:49:50 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_090.json
+    output: raw_results/MULTI/HumanEval_090.json
+    jobid: 419
+    reason: Missing output files: raw_results/MULTI/HumanEval_090.json
+    wildcards: cfg=MULTI, tid=090
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:49:53 2025]
+Finished jobid: 433 (Rule: run_eval)
+216 of 329 steps (66%) done
+Execute 1 jobs...
+[Wed May 21 02:49:53 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_090.json
+    output: raw_results/SINGLE/HumanEval_090.json
+    jobid: 181
+    reason: Missing output files: raw_results/SINGLE/HumanEval_090.json
+    wildcards: cfg=SINGLE, tid=090
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:49:56 2025]
+Finished jobid: 181 (Rule: run_eval)
+217 of 329 steps (66%) done
+Execute 1 jobs...
+[Wed May 21 02:49:56 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_102.json
+    output: raw_results/MULTI/HumanEval_102.json
+    jobid: 431
+    reason: Missing output files: raw_results/MULTI/HumanEval_102.json
+    wildcards: cfg=MULTI, tid=102
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:50:12 2025]
+Finished jobid: 370 (Rule: run_eval)
+218 of 329 steps (66%) done
+Execute 1 jobs...
+[Wed May 21 02:50:12 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_102.json
+    output: raw_results/SINGLE/HumanEval_102.json
+    jobid: 205
+    reason: Missing output files: raw_results/SINGLE/HumanEval_102.json
+    wildcards: cfg=SINGLE, tid=102
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:50:22 2025]
+Finished jobid: 205 (Rule: run_eval)
+219 of 329 steps (67%) done
+Execute 1 jobs...
+[Wed May 21 02:50:22 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_046.json
+    output: raw_results/MULTI/HumanEval_046.json
+    jobid: 375
+    reason: Missing output files: raw_results/MULTI/HumanEval_046.json
+    wildcards: cfg=MULTI, tid=046
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:50:23 2025]
+Finished jobid: 419 (Rule: run_eval)
+220 of 329 steps (67%) done
+Execute 1 jobs...
+[Wed May 21 02:50:23 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_046.json
+    output: raw_results/SINGLE/HumanEval_046.json
+    jobid: 93
+    reason: Missing output files: raw_results/SINGLE/HumanEval_046.json
+    wildcards: cfg=SINGLE, tid=046
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:50:23 2025]
+Finished jobid: 484 (Rule: run_eval)
+221 of 329 steps (67%) done
+Execute 1 jobs...
+[Wed May 21 02:50:23 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_063.json
+    output: raw_results/MULTI/HumanEval_063.json
+    jobid: 392
+    reason: Missing output files: raw_results/MULTI/HumanEval_063.json
+    wildcards: cfg=MULTI, tid=063
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:50:28 2025]
+Finished jobid: 93 (Rule: run_eval)
+222 of 329 steps (67%) done
+Execute 1 jobs...
+[Wed May 21 02:50:28 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_063.json
+    output: raw_results/SINGLE/HumanEval_063.json
+    jobid: 127
+    reason: Missing output files: raw_results/SINGLE/HumanEval_063.json
+    wildcards: cfg=SINGLE, tid=063
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:50:31 2025]
+Finished jobid: 431 (Rule: run_eval)
+223 of 329 steps (68%) done
+Execute 1 jobs...
+[Wed May 21 02:50:31 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_106.json
+    output: raw_results/MULTI/HumanEval_106.json
+    jobid: 435
+    reason: Missing output files: raw_results/MULTI/HumanEval_106.json
+    wildcards: cfg=MULTI, tid=106
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:50:32 2025]
+Finished jobid: 127 (Rule: run_eval)
+224 of 329 steps (68%) done
+Execute 1 jobs...
+[Wed May 21 02:50:32 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_106.json
+    output: raw_results/SINGLE/HumanEval_106.json
+    jobid: 213
+    reason: Missing output files: raw_results/SINGLE/HumanEval_106.json
+    wildcards: cfg=SINGLE, tid=106
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:50:36 2025]
+Finished jobid: 213 (Rule: run_eval)
+225 of 329 steps (68%) done
+Execute 1 jobs...
+[Wed May 21 02:50:36 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_163.json
+    output: raw_results/MULTI/HumanEval_163.json
+    jobid: 492
+    reason: Missing output files: raw_results/MULTI/HumanEval_163.json
+    wildcards: cfg=MULTI, tid=163
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:50:52 2025]
+Finished jobid: 392 (Rule: run_eval)
+226 of 329 steps (69%) done
+Execute 1 jobs...
+[Wed May 21 02:50:52 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_163.json
+    output: raw_results/SINGLE/HumanEval_163.json
+    jobid: 327
+    reason: Missing output files: raw_results/SINGLE/HumanEval_163.json
+    wildcards: cfg=SINGLE, tid=163
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:50:56 2025]
+Finished jobid: 327 (Rule: run_eval)
+227 of 329 steps (69%) done
+Execute 1 jobs...
+[Wed May 21 02:50:56 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_007.json
+    output: raw_results/MULTI/HumanEval_007.json
+    jobid: 336
+    reason: Missing output files: raw_results/MULTI/HumanEval_007.json
+    wildcards: cfg=MULTI, tid=007
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:51:01 2025]
+Finished jobid: 492 (Rule: run_eval)
+228 of 329 steps (69%) done
+Execute 1 jobs...
+[Wed May 21 02:51:01 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_007.json
+    output: raw_results/SINGLE/HumanEval_007.json
+    jobid: 15
+    reason: Missing output files: raw_results/SINGLE/HumanEval_007.json
+    wildcards: cfg=SINGLE, tid=007
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:51:04 2025]
+Finished jobid: 15 (Rule: run_eval)
+229 of 329 steps (70%) done
+Execute 1 jobs...
+[Wed May 21 02:51:04 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_004.json
+    output: raw_results/MULTI/HumanEval_004.json
+    jobid: 333
+    reason: Missing output files: raw_results/MULTI/HumanEval_004.json
+    wildcards: cfg=MULTI, tid=004
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:51:09 2025]
+Finished jobid: 375 (Rule: run_eval)
+230 of 329 steps (70%) done
+Execute 1 jobs...
+[Wed May 21 02:51:09 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_004.json
+    output: raw_results/SINGLE/HumanEval_004.json
+    jobid: 9
+    reason: Missing output files: raw_results/SINGLE/HumanEval_004.json
+    wildcards: cfg=SINGLE, tid=004
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:51:10 2025]
+Finished jobid: 435 (Rule: run_eval)
+231 of 329 steps (70%) done
+Execute 1 jobs...
+[Wed May 21 02:51:10 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_008.json
+    output: raw_results/MULTI/HumanEval_008.json
+    jobid: 337
+    reason: Missing output files: raw_results/MULTI/HumanEval_008.json
+    wildcards: cfg=MULTI, tid=008
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:51:12 2025]
+Finished jobid: 9 (Rule: run_eval)
+232 of 329 steps (71%) done
+Execute 1 jobs...
+[Wed May 21 02:51:12 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_008.json
+    output: raw_results/SINGLE/HumanEval_008.json
+    jobid: 17
+    reason: Missing output files: raw_results/SINGLE/HumanEval_008.json
+    wildcards: cfg=SINGLE, tid=008
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:51:18 2025]
+Finished jobid: 17 (Rule: run_eval)
+233 of 329 steps (71%) done
+Execute 1 jobs...
+[Wed May 21 02:51:18 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_051.json
+    output: raw_results/MULTI/HumanEval_051.json
+    jobid: 380
+    reason: Missing output files: raw_results/MULTI/HumanEval_051.json
+    wildcards: cfg=MULTI, tid=051
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:51:21 2025]
+Finished jobid: 336 (Rule: run_eval)
+234 of 329 steps (71%) done
+Execute 1 jobs...
+[Wed May 21 02:51:21 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_051.json
+    output: raw_results/SINGLE/HumanEval_051.json
+    jobid: 103
+    reason: Missing output files: raw_results/SINGLE/HumanEval_051.json
+    wildcards: cfg=SINGLE, tid=051
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:51:24 2025]
+Finished jobid: 103 (Rule: run_eval)
+235 of 329 steps (71%) done
+Execute 1 jobs...
+[Wed May 21 02:51:24 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_131.json
+    output: raw_results/MULTI/HumanEval_131.json
+    jobid: 460
+    reason: Missing output files: raw_results/MULTI/HumanEval_131.json
+    wildcards: cfg=MULTI, tid=131
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:51:25 2025]
+Finished jobid: 333 (Rule: run_eval)
+236 of 329 steps (72%) done
+Execute 1 jobs...
+[Wed May 21 02:51:25 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_131.json
+    output: raw_results/SINGLE/HumanEval_131.json
+    jobid: 263
+    reason: Missing output files: raw_results/SINGLE/HumanEval_131.json
+    wildcards: cfg=SINGLE, tid=131
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:51:28 2025]
+Finished jobid: 263 (Rule: run_eval)
+237 of 329 steps (72%) done
+Execute 1 jobs...
+[Wed May 21 02:51:28 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_009.json
+    output: raw_results/MULTI/HumanEval_009.json
+    jobid: 338
+    reason: Missing output files: raw_results/MULTI/HumanEval_009.json
+    wildcards: cfg=MULTI, tid=009
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:51:38 2025]
+Finished jobid: 337 (Rule: run_eval)
+238 of 329 steps (72%) done
+Execute 1 jobs...
+[Wed May 21 02:51:38 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_009.json
+    output: raw_results/SINGLE/HumanEval_009.json
+    jobid: 19
+    reason: Missing output files: raw_results/SINGLE/HumanEval_009.json
+    wildcards: cfg=SINGLE, tid=009
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:51:42 2025]
+Finished jobid: 19 (Rule: run_eval)
+239 of 329 steps (73%) done
+Execute 1 jobs...
+[Wed May 21 02:51:42 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_050.json
+    output: raw_results/MULTI/HumanEval_050.json
+    jobid: 379
+    reason: Missing output files: raw_results/MULTI/HumanEval_050.json
+    wildcards: cfg=MULTI, tid=050
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:51:43 2025]
+Finished jobid: 380 (Rule: run_eval)
+240 of 329 steps (73%) done
+Execute 1 jobs...
+[Wed May 21 02:51:43 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_050.json
+    output: raw_results/SINGLE/HumanEval_050.json
+    jobid: 101
+    reason: Missing output files: raw_results/SINGLE/HumanEval_050.json
+    wildcards: cfg=SINGLE, tid=050
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:51:48 2025]
+Finished jobid: 101 (Rule: run_eval)
+241 of 329 steps (73%) done
+Execute 1 jobs...
+[Wed May 21 02:51:48 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_135.json
+    output: raw_results/MULTI/HumanEval_135.json
+    jobid: 464
+    reason: Missing output files: raw_results/MULTI/HumanEval_135.json
+    wildcards: cfg=MULTI, tid=135
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:51:50 2025]
+Finished jobid: 338 (Rule: run_eval)
+242 of 329 steps (74%) done
+Execute 1 jobs...
+[Wed May 21 02:51:50 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_135.json
+    output: raw_results/SINGLE/HumanEval_135.json
+    jobid: 271
+    reason: Missing output files: raw_results/SINGLE/HumanEval_135.json
+    wildcards: cfg=SINGLE, tid=135
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:51:51 2025]
+Finished jobid: 460 (Rule: run_eval)
+243 of 329 steps (74%) done
+Execute 1 jobs...
+[Wed May 21 02:51:51 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_139.json
+    output: raw_results/SINGLE/HumanEval_139.json
+    jobid: 279
+    reason: Missing output files: raw_results/SINGLE/HumanEval_139.json
+    wildcards: cfg=SINGLE, tid=139
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:51:53 2025]
+Finished jobid: 271 (Rule: run_eval)
+244 of 329 steps (74%) done
+Execute 1 jobs...
+[Wed May 21 02:51:53 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_139.json
+    output: raw_results/MULTI/HumanEval_139.json
+    jobid: 468
+    reason: Missing output files: raw_results/MULTI/HumanEval_139.json
+    wildcards: cfg=MULTI, tid=139
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:51:56 2025]
+Finished jobid: 279 (Rule: run_eval)
+245 of 329 steps (74%) done
+Execute 1 jobs...
+[Wed May 21 02:51:56 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_012.json
+    output: raw_results/MULTI/HumanEval_012.json
+    jobid: 341
+    reason: Missing output files: raw_results/MULTI/HumanEval_012.json
+    wildcards: cfg=MULTI, tid=012
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:52:06 2025]
+Finished jobid: 379 (Rule: run_eval)
+246 of 329 steps (75%) done
+Execute 1 jobs...
+[Wed May 21 02:52:06 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_012.json
+    output: raw_results/SINGLE/HumanEval_012.json
+    jobid: 25
+    reason: Missing output files: raw_results/SINGLE/HumanEval_012.json
+    wildcards: cfg=SINGLE, tid=012
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:52:10 2025]
+Finished jobid: 25 (Rule: run_eval)
+247 of 329 steps (75%) done
+Execute 1 jobs...
+[Wed May 21 02:52:10 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_044.json
+    output: raw_results/MULTI/HumanEval_044.json
+    jobid: 373
+    reason: Missing output files: raw_results/MULTI/HumanEval_044.json
+    wildcards: cfg=MULTI, tid=044
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:52:16 2025]
+Finished jobid: 464 (Rule: run_eval)
+248 of 329 steps (75%) done
+Execute 1 jobs...
+[Wed May 21 02:52:16 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_044.json
+    output: raw_results/SINGLE/HumanEval_044.json
+    jobid: 89
+    reason: Missing output files: raw_results/SINGLE/HumanEval_044.json
+    wildcards: cfg=SINGLE, tid=044
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:52:17 2025]
+Finished jobid: 341 (Rule: run_eval)
+249 of 329 steps (76%) done
+Execute 1 jobs...
+[Wed May 21 02:52:17 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_057.json
+    output: raw_results/SINGLE/HumanEval_057.json
+    jobid: 115
+    reason: Missing output files: raw_results/SINGLE/HumanEval_057.json
+    wildcards: cfg=SINGLE, tid=057
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:52:20 2025]
+Finished jobid: 115 (Rule: run_eval)
+250 of 329 steps (76%) done
+Execute 1 jobs...
+[Wed May 21 02:52:20 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_057.json
+    output: raw_results/MULTI/HumanEval_057.json
+    jobid: 386
+    reason: Missing output files: raw_results/MULTI/HumanEval_057.json
+    wildcards: cfg=MULTI, tid=057
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:52:21 2025]
+Finished jobid: 89 (Rule: run_eval)
+251 of 329 steps (76%) done
+Execute 1 jobs...
+[Wed May 21 02:52:21 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_121.json
+    output: raw_results/SINGLE/HumanEval_121.json
+    jobid: 243
+    reason: Missing output files: raw_results/SINGLE/HumanEval_121.json
+    wildcards: cfg=SINGLE, tid=121
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:52:23 2025]
+Finished jobid: 468 (Rule: run_eval)
+252 of 329 steps (77%) done
+Execute 1 jobs...
+[Wed May 21 02:52:23 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_121.json
+    output: raw_results/MULTI/HumanEval_121.json
+    jobid: 450
+    reason: Missing output files: raw_results/MULTI/HumanEval_121.json
+    wildcards: cfg=MULTI, tid=121
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:52:26 2025]
+Finished jobid: 243 (Rule: run_eval)
+253 of 329 steps (77%) done
+Execute 1 jobs...
+[Wed May 21 02:52:26 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_036.json
+    output: raw_results/SINGLE/HumanEval_036.json
+    jobid: 73
+    reason: Missing output files: raw_results/SINGLE/HumanEval_036.json
+    wildcards: cfg=SINGLE, tid=036
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:52:29 2025]
+Finished jobid: 73 (Rule: run_eval)
+254 of 329 steps (77%) done
+Execute 1 jobs...
+[Wed May 21 02:52:29 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_036.json
+    output: raw_results/MULTI/HumanEval_036.json
+    jobid: 365
+    reason: Missing output files: raw_results/MULTI/HumanEval_036.json
+    wildcards: cfg=MULTI, tid=036
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:52:35 2025]
+Finished jobid: 373 (Rule: run_eval)
+255 of 329 steps (78%) done
+Execute 1 jobs...
+[Wed May 21 02:52:35 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_059.json
+    output: raw_results/MULTI/HumanEval_059.json
+    jobid: 388
+    reason: Missing output files: raw_results/MULTI/HumanEval_059.json
+    wildcards: cfg=MULTI, tid=059
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:52:45 2025]
+Finished jobid: 450 (Rule: run_eval)
+256 of 329 steps (78%) done
+Execute 1 jobs...
+[Wed May 21 02:52:45 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_059.json
+    output: raw_results/SINGLE/HumanEval_059.json
+    jobid: 119
+    reason: Missing output files: raw_results/SINGLE/HumanEval_059.json
+    wildcards: cfg=SINGLE, tid=059
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:52:50 2025]
+Finished jobid: 119 (Rule: run_eval)
+257 of 329 steps (78%) done
+Execute 1 jobs...
+[Wed May 21 02:52:50 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_098.json
+    output: raw_results/SINGLE/HumanEval_098.json
+    jobid: 197
+    reason: Missing output files: raw_results/SINGLE/HumanEval_098.json
+    wildcards: cfg=SINGLE, tid=098
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:52:51 2025]
+Finished jobid: 386 (Rule: run_eval)
+258 of 329 steps (78%) done
+Execute 1 jobs...
+[Wed May 21 02:52:51 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_098.json
+    output: raw_results/MULTI/HumanEval_098.json
+    jobid: 427
+    reason: Missing output files: raw_results/MULTI/HumanEval_098.json
+    wildcards: cfg=MULTI, tid=098
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:52:56 2025]
+Finished jobid: 197 (Rule: run_eval)
+259 of 329 steps (79%) done
+Execute 1 jobs...
+[Wed May 21 02:52:56 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_005.json
+    output: raw_results/SINGLE/HumanEval_005.json
+    jobid: 11
+    reason: Missing output files: raw_results/SINGLE/HumanEval_005.json
+    wildcards: cfg=SINGLE, tid=005
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:53:03 2025]
+Finished jobid: 365 (Rule: run_eval)
+260 of 329 steps (79%) done
+Execute 1 jobs...
+[Wed May 21 02:53:03 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_005.json
+    output: raw_results/MULTI/HumanEval_005.json
+    jobid: 334
+    reason: Missing output files: raw_results/MULTI/HumanEval_005.json
+    wildcards: cfg=MULTI, tid=005
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:53:08 2025]
+Finished jobid: 388 (Rule: run_eval)
+261 of 329 steps (79%) done
+Execute 1 jobs...
+[Wed May 21 02:53:08 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_018.json
+    output: raw_results/MULTI/HumanEval_018.json
+    jobid: 347
+    reason: Missing output files: raw_results/MULTI/HumanEval_018.json
+    wildcards: cfg=MULTI, tid=018
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:53:12 2025]
+Finished jobid: 11 (Rule: run_eval)
+262 of 329 steps (80%) done
+Execute 1 jobs...
+[Wed May 21 02:53:12 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_018.json
+    output: raw_results/SINGLE/HumanEval_018.json
+    jobid: 37
+    reason: Missing output files: raw_results/SINGLE/HumanEval_018.json
+    wildcards: cfg=SINGLE, tid=018
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:53:16 2025]
+Finished jobid: 37 (Rule: run_eval)
+263 of 329 steps (80%) done
+Execute 1 jobs...
+[Wed May 21 02:53:16 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_162.json
+    output: raw_results/SINGLE/HumanEval_162.json
+    jobid: 325
+    reason: Missing output files: raw_results/SINGLE/HumanEval_162.json
+    wildcards: cfg=SINGLE, tid=162
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:53:16 2025]
+Finished jobid: 427 (Rule: run_eval)
+264 of 329 steps (80%) done
+Execute 1 jobs...
+[Wed May 21 02:53:16 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_162.json
+    output: raw_results/MULTI/HumanEval_162.json
+    jobid: 491
+    reason: Missing output files: raw_results/MULTI/HumanEval_162.json
+    wildcards: cfg=MULTI, tid=162
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:53:19 2025]
+Finished jobid: 325 (Rule: run_eval)
+265 of 329 steps (81%) done
+Execute 1 jobs...
+[Wed May 21 02:53:19 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_048.json
+    output: raw_results/SINGLE/HumanEval_048.json
+    jobid: 97
+    reason: Missing output files: raw_results/SINGLE/HumanEval_048.json
+    wildcards: cfg=SINGLE, tid=048
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:53:23 2025]
+Finished jobid: 97 (Rule: run_eval)
+266 of 329 steps (81%) done
+Execute 1 jobs...
+[Wed May 21 02:53:23 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_048.json
+    output: raw_results/MULTI/HumanEval_048.json
+    jobid: 377
+    reason: Missing output files: raw_results/MULTI/HumanEval_048.json
+    wildcards: cfg=MULTI, tid=048
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:53:27 2025]
+Finished jobid: 334 (Rule: run_eval)
+267 of 329 steps (81%) done
+Execute 1 jobs...
+[Wed May 21 02:53:27 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_058.json
+    output: raw_results/SINGLE/HumanEval_058.json
+    jobid: 117
+    reason: Missing output files: raw_results/SINGLE/HumanEval_058.json
+    wildcards: cfg=SINGLE, tid=058
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:53:30 2025]
+Finished jobid: 117 (Rule: run_eval)
+268 of 329 steps (81%) done
+Execute 1 jobs...
+[Wed May 21 02:53:30 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_058.json
+    output: raw_results/MULTI/HumanEval_058.json
+    jobid: 387
+    reason: Missing output files: raw_results/MULTI/HumanEval_058.json
+    wildcards: cfg=MULTI, tid=058
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:53:40 2025]
+Finished jobid: 491 (Rule: run_eval)
+269 of 329 steps (82%) done
+Execute 1 jobs...
+[Wed May 21 02:53:40 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_083.json
+    output: raw_results/SINGLE/HumanEval_083.json
+    jobid: 167
+    reason: Missing output files: raw_results/SINGLE/HumanEval_083.json
+    wildcards: cfg=SINGLE, tid=083
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:53:44 2025]
+Finished jobid: 347 (Rule: run_eval)
+270 of 329 steps (82%) done
+Execute 1 jobs...
+[Wed May 21 02:53:44 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_083.json
+    output: raw_results/MULTI/HumanEval_083.json
+    jobid: 412
+    reason: Missing output files: raw_results/MULTI/HumanEval_083.json
+    wildcards: cfg=MULTI, tid=083
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:53:45 2025]
+Finished jobid: 377 (Rule: run_eval)
+271 of 329 steps (82%) done
+Execute 1 jobs...
+[Wed May 21 02:53:45 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_011.json
+    output: raw_results/SINGLE/HumanEval_011.json
+    jobid: 23
+    reason: Missing output files: raw_results/SINGLE/HumanEval_011.json
+    wildcards: cfg=SINGLE, tid=011
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:53:47 2025]
+Finished jobid: 167 (Rule: run_eval)
+272 of 329 steps (83%) done
+Execute 1 jobs...
+[Wed May 21 02:53:47 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_011.json
+    output: raw_results/MULTI/HumanEval_011.json
+    jobid: 340
+    reason: Missing output files: raw_results/MULTI/HumanEval_011.json
+    wildcards: cfg=MULTI, tid=011
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:53:47 2025]
+Finished jobid: 23 (Rule: run_eval)
+273 of 329 steps (83%) done
+Execute 1 jobs...
+[Wed May 21 02:53:47 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_026.json
+    output: raw_results/SINGLE/HumanEval_026.json
+    jobid: 53
+    reason: Missing output files: raw_results/SINGLE/HumanEval_026.json
+    wildcards: cfg=SINGLE, tid=026
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:53:50 2025]
+Finished jobid: 53 (Rule: run_eval)
+274 of 329 steps (83%) done
+Execute 1 jobs...
+[Wed May 21 02:53:50 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_026.json
+    output: raw_results/MULTI/HumanEval_026.json
+    jobid: 355
+    reason: Missing output files: raw_results/MULTI/HumanEval_026.json
+    wildcards: cfg=MULTI, tid=026
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:54:07 2025]
+Finished jobid: 387 (Rule: run_eval)
+275 of 329 steps (84%) done
+Execute 1 jobs...
+[Wed May 21 02:54:07 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_062.json
+    output: raw_results/SINGLE/HumanEval_062.json
+    jobid: 125
+    reason: Missing output files: raw_results/SINGLE/HumanEval_062.json
+    wildcards: cfg=SINGLE, tid=062
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:54:10 2025]
+Finished jobid: 340 (Rule: run_eval)
+276 of 329 steps (84%) done
+Execute 1 jobs...
+[Wed May 21 02:54:10 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_062.json
+    output: raw_results/MULTI/HumanEval_062.json
+    jobid: 391
+    reason: Missing output files: raw_results/MULTI/HumanEval_062.json
+    wildcards: cfg=MULTI, tid=062
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:54:11 2025]
+Finished jobid: 125 (Rule: run_eval)
+277 of 329 steps (84%) done
+Execute 1 jobs...
+[Wed May 21 02:54:11 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_016.json
+    output: raw_results/SINGLE/HumanEval_016.json
+    jobid: 33
+    reason: Missing output files: raw_results/SINGLE/HumanEval_016.json
+    wildcards: cfg=SINGLE, tid=016
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:54:12 2025]
+Finished jobid: 412 (Rule: run_eval)
+278 of 329 steps (84%) done
+Execute 1 jobs...
+[Wed May 21 02:54:12 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_016.json
+    output: raw_results/MULTI/HumanEval_016.json
+    jobid: 345
+    reason: Missing output files: raw_results/MULTI/HumanEval_016.json
+    wildcards: cfg=MULTI, tid=016
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:54:14 2025]
+Finished jobid: 33 (Rule: run_eval)
+279 of 329 steps (85%) done
+Execute 1 jobs...
+[Wed May 21 02:54:14 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_029.json
+    output: raw_results/SINGLE/HumanEval_029.json
+    jobid: 59
+    reason: Missing output files: raw_results/SINGLE/HumanEval_029.json
+    wildcards: cfg=SINGLE, tid=029
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:54:19 2025]
+Finished jobid: 355 (Rule: run_eval)
+280 of 329 steps (85%) done
+Execute 1 jobs...
+[Wed May 21 02:54:19 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_029.json
+    output: raw_results/MULTI/HumanEval_029.json
+    jobid: 358
+    reason: Missing output files: raw_results/MULTI/HumanEval_029.json
+    wildcards: cfg=MULTI, tid=029
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:54:20 2025]
+Finished jobid: 59 (Rule: run_eval)
+281 of 329 steps (85%) done
+Execute 1 jobs...
+[Wed May 21 02:54:20 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_052.json
+    output: raw_results/MULTI/HumanEval_052.json
+    jobid: 381
+    reason: Missing output files: raw_results/MULTI/HumanEval_052.json
+    wildcards: cfg=MULTI, tid=052
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:54:42 2025]
+Finished jobid: 345 (Rule: run_eval)
+282 of 329 steps (86%) done
+Execute 1 jobs...
+[Wed May 21 02:54:42 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_052.json
+    output: raw_results/SINGLE/HumanEval_052.json
+    jobid: 105
+    reason: Missing output files: raw_results/SINGLE/HumanEval_052.json
+    wildcards: cfg=SINGLE, tid=052
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:54:44 2025]
+Finished jobid: 381 (Rule: run_eval)
+283 of 329 steps (86%) done
+Execute 1 jobs...
+[Wed May 21 02:54:44 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_138.json
+    output: raw_results/SINGLE/HumanEval_138.json
+    jobid: 277
+    reason: Missing output files: raw_results/SINGLE/HumanEval_138.json
+    wildcards: cfg=SINGLE, tid=138
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:54:44 2025]
+Finished jobid: 105 (Rule: run_eval)
+284 of 329 steps (86%) done
+Execute 1 jobs...
+[Wed May 21 02:54:44 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_138.json
+    output: raw_results/MULTI/HumanEval_138.json
+    jobid: 467
+    reason: Missing output files: raw_results/MULTI/HumanEval_138.json
+    wildcards: cfg=MULTI, tid=138
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:54:46 2025]
+Finished jobid: 391 (Rule: run_eval)
+285 of 329 steps (87%) done
+Execute 1 jobs...
+[Wed May 21 02:54:46 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_049.json
+    output: raw_results/SINGLE/HumanEval_049.json
+    jobid: 99
+    reason: Missing output files: raw_results/SINGLE/HumanEval_049.json
+    wildcards: cfg=SINGLE, tid=049
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:54:47 2025]
+Finished jobid: 277 (Rule: run_eval)
+286 of 329 steps (87%) done
+Execute 1 jobs...
+[Wed May 21 02:54:47 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_049.json
+    output: raw_results/MULTI/HumanEval_049.json
+    jobid: 378
+    reason: Missing output files: raw_results/MULTI/HumanEval_049.json
+    wildcards: cfg=MULTI, tid=049
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:54:48 2025]
+Finished jobid: 358 (Rule: run_eval)
+287 of 329 steps (87%) done
+Execute 1 jobs...
+[Wed May 21 02:54:48 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_002.json
+    output: raw_results/SINGLE/HumanEval_002.json
+    jobid: 5
+    reason: Missing output files: raw_results/SINGLE/HumanEval_002.json
+    wildcards: cfg=SINGLE, tid=002
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:54:51 2025]
+Finished jobid: 5 (Rule: run_eval)
+288 of 329 steps (88%) done
+Execute 1 jobs...
+[Wed May 21 02:54:51 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_002.json
+    output: raw_results/MULTI/HumanEval_002.json
+    jobid: 331
+    reason: Missing output files: raw_results/MULTI/HumanEval_002.json
+    wildcards: cfg=MULTI, tid=002
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:54:54 2025]
+Finished jobid: 99 (Rule: run_eval)
+289 of 329 steps (88%) done
+Execute 1 jobs...
+[Wed May 21 02:54:54 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_047.json
+    output: raw_results/MULTI/HumanEval_047.json
+    jobid: 376
+    reason: Missing output files: raw_results/MULTI/HumanEval_047.json
+    wildcards: cfg=MULTI, tid=047
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:55:12 2025]
+Finished jobid: 378 (Rule: run_eval)
+290 of 329 steps (88%) done
+Execute 1 jobs...
+[Wed May 21 02:55:12 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_047.json
+    output: raw_results/SINGLE/HumanEval_047.json
+    jobid: 95
+    reason: Missing output files: raw_results/SINGLE/HumanEval_047.json
+    wildcards: cfg=SINGLE, tid=047
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:55:16 2025]
+Finished jobid: 95 (Rule: run_eval)
+291 of 329 steps (88%) done
+Execute 1 jobs...
+[Wed May 21 02:55:16 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_022.json
+    output: raw_results/SINGLE/HumanEval_022.json
+    jobid: 45
+    reason: Missing output files: raw_results/SINGLE/HumanEval_022.json
+    wildcards: cfg=SINGLE, tid=022
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:55:16 2025]
+Finished jobid: 467 (Rule: run_eval)
+292 of 329 steps (89%) done
+Execute 1 jobs...
+[Wed May 21 02:55:16 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_022.json
+    output: raw_results/MULTI/HumanEval_022.json
+    jobid: 351
+    reason: Missing output files: raw_results/MULTI/HumanEval_022.json
+    wildcards: cfg=MULTI, tid=022
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:55:18 2025]
+Finished jobid: 376 (Rule: run_eval)
+293 of 329 steps (89%) done
+Execute 1 jobs...
+[Wed May 21 02:55:18 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_014.json
+    output: raw_results/SINGLE/HumanEval_014.json
+    jobid: 29
+    reason: Missing output files: raw_results/SINGLE/HumanEval_014.json
+    wildcards: cfg=SINGLE, tid=014
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:55:19 2025]
+Finished jobid: 331 (Rule: run_eval)
+294 of 329 steps (89%) done
+Execute 1 jobs...
+[Wed May 21 02:55:19 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_014.json
+    output: raw_results/MULTI/HumanEval_014.json
+    jobid: 343
+    reason: Missing output files: raw_results/MULTI/HumanEval_014.json
+    wildcards: cfg=MULTI, tid=014
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:55:19 2025]
+Finished jobid: 45 (Rule: run_eval)
+295 of 329 steps (90%) done
+Execute 1 jobs...
+[Wed May 21 02:55:19 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_030.json
+    output: raw_results/MULTI/HumanEval_030.json
+    jobid: 359
+    reason: Missing output files: raw_results/MULTI/HumanEval_030.json
+    wildcards: cfg=MULTI, tid=030
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:55:21 2025]
+Finished jobid: 29 (Rule: run_eval)
+296 of 329 steps (90%) done
+Execute 1 jobs...
+[Wed May 21 02:55:21 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_085.json
+    output: raw_results/SINGLE/HumanEval_085.json
+    jobid: 171
+    reason: Missing output files: raw_results/SINGLE/HumanEval_085.json
+    wildcards: cfg=SINGLE, tid=085
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:55:26 2025]
+Finished jobid: 171 (Rule: run_eval)
+297 of 329 steps (90%) done
+Execute 1 jobs...
+[Wed May 21 02:55:26 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_030.json
+    output: raw_results/SINGLE/HumanEval_030.json
+    jobid: 61
+    reason: Missing output files: raw_results/SINGLE/HumanEval_030.json
+    wildcards: cfg=SINGLE, tid=030
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:55:28 2025]
+Finished jobid: 61 (Rule: run_eval)
+298 of 329 steps (91%) done
+Execute 1 jobs...
+[Wed May 21 02:55:28 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_085.json
+    output: raw_results/MULTI/HumanEval_085.json
+    jobid: 414
+    reason: Missing output files: raw_results/MULTI/HumanEval_085.json
+    wildcards: cfg=MULTI, tid=085
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:55:34 2025]
+Finished jobid: 351 (Rule: run_eval)
+299 of 329 steps (91%) done
+Execute 1 jobs...
+[Wed May 21 02:55:34 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_013.json
+    output: raw_results/SINGLE/HumanEval_013.json
+    jobid: 27
+    reason: Missing output files: raw_results/SINGLE/HumanEval_013.json
+    wildcards: cfg=SINGLE, tid=013
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:55:37 2025]
+Finished jobid: 27 (Rule: run_eval)
+300 of 329 steps (91%) done
+Execute 1 jobs...
+[Wed May 21 02:55:37 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_013.json
+    output: raw_results/MULTI/HumanEval_013.json
+    jobid: 342
+    reason: Missing output files: raw_results/MULTI/HumanEval_013.json
+    wildcards: cfg=MULTI, tid=013
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:55:40 2025]
+Finished jobid: 343 (Rule: run_eval)
+301 of 329 steps (91%) done
+Execute 1 jobs...
+[Wed May 21 02:55:40 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_024.json
+    output: raw_results/MULTI/HumanEval_024.json
+    jobid: 353
+    reason: Missing output files: raw_results/MULTI/HumanEval_024.json
+    wildcards: cfg=MULTI, tid=024
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:55:43 2025]
+Finished jobid: 359 (Rule: run_eval)
+302 of 329 steps (92%) done
+Execute 1 jobs...
+[Wed May 21 02:55:43 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_024.json
+    output: raw_results/SINGLE/HumanEval_024.json
+    jobid: 49
+    reason: Missing output files: raw_results/SINGLE/HumanEval_024.json
+    wildcards: cfg=SINGLE, tid=024
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:55:45 2025]
+Finished jobid: 49 (Rule: run_eval)
+303 of 329 steps (92%) done
+Execute 1 jobs...
+[Wed May 21 02:55:45 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_053.json
+    output: raw_results/MULTI/HumanEval_053.json
+    jobid: 382
+    reason: Missing output files: raw_results/MULTI/HumanEval_053.json
+    wildcards: cfg=MULTI, tid=053
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:55:55 2025]
+Finished jobid: 414 (Rule: run_eval)
+304 of 329 steps (92%) done
+Execute 1 jobs...
+[Wed May 21 02:55:55 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_053.json
+    output: raw_results/SINGLE/HumanEval_053.json
+    jobid: 107
+    reason: Missing output files: raw_results/SINGLE/HumanEval_053.json
+    wildcards: cfg=SINGLE, tid=053
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:55:57 2025]
+Finished jobid: 107 (Rule: run_eval)
+305 of 329 steps (93%) done
+Execute 1 jobs...
+[Wed May 21 02:55:57 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_015.json
+    output: raw_results/SINGLE/HumanEval_015.json
+    jobid: 31
+    reason: Missing output files: raw_results/SINGLE/HumanEval_015.json
+    wildcards: cfg=SINGLE, tid=015
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:56:00 2025]
+Finished jobid: 31 (Rule: run_eval)
+306 of 329 steps (93%) done
+Execute 1 jobs...
+[Wed May 21 02:56:00 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_015.json
+    output: raw_results/MULTI/HumanEval_015.json
+    jobid: 344
+    reason: Missing output files: raw_results/MULTI/HumanEval_015.json
+    wildcards: cfg=MULTI, tid=015
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:56:03 2025]
+Finished jobid: 382 (Rule: run_eval)
+307 of 329 steps (93%) done
+Execute 1 jobs...
+[Wed May 21 02:56:03 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_027.json
+    output: raw_results/MULTI/HumanEval_027.json
+    jobid: 356
+    reason: Missing output files: raw_results/MULTI/HumanEval_027.json
+    wildcards: cfg=MULTI, tid=027
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:56:05 2025]
+Finished jobid: 342 (Rule: run_eval)
+308 of 329 steps (94%) done
+Execute 1 jobs...
+[Wed May 21 02:56:05 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_027.json
+    output: raw_results/SINGLE/HumanEval_027.json
+    jobid: 55
+    reason: Missing output files: raw_results/SINGLE/HumanEval_027.json
+    wildcards: cfg=SINGLE, tid=027
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:56:08 2025]
+Finished jobid: 55 (Rule: run_eval)
+309 of 329 steps (94%) done
+Execute 1 jobs...
+[Wed May 21 02:56:08 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_060.json
+    output: raw_results/MULTI/HumanEval_060.json
+    jobid: 389
+    reason: Missing output files: raw_results/MULTI/HumanEval_060.json
+    wildcards: cfg=MULTI, tid=060
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:56:16 2025]
+Finished jobid: 353 (Rule: run_eval)
+310 of 329 steps (94%) done
+Execute 1 jobs...
+[Wed May 21 02:56:16 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_060.json
+    output: raw_results/SINGLE/HumanEval_060.json
+    jobid: 121
+    reason: Missing output files: raw_results/SINGLE/HumanEval_060.json
+    wildcards: cfg=SINGLE, tid=060
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:56:20 2025]
+Finished jobid: 121 (Rule: run_eval)
+311 of 329 steps (95%) done
+Execute 1 jobs...
+[Wed May 21 02:56:20 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_028.json
+    output: raw_results/SINGLE/HumanEval_028.json
+    jobid: 57
+    reason: Missing output files: raw_results/SINGLE/HumanEval_028.json
+    wildcards: cfg=SINGLE, tid=028
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:56:22 2025]
+Finished jobid: 356 (Rule: run_eval)
+312 of 329 steps (95%) done
+Execute 1 jobs...
+[Wed May 21 02:56:22 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_028.json
+    output: raw_results/MULTI/HumanEval_028.json
+    jobid: 357
+    reason: Missing output files: raw_results/MULTI/HumanEval_028.json
+    wildcards: cfg=MULTI, tid=028
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:56:22 2025]
+Finished jobid: 57 (Rule: run_eval)
+313 of 329 steps (95%) done
+Execute 1 jobs...
+[Wed May 21 02:56:22 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_042.json
+    output: raw_results/SINGLE/HumanEval_042.json
+    jobid: 85
+    reason: Missing output files: raw_results/SINGLE/HumanEval_042.json
+    wildcards: cfg=SINGLE, tid=042
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:56:24 2025]
+Finished jobid: 85 (Rule: run_eval)
+314 of 329 steps (95%) done
+Execute 1 jobs...
+[Wed May 21 02:56:24 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_042.json
+    output: raw_results/MULTI/HumanEval_042.json
+    jobid: 371
+    reason: Missing output files: raw_results/MULTI/HumanEval_042.json
+    wildcards: cfg=MULTI, tid=042
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:56:26 2025]
+Finished jobid: 389 (Rule: run_eval)
+315 of 329 steps (96%) done
+Execute 1 jobs...
+[Wed May 21 02:56:26 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_055.json
+    output: raw_results/MULTI/HumanEval_055.json
+    jobid: 384
+    reason: Missing output files: raw_results/MULTI/HumanEval_055.json
+    wildcards: cfg=MULTI, tid=055
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:56:26 2025]
+Finished jobid: 344 (Rule: run_eval)
+316 of 329 steps (96%) done
+Execute 1 jobs...
+[Wed May 21 02:56:26 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_055.json
+    output: raw_results/SINGLE/HumanEval_055.json
+    jobid: 111
+    reason: Missing output files: raw_results/SINGLE/HumanEval_055.json
+    wildcards: cfg=SINGLE, tid=055
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:56:30 2025]
+Finished jobid: 111 (Rule: run_eval)
+317 of 329 steps (96%) done
+Execute 1 jobs...
+[Wed May 21 02:56:30 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_035.json
+    output: raw_results/SINGLE/HumanEval_035.json
+    jobid: 71
+    reason: Missing output files: raw_results/SINGLE/HumanEval_035.json
+    wildcards: cfg=SINGLE, tid=035
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:56:33 2025]
+Finished jobid: 71 (Rule: run_eval)
+318 of 329 steps (97%) done
+Execute 1 jobs...
+[Wed May 21 02:56:33 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_035.json
+    output: raw_results/MULTI/HumanEval_035.json
+    jobid: 364
+    reason: Missing output files: raw_results/MULTI/HumanEval_035.json
+    wildcards: cfg=MULTI, tid=035
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:56:40 2025]
+Finished jobid: 357 (Rule: run_eval)
+319 of 329 steps (97%) done
+Execute 1 jobs...
+[Wed May 21 02:56:40 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_023.json
+    output: raw_results/MULTI/HumanEval_023.json
+    jobid: 352
+    reason: Missing output files: raw_results/MULTI/HumanEval_023.json
+    wildcards: cfg=MULTI, tid=023
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:56:48 2025]
+Finished jobid: 371 (Rule: run_eval)
+320 of 329 steps (97%) done
+Execute 1 jobs...
+[Wed May 21 02:56:48 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_023.json
+    output: raw_results/SINGLE/HumanEval_023.json
+    jobid: 47
+    reason: Missing output files: raw_results/SINGLE/HumanEval_023.json
+    wildcards: cfg=SINGLE, tid=023
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:56:50 2025]
+Finished jobid: 47 (Rule: run_eval)
+321 of 329 steps (98%) done
+Execute 1 jobs...
+[Wed May 21 02:56:50 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_045.json
+    output: raw_results/SINGLE/HumanEval_045.json
+    jobid: 91
+    reason: Missing output files: raw_results/SINGLE/HumanEval_045.json
+    wildcards: cfg=SINGLE, tid=045
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:56:52 2025]
+Finished jobid: 91 (Rule: run_eval)
+322 of 329 steps (98%) done
+Execute 1 jobs...
+[Wed May 21 02:56:52 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_045.json
+    output: raw_results/MULTI/HumanEval_045.json
+    jobid: 374
+    reason: Missing output files: raw_results/MULTI/HumanEval_045.json
+    wildcards: cfg=MULTI, tid=045
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:56:54 2025]
+Finished jobid: 384 (Rule: run_eval)
+323 of 329 steps (98%) done
+Execute 1 jobs...
+[Wed May 21 02:56:54 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_034.json
+    output: raw_results/MULTI/HumanEval_034.json
+    jobid: 363
+    reason: Missing output files: raw_results/MULTI/HumanEval_034.json
+    wildcards: cfg=MULTI, tid=034
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+Select jobs to execute...
+[Wed May 21 02:56:57 2025]
+Finished jobid: 352 (Rule: run_eval)
+324 of 329 steps (98%) done
+Execute 1 jobs...
+[Wed May 21 02:56:57 2025]
+localrule run_eval:
+    input: data/tasks/HumanEval_034.json
+    output: raw_results/SINGLE/HumanEval_034.json
+    jobid: 69
+    reason: Missing output files: raw_results/SINGLE/HumanEval_034.json
+    wildcards: cfg=SINGLE, tid=034
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 02:56:58 2025]
+Finished jobid: 364 (Rule: run_eval)
+325 of 329 steps (99%) done
+[Wed May 21 02:56:59 2025]
+Finished jobid: 69 (Rule: run_eval)
+326 of 329 steps (99%) done
+[Wed May 21 02:57:11 2025]
+Finished jobid: 374 (Rule: run_eval)
+327 of 329 steps (99%) done
+[Wed May 21 02:57:16 2025]
+Finished jobid: 363 (Rule: run_eval)
+328 of 329 steps (99.7%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Wed May 21 02:57:16 2025]
+localrule all:
+    input: raw_results/SINGLE/HumanEval_000.json, raw_results/SINGLE/HumanEval_001.json, raw_results/SINGLE/HumanEval_002.json, raw_results/SINGLE/HumanEval_003.json, raw_results/SINGLE/HumanEval_004.json, raw_results/SINGLE/HumanEval_005.json, raw_results/SINGLE/HumanEval_006.json, raw_results/SINGLE/HumanEval_007.json, raw_results/SINGLE/HumanEval_008.json, raw_results/SINGLE/HumanEval_009.json, raw_results/SINGLE/HumanEval_010.json, raw_results/SINGLE/HumanEval_011.json, raw_results/SINGLE/HumanEval_012.json, raw_results/SINGLE/HumanEval_013.json, raw_results/SINGLE/HumanEval_014.json, raw_results/SINGLE/HumanEval_015.json, raw_results/SINGLE/HumanEval_016.json, raw_results/SINGLE/HumanEval_017.json, raw_results/SINGLE/HumanEval_018.json, raw_results/SINGLE/HumanEval_019.json, raw_results/SINGLE/HumanEval_020.json, raw_results/SINGLE/HumanEval_021.json, raw_results/SINGLE/HumanEval_022.json, raw_results/SINGLE/HumanEval_023.json, raw_results/SINGLE/HumanEval_024.json, raw_results/SINGLE/HumanEval_025.json, raw_results/SINGLE/HumanEval_026.json, raw_results/SINGLE/HumanEval_027.json, raw_results/SINGLE/HumanEval_028.json, raw_results/SINGLE/HumanEval_029.json, raw_results/SINGLE/HumanEval_030.json, raw_results/SINGLE/HumanEval_031.json, raw_results/SINGLE/HumanEval_032.json, raw_results/SINGLE/HumanEval_033.json, raw_results/SINGLE/HumanEval_034.json, raw_results/SINGLE/HumanEval_035.json, raw_results/SINGLE/HumanEval_036.json, raw_results/SINGLE/HumanEval_037.json, raw_results/SINGLE/HumanEval_038.json, raw_results/SINGLE/HumanEval_039.json, raw_results/SINGLE/HumanEval_040.json, raw_results/SINGLE/HumanEval_041.json, raw_results/SINGLE/HumanEval_042.json, raw_results/SINGLE/HumanEval_043.json, raw_results/SINGLE/HumanEval_044.json, raw_results/SINGLE/HumanEval_045.json, raw_results/SINGLE/HumanEval_046.json, raw_results/SINGLE/HumanEval_047.json, raw_results/SINGLE/HumanEval_048.json, raw_results/SINGLE/HumanEval_049.json, raw_results/SINGLE/HumanEval_050.json, raw_results/SINGLE/HumanEval_051.json, raw_results/SINGLE/HumanEval_052.json, raw_results/SINGLE/HumanEval_053.json, raw_results/SINGLE/HumanEval_054.json, raw_results/SINGLE/HumanEval_055.json, raw_results/SINGLE/HumanEval_056.json, raw_results/SINGLE/HumanEval_057.json, raw_results/SINGLE/HumanEval_058.json, raw_results/SINGLE/HumanEval_059.json, raw_results/SINGLE/HumanEval_060.json, raw_results/SINGLE/HumanEval_061.json, raw_results/SINGLE/HumanEval_062.json, raw_results/SINGLE/HumanEval_063.json, raw_results/SINGLE/HumanEval_064.json, raw_results/SINGLE/HumanEval_065.json, raw_results/SINGLE/HumanEval_066.json, raw_results/SINGLE/HumanEval_067.json, raw_results/SINGLE/HumanEval_068.json, raw_results/SINGLE/HumanEval_069.json, raw_results/SINGLE/HumanEval_070.json, raw_results/SINGLE/HumanEval_071.json, raw_results/SINGLE/HumanEval_072.json, raw_results/SINGLE/HumanEval_073.json, raw_results/SINGLE/HumanEval_074.json, raw_results/SINGLE/HumanEval_075.json, raw_results/SINGLE/HumanEval_076.json, raw_results/SINGLE/HumanEval_077.json, raw_results/SINGLE/HumanEval_078.json, raw_results/SINGLE/HumanEval_079.json, raw_results/SINGLE/HumanEval_080.json, raw_results/SINGLE/HumanEval_081.json, raw_results/SINGLE/HumanEval_082.json, raw_results/SINGLE/HumanEval_083.json, raw_results/SINGLE/HumanEval_084.json, raw_results/SINGLE/HumanEval_085.json, raw_results/SINGLE/HumanEval_086.json, raw_results/SINGLE/HumanEval_087.json, raw_results/SINGLE/HumanEval_088.json, raw_results/SINGLE/HumanEval_089.json, raw_results/SINGLE/HumanEval_090.json, raw_results/SINGLE/HumanEval_091.json, raw_results/SINGLE/HumanEval_092.json, raw_results/SINGLE/HumanEval_093.json, raw_results/SINGLE/HumanEval_094.json, raw_results/SINGLE/HumanEval_095.json, raw_results/SINGLE/HumanEval_096.json, raw_results/SINGLE/HumanEval_097.json, raw_results/SINGLE/HumanEval_098.json, raw_results/SINGLE/HumanEval_099.json, raw_results/SINGLE/HumanEval_100.json, raw_results/SINGLE/HumanEval_101.json, raw_results/SINGLE/HumanEval_102.json, raw_results/SINGLE/HumanEval_103.json, raw_results/SINGLE/HumanEval_104.json, raw_results/SINGLE/HumanEval_105.json, raw_results/SINGLE/HumanEval_106.json, raw_results/SINGLE/HumanEval_107.json, raw_results/SINGLE/HumanEval_108.json, raw_results/SINGLE/HumanEval_109.json, raw_results/SINGLE/HumanEval_110.json, raw_results/SINGLE/HumanEval_111.json, raw_results/SINGLE/HumanEval_112.json, raw_results/SINGLE/HumanEval_113.json, raw_results/SINGLE/HumanEval_114.json, raw_results/SINGLE/HumanEval_115.json, raw_results/SINGLE/HumanEval_116.json, raw_results/SINGLE/HumanEval_117.json, raw_results/SINGLE/HumanEval_118.json, raw_results/SINGLE/HumanEval_119.json, raw_results/SINGLE/HumanEval_120.json, raw_results/SINGLE/HumanEval_121.json, raw_results/SINGLE/HumanEval_122.json, raw_results/SINGLE/HumanEval_123.json, raw_results/SINGLE/HumanEval_124.json, raw_results/SINGLE/HumanEval_125.json, raw_results/SINGLE/HumanEval_126.json, raw_results/SINGLE/HumanEval_127.json, raw_results/SINGLE/HumanEval_128.json, raw_results/SINGLE/HumanEval_129.json, raw_results/SINGLE/HumanEval_130.json, raw_results/SINGLE/HumanEval_131.json, raw_results/SINGLE/HumanEval_132.json, raw_results/SINGLE/HumanEval_133.json, raw_results/SINGLE/HumanEval_134.json, raw_results/SINGLE/HumanEval_135.json, raw_results/SINGLE/HumanEval_136.json, raw_results/SINGLE/HumanEval_137.json, raw_results/SINGLE/HumanEval_138.json, raw_results/SINGLE/HumanEval_139.json, raw_results/SINGLE/HumanEval_140.json, raw_results/SINGLE/HumanEval_141.json, raw_results/SINGLE/HumanEval_142.json, raw_results/SINGLE/HumanEval_143.json, raw_results/SINGLE/HumanEval_144.json, raw_results/SINGLE/HumanEval_145.json, raw_results/SINGLE/HumanEval_146.json, raw_results/SINGLE/HumanEval_147.json, raw_results/SINGLE/HumanEval_148.json, raw_results/SINGLE/HumanEval_149.json, raw_results/SINGLE/HumanEval_150.json, raw_results/SINGLE/HumanEval_151.json, raw_results/SINGLE/HumanEval_152.json, raw_results/SINGLE/HumanEval_153.json, raw_results/SINGLE/HumanEval_154.json, raw_results/SINGLE/HumanEval_155.json, raw_results/SINGLE/HumanEval_156.json, raw_results/SINGLE/HumanEval_157.json, raw_results/SINGLE/HumanEval_158.json, raw_results/SINGLE/HumanEval_159.json, raw_results/SINGLE/HumanEval_160.json, raw_results/SINGLE/HumanEval_161.json, raw_results/SINGLE/HumanEval_162.json, raw_results/SINGLE/HumanEval_163.json, raw_results/MULTI/HumanEval_000.json, raw_results/MULTI/HumanEval_001.json, raw_results/MULTI/HumanEval_002.json, raw_results/MULTI/HumanEval_003.json, raw_results/MULTI/HumanEval_004.json, raw_results/MULTI/HumanEval_005.json, raw_results/MULTI/HumanEval_006.json, raw_results/MULTI/HumanEval_007.json, raw_results/MULTI/HumanEval_008.json, raw_results/MULTI/HumanEval_009.json, raw_results/MULTI/HumanEval_010.json, raw_results/MULTI/HumanEval_011.json, raw_results/MULTI/HumanEval_012.json, raw_results/MULTI/HumanEval_013.json, raw_results/MULTI/HumanEval_014.json, raw_results/MULTI/HumanEval_015.json, raw_results/MULTI/HumanEval_016.json, raw_results/MULTI/HumanEval_017.json, raw_results/MULTI/HumanEval_018.json, raw_results/MULTI/HumanEval_019.json, raw_results/MULTI/HumanEval_020.json, raw_results/MULTI/HumanEval_021.json, raw_results/MULTI/HumanEval_022.json, raw_results/MULTI/HumanEval_023.json, raw_results/MULTI/HumanEval_024.json, raw_results/MULTI/HumanEval_025.json, raw_results/MULTI/HumanEval_026.json, raw_results/MULTI/HumanEval_027.json, raw_results/MULTI/HumanEval_028.json, raw_results/MULTI/HumanEval_029.json, raw_results/MULTI/HumanEval_030.json, raw_results/MULTI/HumanEval_031.json, raw_results/MULTI/HumanEval_032.json, raw_results/MULTI/HumanEval_033.json, raw_results/MULTI/HumanEval_034.json, raw_results/MULTI/HumanEval_035.json, raw_results/MULTI/HumanEval_036.json, raw_results/MULTI/HumanEval_037.json, raw_results/MULTI/HumanEval_038.json, raw_results/MULTI/HumanEval_039.json, raw_results/MULTI/HumanEval_040.json, raw_results/MULTI/HumanEval_041.json, raw_results/MULTI/HumanEval_042.json, raw_results/MULTI/HumanEval_043.json, raw_results/MULTI/HumanEval_044.json, raw_results/MULTI/HumanEval_045.json, raw_results/MULTI/HumanEval_046.json, raw_results/MULTI/HumanEval_047.json, raw_results/MULTI/HumanEval_048.json, raw_results/MULTI/HumanEval_049.json, raw_results/MULTI/HumanEval_050.json, raw_results/MULTI/HumanEval_051.json, raw_results/MULTI/HumanEval_052.json, raw_results/MULTI/HumanEval_053.json, raw_results/MULTI/HumanEval_054.json, raw_results/MULTI/HumanEval_055.json, raw_results/MULTI/HumanEval_056.json, raw_results/MULTI/HumanEval_057.json, raw_results/MULTI/HumanEval_058.json, raw_results/MULTI/HumanEval_059.json, raw_results/MULTI/HumanEval_060.json, raw_results/MULTI/HumanEval_061.json, raw_results/MULTI/HumanEval_062.json, raw_results/MULTI/HumanEval_063.json, raw_results/MULTI/HumanEval_064.json, raw_results/MULTI/HumanEval_065.json, raw_results/MULTI/HumanEval_066.json, raw_results/MULTI/HumanEval_067.json, raw_results/MULTI/HumanEval_068.json, raw_results/MULTI/HumanEval_069.json, raw_results/MULTI/HumanEval_070.json, raw_results/MULTI/HumanEval_071.json, raw_results/MULTI/HumanEval_072.json, raw_results/MULTI/HumanEval_073.json, raw_results/MULTI/HumanEval_074.json, raw_results/MULTI/HumanEval_075.json, raw_results/MULTI/HumanEval_076.json, raw_results/MULTI/HumanEval_077.json, raw_results/MULTI/HumanEval_078.json, raw_results/MULTI/HumanEval_079.json, raw_results/MULTI/HumanEval_080.json, raw_results/MULTI/HumanEval_081.json, raw_results/MULTI/HumanEval_082.json, raw_results/MULTI/HumanEval_083.json, raw_results/MULTI/HumanEval_084.json, raw_results/MULTI/HumanEval_085.json, raw_results/MULTI/HumanEval_086.json, raw_results/MULTI/HumanEval_087.json, raw_results/MULTI/HumanEval_088.json, raw_results/MULTI/HumanEval_089.json, raw_results/MULTI/HumanEval_090.json, raw_results/MULTI/HumanEval_091.json, raw_results/MULTI/HumanEval_092.json, raw_results/MULTI/HumanEval_093.json, raw_results/MULTI/HumanEval_094.json, raw_results/MULTI/HumanEval_095.json, raw_results/MULTI/HumanEval_096.json, raw_results/MULTI/HumanEval_097.json, raw_results/MULTI/HumanEval_098.json, raw_results/MULTI/HumanEval_099.json, raw_results/MULTI/HumanEval_100.json, raw_results/MULTI/HumanEval_101.json, raw_results/MULTI/HumanEval_102.json, raw_results/MULTI/HumanEval_103.json, raw_results/MULTI/HumanEval_104.json, raw_results/MULTI/HumanEval_105.json, raw_results/MULTI/HumanEval_106.json, raw_results/MULTI/HumanEval_107.json, raw_results/MULTI/HumanEval_108.json, raw_results/MULTI/HumanEval_109.json, raw_results/MULTI/HumanEval_110.json, raw_results/MULTI/HumanEval_111.json, raw_results/MULTI/HumanEval_112.json, raw_results/MULTI/HumanEval_113.json, raw_results/MULTI/HumanEval_114.json, raw_results/MULTI/HumanEval_115.json, raw_results/MULTI/HumanEval_116.json, raw_results/MULTI/HumanEval_117.json, raw_results/MULTI/HumanEval_118.json, raw_results/MULTI/HumanEval_119.json, raw_results/MULTI/HumanEval_120.json, raw_results/MULTI/HumanEval_121.json, raw_results/MULTI/HumanEval_122.json, raw_results/MULTI/HumanEval_123.json, raw_results/MULTI/HumanEval_124.json, raw_results/MULTI/HumanEval_125.json, raw_results/MULTI/HumanEval_126.json, raw_results/MULTI/HumanEval_127.json, raw_results/MULTI/HumanEval_128.json, raw_results/MULTI/HumanEval_129.json, raw_results/MULTI/HumanEval_130.json, raw_results/MULTI/HumanEval_131.json, raw_results/MULTI/HumanEval_132.json, raw_results/MULTI/HumanEval_133.json, raw_results/MULTI/HumanEval_134.json, raw_results/MULTI/HumanEval_135.json, raw_results/MULTI/HumanEval_136.json, raw_results/MULTI/HumanEval_137.json, raw_results/MULTI/HumanEval_138.json, raw_results/MULTI/HumanEval_139.json, raw_results/MULTI/HumanEval_140.json, raw_results/MULTI/HumanEval_141.json, raw_results/MULTI/HumanEval_142.json, raw_results/MULTI/HumanEval_143.json, raw_results/MULTI/HumanEval_144.json, raw_results/MULTI/HumanEval_145.json, raw_results/MULTI/HumanEval_146.json, raw_results/MULTI/HumanEval_147.json, raw_results/MULTI/HumanEval_148.json, raw_results/MULTI/HumanEval_149.json, raw_results/MULTI/HumanEval_150.json, raw_results/MULTI/HumanEval_151.json, raw_results/MULTI/HumanEval_152.json, raw_results/MULTI/HumanEval_153.json, raw_results/MULTI/HumanEval_154.json, raw_results/MULTI/HumanEval_155.json, raw_results/MULTI/HumanEval_156.json, raw_results/MULTI/HumanEval_157.json, raw_results/MULTI/HumanEval_158.json, raw_results/MULTI/HumanEval_159.json, raw_results/MULTI/HumanEval_160.json, raw_results/MULTI/HumanEval_161.json, raw_results/MULTI/HumanEval_162.json, raw_results/MULTI/HumanEval_163.json
+    jobid: 0
+    reason: Input files updated by another job: raw_results/SINGLE/HumanEval_092.json, raw_results/SINGLE/HumanEval_148.json, raw_results/SINGLE/HumanEval_098.json, raw_results/SINGLE/HumanEval_126.json, raw_results/SINGLE/HumanEval_085.json, raw_results/MULTI/HumanEval_069.json, raw_results/MULTI/HumanEval_099.json, raw_results/SINGLE/HumanEval_143.json, raw_results/SINGLE/HumanEval_010.json, raw_results/SINGLE/HumanEval_121.json, raw_results/SINGLE/HumanEval_055.json, raw_results/MULTI/HumanEval_033.json, raw_results/SINGLE/HumanEval_025.json, raw_results/SINGLE/HumanEval_110.json, raw_results/MULTI/HumanEval_057.json, raw_results/SINGLE/HumanEval_149.json, raw_results/SINGLE/HumanEval_070.json, raw_results/MULTI/HumanEval_020.json, raw_results/MULTI/HumanEval_125.json, raw_results/MULTI/HumanEval_136.json, raw_results/SINGLE/HumanEval_018.json, raw_results/MULTI/HumanEval_148.json, raw_results/SINGLE/HumanEval_141.json, raw_results/SINGLE/HumanEval_004.json, raw_results/SINGLE/HumanEval_159.json, raw_results/MULTI/HumanEval_064.json, raw_results/SINGLE/HumanEval_161.json, raw_results/MULTI/HumanEval_133.json, raw_results/SINGLE/HumanEval_036.json, raw_results/MULTI/HumanEval_037.json, raw_results/MULTI/HumanEval_063.json, raw_results/MULTI/HumanEval_120.json, raw_results/SINGLE/HumanEval_042.json, raw_results/MULTI/HumanEval_158.json, raw_results/SINGLE/HumanEval_117.json, raw_results/MULTI/HumanEval_003.json, raw_results/SINGLE/HumanEval_136.json, raw_results/SINGLE/HumanEval_105.json, raw_results/SINGLE/HumanEval_023.json, raw_results/MULTI/HumanEval_130.json, raw_results/MULTI/HumanEval_002.json, raw_results/MULTI/HumanEval_032.json, raw_results/MULTI/HumanEval_034.json, raw_results/MULTI/HumanEval_101.json, raw_results/MULTI/HumanEval_141.json, raw_results/MULTI/HumanEval_079.json, raw_results/SINGLE/HumanEval_051.json, raw_results/MULTI/HumanEval_029.json, raw_results/SINGLE/HumanEval_137.json, raw_results/MULTI/HumanEval_012.json, raw_results/MULTI/HumanEval_083.json, raw_results/MULTI/HumanEval_087.json, raw_results/SINGLE/HumanEval_022.json, raw_results/MULTI/HumanEval_071.json, raw_results/SINGLE/HumanEval_069.json, raw_results/SINGLE/HumanEval_029.json, raw_results/SINGLE/HumanEval_062.json, raw_results/SINGLE/HumanEval_138.json, raw_results/MULTI/HumanEval_078.json, raw_results/SINGLE/HumanEval_104.json, raw_results/MULTI/HumanEval_061.json, raw_results/SINGLE/HumanEval_013.json, raw_results/MULTI/HumanEval_010.json, raw_results/MULTI/HumanEval_000.json, raw_results/MULTI/HumanEval_119.json, raw_results/MULTI/HumanEval_046.json, raw_results/MULTI/HumanEval_124.json, raw_results/MULTI/HumanEval_139.json, raw_results/MULTI/HumanEval_018.json, raw_results/SINGLE/HumanEval_064.json, raw_results/SINGLE/HumanEval_123.json, raw_results/SINGLE/HumanEval_128.json, raw_results/MULTI/HumanEval_047.json, raw_results/SINGLE/HumanEval_014.json, raw_results/SINGLE/HumanEval_158.json, raw_results/MULTI/HumanEval_095.json, raw_results/MULTI/HumanEval_022.json, raw_results/SINGLE/HumanEval_162.json, raw_results/MULTI/HumanEval_035.json, raw_results/MULTI/HumanEval_056.json, raw_results/MULTI/HumanEval_134.json, raw_results/SINGLE/HumanEval_134.json, raw_results/MULTI/HumanEval_106.json, raw_results/MULTI/HumanEval_080.json, raw_results/MULTI/HumanEval_055.json, raw_results/MULTI/HumanEval_112.json, raw_results/MULTI/HumanEval_104.json, raw_results/SINGLE/HumanEval_007.json, raw_results/MULTI/HumanEval_024.json, raw_results/MULTI/HumanEval_155.json, raw_results/SINGLE/HumanEval_147.json, raw_results/MULTI/HumanEval_108.json, raw_results/MULTI/HumanEval_086.json, raw_results/SINGLE/HumanEval_129.json, raw_results/SINGLE/HumanEval_130.json, raw_results/MULTI/HumanEval_045.json, raw_results/MULTI/HumanEval_038.json, raw_results/SINGLE/HumanEval_146.json, raw_results/MULTI/HumanEval_118.json, raw_results/SINGLE/HumanEval_066.json, raw_results/MULTI/HumanEval_162.json, raw_results/SINGLE/HumanEval_103.json, raw_results/MULTI/HumanEval_060.json, raw_results/MULTI/HumanEval_131.json, raw_results/SINGLE/HumanEval_116.json, raw_results/SINGLE/HumanEval_020.json, raw_results/MULTI/HumanEval_070.json, raw_results/MULTI/HumanEval_156.json, raw_results/MULTI/HumanEval_092.json, raw_results/SINGLE/HumanEval_109.json, raw_results/MULTI/HumanEval_016.json, raw_results/SINGLE/HumanEval_082.json, raw_results/SINGLE/HumanEval_046.json, raw_results/SINGLE/HumanEval_074.json, raw_results/SINGLE/HumanEval_012.json, raw_results/SINGLE/HumanEval_006.json, raw_results/SINGLE/HumanEval_087.json, raw_results/SINGLE/HumanEval_034.json, raw_results/MULTI/HumanEval_110.json, raw_results/SINGLE/HumanEval_071.json, raw_results/SINGLE/HumanEval_086.json, raw_results/SINGLE/HumanEval_156.json, raw_results/SINGLE/HumanEval_027.json, raw_results/MULTI/HumanEval_163.json, raw_results/MULTI/HumanEval_135.json, raw_results/SINGLE/HumanEval_000.json, raw_results/SINGLE/HumanEval_059.json, raw_results/SINGLE/HumanEval_124.json, raw_results/MULTI/HumanEval_161.json, raw_results/SINGLE/HumanEval_031.json, raw_results/MULTI/HumanEval_152.json, raw_results/SINGLE/HumanEval_089.json, raw_results/MULTI/HumanEval_081.json, raw_results/SINGLE/HumanEval_009.json, raw_results/MULTI/HumanEval_021.json, raw_results/MULTI/HumanEval_093.json, raw_results/MULTI/HumanEval_042.json, raw_results/MULTI/HumanEval_090.json, raw_results/SINGLE/HumanEval_040.json, raw_results/SINGLE/HumanEval_019.json, raw_results/SINGLE/HumanEval_083.json, raw_results/MULTI/HumanEval_052.json, raw_results/MULTI/HumanEval_007.json, raw_results/MULTI/HumanEval_039.json, raw_results/MULTI/HumanEval_091.json, raw_results/MULTI/HumanEval_132.json, raw_results/SINGLE/HumanEval_154.json, raw_results/SINGLE/HumanEval_153.json, raw_results/SINGLE/HumanEval_016.json, raw_results/MULTI/HumanEval_142.json, raw_results/SINGLE/HumanEval_079.json, raw_results/SINGLE/HumanEval_037.json, raw_results/SINGLE/HumanEval_114.json, raw_results/MULTI/HumanEval_122.json, raw_results/MULTI/HumanEval_073.json, raw_results/MULTI/HumanEval_049.json, raw_results/MULTI/HumanEval_138.json, raw_results/MULTI/HumanEval_114.json, raw_results/MULTI/HumanEval_085.json, raw_results/MULTI/HumanEval_030.json, raw_results/MULTI/HumanEval_109.json, raw_results/SINGLE/HumanEval_060.json, raw_results/SINGLE/HumanEval_038.json, raw_results/SINGLE/HumanEval_008.json, raw_results/SINGLE/HumanEval_078.json, raw_results/SINGLE/HumanEval_122.json, raw_results/SINGLE/HumanEval_157.json, raw_results/SINGLE/HumanEval_119.json, raw_results/MULTI/HumanEval_036.json, raw_results/MULTI/HumanEval_001.json, raw_results/SINGLE/HumanEval_043.json, raw_results/MULTI/HumanEval_077.json, raw_results/MULTI/HumanEval_102.json, raw_results/SINGLE/HumanEval_002.json, raw_results/MULTI/HumanEval_059.json, raw_results/MULTI/HumanEval_058.json, raw_results/SINGLE/HumanEval_135.json, raw_results/MULTI/HumanEval_140.json, raw_results/SINGLE/HumanEval_142.json, raw_results/MULTI/HumanEval_062.json, raw_results/SINGLE/HumanEval_095.json, raw_results/MULTI/HumanEval_127.json, raw_results/MULTI/HumanEval_043.json, raw_results/MULTI/HumanEval_149.json, raw_results/MULTI/HumanEval_027.json, raw_results/SINGLE/HumanEval_090.json, raw_results/MULTI/HumanEval_044.json, raw_results/MULTI/HumanEval_074.json, raw_results/SINGLE/HumanEval_118.json, raw_results/SINGLE/HumanEval_073.json, raw_results/SINGLE/HumanEval_080.json, raw_results/MULTI/HumanEval_153.json, raw_results/MULTI/HumanEval_105.json, raw_results/SINGLE/HumanEval_001.json, raw_results/SINGLE/HumanEval_057.json, raw_results/SINGLE/HumanEval_076.json, raw_results/SINGLE/HumanEval_163.json, raw_results/MULTI/HumanEval_054.json, raw_results/MULTI/HumanEval_111.json, raw_results/SINGLE/HumanEval_049.json, raw_results/MULTI/HumanEval_084.json, raw_results/SINGLE/HumanEval_032.json, raw_results/MULTI/HumanEval_113.json, raw_results/MULTI/HumanEval_076.json, raw_results/SINGLE/HumanEval_068.json, raw_results/MULTI/HumanEval_126.json, raw_results/SINGLE/HumanEval_028.json, raw_results/MULTI/HumanEval_128.json, raw_results/SINGLE/HumanEval_077.json, raw_results/MULTI/HumanEval_097.json, raw_results/SINGLE/HumanEval_024.json, raw_results/SINGLE/HumanEval_120.json, raw_results/SINGLE/HumanEval_005.json, raw_results/SINGLE/HumanEval_072.json, raw_results/SINGLE/HumanEval_026.json, raw_results/SINGLE/HumanEval_108.json, raw_results/MULTI/HumanEval_011.json, raw_results/SINGLE/HumanEval_039.json, raw_results/MULTI/HumanEval_123.json, raw_results/MULTI/HumanEval_137.json, raw_results/MULTI/HumanEval_075.json, raw_results/MULTI/HumanEval_048.json, raw_results/MULTI/HumanEval_019.json, raw_results/MULTI/HumanEval_089.json, raw_results/MULTI/HumanEval_026.json, raw_results/MULTI/HumanEval_159.json, raw_results/MULTI/HumanEval_072.json, raw_results/MULTI/HumanEval_160.json, raw_results/SINGLE/HumanEval_133.json, raw_results/SINGLE/HumanEval_054.json, raw_results/MULTI/HumanEval_065.json, raw_results/SINGLE/HumanEval_050.json, raw_results/SINGLE/HumanEval_084.json, raw_results/MULTI/HumanEval_129.json, raw_results/SINGLE/HumanEval_155.json, raw_results/MULTI/HumanEval_068.json, raw_results/MULTI/HumanEval_094.json, raw_results/SINGLE/HumanEval_096.json, raw_results/MULTI/HumanEval_088.json, raw_results/SINGLE/HumanEval_106.json, raw_results/MULTI/HumanEval_100.json, raw_results/MULTI/HumanEval_151.json, raw_results/SINGLE/HumanEval_094.json, raw_results/SINGLE/HumanEval_017.json, raw_results/MULTI/HumanEval_009.json, raw_results/SINGLE/HumanEval_088.json, raw_results/MULTI/HumanEval_144.json, raw_results/MULTI/HumanEval_023.json, raw_results/MULTI/HumanEval_040.json, raw_results/SINGLE/HumanEval_052.json, raw_results/MULTI/HumanEval_051.json, raw_results/MULTI/HumanEval_025.json, raw_results/MULTI/HumanEval_121.json, raw_results/SINGLE/HumanEval_030.json, raw_results/SINGLE/HumanEval_125.json, raw_results/SINGLE/HumanEval_041.json, raw_results/SINGLE/HumanEval_035.json, raw_results/MULTI/HumanEval_015.json, raw_results/SINGLE/HumanEval_131.json, raw_results/MULTI/HumanEval_145.json, raw_results/MULTI/HumanEval_147.json, raw_results/MULTI/HumanEval_154.json, raw_results/SINGLE/HumanEval_044.json, raw_results/MULTI/HumanEval_041.json, raw_results/MULTI/HumanEval_103.json, raw_results/SINGLE/HumanEval_140.json, raw_results/SINGLE/HumanEval_063.json, raw_results/MULTI/HumanEval_082.json, raw_results/SINGLE/HumanEval_091.json, raw_results/SINGLE/HumanEval_047.json, raw_results/SINGLE/HumanEval_021.json, raw_results/SINGLE/HumanEval_003.json, raw_results/MULTI/HumanEval_098.json, raw_results/SINGLE/HumanEval_100.json, raw_results/MULTI/HumanEval_116.json, raw_results/MULTI/HumanEval_143.json, raw_results/MULTI/HumanEval_067.json, raw_results/SINGLE/HumanEval_101.json, raw_results/SINGLE/HumanEval_058.json, raw_results/SINGLE/HumanEval_132.json, raw_results/MULTI/HumanEval_017.json, raw_results/SINGLE/HumanEval_102.json, raw_results/SINGLE/HumanEval_011.json, raw_results/MULTI/HumanEval_014.json, raw_results/SINGLE/HumanEval_113.json, raw_results/MULTI/HumanEval_004.json, raw_results/MULTI/HumanEval_096.json, raw_results/MULTI/HumanEval_107.json, raw_results/MULTI/HumanEval_117.json, raw_results/MULTI/HumanEval_031.json, raw_results/MULTI/HumanEval_146.json, raw_results/MULTI/HumanEval_150.json, raw_results/SINGLE/HumanEval_112.json, raw_results/MULTI/HumanEval_008.json, raw_results/MULTI/HumanEval_013.json, raw_results/SINGLE/HumanEval_056.json, raw_results/SINGLE/HumanEval_053.json, raw_results/MULTI/HumanEval_066.json, raw_results/SINGLE/HumanEval_145.json, raw_results/SINGLE/HumanEval_099.json, raw_results/SINGLE/HumanEval_111.json, raw_results/SINGLE/HumanEval_152.json, raw_results/SINGLE/HumanEval_081.json, raw_results/SINGLE/HumanEval_033.json, raw_results/SINGLE/HumanEval_150.json, raw_results/MULTI/HumanEval_028.json, raw_results/SINGLE/HumanEval_139.json, raw_results/SINGLE/HumanEval_045.json, raw_results/SINGLE/HumanEval_075.json, raw_results/MULTI/HumanEval_005.json, raw_results/MULTI/HumanEval_006.json, raw_results/MULTI/HumanEval_115.json, raw_results/SINGLE/HumanEval_144.json, raw_results/MULTI/HumanEval_053.json, raw_results/SINGLE/HumanEval_015.json, raw_results/SINGLE/HumanEval_127.json, raw_results/MULTI/HumanEval_050.json, raw_results/SINGLE/HumanEval_065.json, raw_results/SINGLE/HumanEval_107.json, raw_results/SINGLE/HumanEval_097.json, raw_results/SINGLE/HumanEval_061.json, raw_results/SINGLE/HumanEval_151.json, raw_results/MULTI/HumanEval_157.json, raw_results/SINGLE/HumanEval_093.json, raw_results/SINGLE/HumanEval_160.json, raw_results/SINGLE/HumanEval_048.json, raw_results/SINGLE/HumanEval_067.json, raw_results/SINGLE/HumanEval_115.json
+    resources: tmpdir=/var/folders/w9/24t5cz0n3wg31ckppwmk6bbm0000gn/T
+
+[Wed May 21 02:57:16 2025]
+Finished jobid: 0 (Rule: all)
+329 of 329 steps (100%) done
+Complete log(s): /Users/hyegang/Desktop/workspace/multiagent_code_review/.snakemake/log/2025-05-21T023324.870280.snakemake.log

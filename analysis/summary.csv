@@ -1,0 +1,10 @@
+,0
+SINGLE_acc,0.8719512195121951
+MULTI_acc,0.9634146341463414
+improved,15.0
+regressed,0.0
+both_pass,143.0
+both_fail,6.0
+tokens_per_pass_S,inf
+tokens_per_pass_M,inf
+mcnemar_p,0.0003005976074404512
